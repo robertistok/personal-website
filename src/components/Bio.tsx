@@ -10,6 +10,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 
 import { rhythm } from "../utils/typography"
+import useSiteMetadata from "../hooks/useSiteMetadata"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -21,18 +22,10 @@ const Bio = () => {
           }
         }
       }
-      site {
-        siteMetadata {
-          author
-          social {
-            twitter
-          }
-        }
-      }
     }
   `)
+  const { author } = useSiteMetadata()
 
-  const { author, social } = data.site.siteMetadata
   return (
     <div
       style={{
@@ -42,7 +35,7 @@ const Bio = () => {
     >
       <Image
         fixed={data.avatar.childImageSharp.fixed}
-        alt={author}
+        alt={author.name}
         style={{
           marginRight: rhythm(1 / 2),
           marginBottom: 0,
@@ -54,10 +47,10 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in San
-        Francisco building useful things.
+        Written by <strong>{author.name}</strong> who lives and works in San Francisco building
+        useful things.
         {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
+        <a href={`https://twitter.com/${author.social.twitter}`}>
           You should follow him on Twitter
         </a>
       </p>
