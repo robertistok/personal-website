@@ -2043,6 +2043,7 @@ export type SiteFieldsEnum =
   'siteMetadata___url' |
   'siteMetadata___title' |
   'siteMetadata___subtitle' |
+  'siteMetadata___description' |
   'siteMetadata___copyright' |
   'siteMetadata___disqusShortname' |
   'siteMetadata___menu' |
@@ -2753,6 +2754,7 @@ export type SiteSiteMetadata = {
   url?: Maybe<Scalars['String']>,
   title?: Maybe<Scalars['String']>,
   subtitle?: Maybe<Scalars['String']>,
+  description?: Maybe<Scalars['String']>,
   copyright?: Maybe<Scalars['String']>,
   disqusShortname?: Maybe<Scalars['String']>,
   menu?: Maybe<Array<Maybe<SiteSiteMetadataMenu>>>,
@@ -2795,6 +2797,7 @@ export type SiteSiteMetadataFilterInput = {
   url?: Maybe<StringQueryOperatorInput>,
   title?: Maybe<StringQueryOperatorInput>,
   subtitle?: Maybe<StringQueryOperatorInput>,
+  description?: Maybe<StringQueryOperatorInput>,
   copyright?: Maybe<StringQueryOperatorInput>,
   disqusShortname?: Maybe<StringQueryOperatorInput>,
   menu?: Maybe<SiteSiteMetadataMenuFilterListInput>,
