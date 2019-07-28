@@ -5,6 +5,7 @@ module.exports = {
     url: siteConfig.url,
     title: siteConfig.title,
     subtitle: siteConfig.subtitle,
+    description: siteConfig.description,
     copyright: siteConfig.copyright,
     disqusShortname: siteConfig.disqusShortname,
     menu: siteConfig.menu,
