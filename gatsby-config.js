@@ -1,16 +1,7 @@
-const siteConfig = require("./config.ts")
+const siteConfig = require("./config.ts");
 
 module.exports = {
-  siteMetadata: {
-    url: siteConfig.url,
-    title: siteConfig.title,
-    subtitle: siteConfig.subtitle,
-    description: siteConfig.description,
-    copyright: siteConfig.copyright,
-    disqusShortname: siteConfig.disqusShortname,
-    menu: siteConfig.menu,
-    author: siteConfig.author,
-  },
+  siteMetadata: siteConfig.siteMetadata,
   plugins: [
     {
       resolve: "gatsby-source-filesystem",
@@ -88,4 +79,4 @@ module.exports = {
       },
     },
   ],
-}
+};
