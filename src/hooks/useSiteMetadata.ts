@@ -1,6 +1,6 @@
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby";
 
-import { Query, SiteSiteMetadata } from "../generated/graphql-types"
+import { Query, SiteSiteMetadata } from "../generated/graphql-types";
 
 const useSiteMetadata = (): SiteSiteMetadata => {
   const { site }: Query = useStaticQuery(
@@ -9,6 +9,8 @@ const useSiteMetadata = (): SiteSiteMetadata => {
         site {
           siteMetadata {
             author {
+              firstname
+              lastname
               name
               bio
               photo
@@ -35,9 +37,9 @@ const useSiteMetadata = (): SiteSiteMetadata => {
         }
       }
     `
-  )
+  );
 
-  return site.siteMetadata
-}
+  return site.siteMetadata;
+};
 
-export default useSiteMetadata
+export default useSiteMetadata;

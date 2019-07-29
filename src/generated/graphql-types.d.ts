@@ -2040,15 +2040,20 @@ export type SiteFieldsEnum =
   'internal___mediaType' |
   'internal___owner' |
   'internal___type' |
+  'siteMetadata___description' |
   'siteMetadata___url' |
+  'siteMetadata___pathPrefix' |
   'siteMetadata___title' |
   'siteMetadata___subtitle' |
-  'siteMetadata___description' |
   'siteMetadata___copyright' |
   'siteMetadata___disqusShortname' |
+  'siteMetadata___postsPerPage' |
+  'siteMetadata___googleAnalyticsId' |
   'siteMetadata___menu' |
   'siteMetadata___menu___label' |
   'siteMetadata___menu___path' |
+  'siteMetadata___author___firstname' |
+  'siteMetadata___author___lastname' |
   'siteMetadata___author___name' |
   'siteMetadata___author___photo' |
   'siteMetadata___author___bio' |
@@ -2751,17 +2756,22 @@ export type SitePluginSortInput = {
 };
 
 export type SiteSiteMetadata = {
+  description?: Maybe<Scalars['String']>,
   url?: Maybe<Scalars['String']>,
+  pathPrefix?: Maybe<Scalars['String']>,
   title?: Maybe<Scalars['String']>,
   subtitle?: Maybe<Scalars['String']>,
-  description?: Maybe<Scalars['String']>,
   copyright?: Maybe<Scalars['String']>,
   disqusShortname?: Maybe<Scalars['String']>,
+  postsPerPage?: Maybe<Scalars['Int']>,
+  googleAnalyticsId?: Maybe<Scalars['String']>,
   menu?: Maybe<Array<Maybe<SiteSiteMetadataMenu>>>,
   author?: Maybe<SiteSiteMetadataAuthor>,
 };
 
 export type SiteSiteMetadataAuthor = {
+  firstname?: Maybe<Scalars['String']>,
+  lastname?: Maybe<Scalars['String']>,
   name?: Maybe<Scalars['String']>,
   photo?: Maybe<Scalars['String']>,
   bio?: Maybe<Scalars['String']>,
@@ -2769,6 +2779,8 @@ export type SiteSiteMetadataAuthor = {
 };
 
 export type SiteSiteMetadataAuthorFilterInput = {
+  firstname?: Maybe<StringQueryOperatorInput>,
+  lastname?: Maybe<StringQueryOperatorInput>,
   name?: Maybe<StringQueryOperatorInput>,
   photo?: Maybe<StringQueryOperatorInput>,
   bio?: Maybe<StringQueryOperatorInput>,
@@ -2794,12 +2806,15 @@ export type SiteSiteMetadataAuthorSocialFilterInput = {
 };
 
 export type SiteSiteMetadataFilterInput = {
+  description?: Maybe<StringQueryOperatorInput>,
   url?: Maybe<StringQueryOperatorInput>,
+  pathPrefix?: Maybe<StringQueryOperatorInput>,
   title?: Maybe<StringQueryOperatorInput>,
   subtitle?: Maybe<StringQueryOperatorInput>,
-  description?: Maybe<StringQueryOperatorInput>,
   copyright?: Maybe<StringQueryOperatorInput>,
   disqusShortname?: Maybe<StringQueryOperatorInput>,
+  postsPerPage?: Maybe<IntQueryOperatorInput>,
+  googleAnalyticsId?: Maybe<StringQueryOperatorInput>,
   menu?: Maybe<SiteSiteMetadataMenuFilterListInput>,
   author?: Maybe<SiteSiteMetadataAuthorFilterInput>,
 };
