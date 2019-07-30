@@ -46,7 +46,7 @@ const BlogIndex = props => {
             >
               <Link
                 style={{ boxShadow: "none" }}
-                to={`blog/${node.fields.slug}`}
+                to={"blog" + node.fields.slug}
               >
                 {title}
               </Link>
