@@ -19,7 +19,6 @@ const Layout: React.FunctionComponent<
       <StyledNav>
         <StyledLink to="/about">about</StyledLink>
         <StyledLink to="/blog">blog</StyledLink>
-        <StyledLink to="/contact">contact</StyledLink>
       </StyledNav>
     </Root>
   );
@@ -33,8 +32,14 @@ const Root = styled.header`
   margin-bottom: ${rhythm(1.5)};
 `;
 
-const Title = styled.h1`
+const Title = styled.h2`
   margin: 0;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    box-shadow: none;
+  }
 `;
 
 const StyledNav = styled.nav``;
