@@ -18,6 +18,7 @@ const BlogIndex = props => {
     <Layout location={props.location} title={siteTitle}>
       <SEO title="All posts" />
       <Intro />
+      <hr />
     </Layout>
   );
 };
