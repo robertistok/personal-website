@@ -2,8 +2,9 @@ import React from "react";
 import { Link } from "gatsby";
 import styled from "styled-components";
 
-import { rhythm } from "../utils/typography";
+import { rhythm, scale } from "../utils/typography";
 import useSiteMetadata from "../hooks/useSiteMetadata";
+import { device } from "../styles/constants";
 
 interface LayoutProps {}
 
@@ -26,19 +27,29 @@ const Layout: React.FunctionComponent<
 
 const Root = styled.header`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   margin-bottom: ${rhythm(1.5)};
+
+  @media ${device.tablet} {
+    flex-direction: row;
+  }
 `;
 
 const Title = styled.h2`
-  margin: 0;
+  margin: 0 0 ${rhythm(3 / 4)} 0;
+  ${scale(0.5)};
 
   a {
     color: inherit;
     text-decoration: none;
     box-shadow: none;
+  }
+
+  @media ${device.tablet} {
+    margin-bottom: 0;
+    ${scale(0.75)};
   }
 `;
 

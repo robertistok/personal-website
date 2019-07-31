@@ -1,13 +1,13 @@
-import React from "react"
-import styled from "styled-components"
+import React from "react";
+import styled from "styled-components";
 
-import Header from "./Header"
+import Header from "./Header";
 
-import { rhythm, scale } from "../utils/typography"
+import { rhythm } from "../utils/typography";
 
 interface LayoutProps {
-  location?: any
-  title?: string
+  location?: any;
+  title?: string;
 }
 
 const Layout: React.FunctionComponent<LayoutProps> = ({
@@ -23,18 +23,20 @@ const Layout: React.FunctionComponent<LayoutProps> = ({
         <a href="https://www.gatsbyjs.org">Gatsby</a>
       </footer> */}
     </Root>
-  )
-}
+  );
+};
 
 const Root = styled.div`
   margin: 0 auto;
-  max-width: ${rhythm(48)};
+  max-width: ${rhythm(42)};
+  height: 100vh;
   padding: ${rhythm(1.5)} ${rhythm(3 / 4)};
-`
+`;
 
 const Main = styled.main`
   margin: 0 auto;
-  max-width: ${rhythm(24)};
-`
+  max-width: ${rhythm(42)};
+  height: calc(100% - 30px - ${rhythm(1.5)});
+`;
 
-export default Layout
+export default Layout;
