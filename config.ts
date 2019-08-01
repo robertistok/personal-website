@@ -34,6 +34,7 @@ module.exports = {
         email: "#",
         telegram: "#",
         twitter: "robertistok",
+        linkedin: "robertistok",
         github: "#",
         rss: "#",
         vkontakte: "#",

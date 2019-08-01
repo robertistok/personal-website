@@ -2060,6 +2060,7 @@ export type SiteFieldsEnum =
   'siteMetadata___author___social___email' |
   'siteMetadata___author___social___telegram' |
   'siteMetadata___author___social___twitter' |
+  'siteMetadata___author___social___linkedin' |
   'siteMetadata___author___social___github' |
   'siteMetadata___author___social___rss' |
   'siteMetadata___author___social___vkontakte' |
@@ -2791,6 +2792,7 @@ export type SiteSiteMetadataAuthorSocial = {
   email?: Maybe<Scalars['String']>,
   telegram?: Maybe<Scalars['String']>,
   twitter?: Maybe<Scalars['String']>,
+  linkedin?: Maybe<Scalars['String']>,
   github?: Maybe<Scalars['String']>,
   rss?: Maybe<Scalars['String']>,
   vkontakte?: Maybe<Scalars['String']>,
@@ -2800,6 +2802,7 @@ export type SiteSiteMetadataAuthorSocialFilterInput = {
   email?: Maybe<StringQueryOperatorInput>,
   telegram?: Maybe<StringQueryOperatorInput>,
   twitter?: Maybe<StringQueryOperatorInput>,
+  linkedin?: Maybe<StringQueryOperatorInput>,
   github?: Maybe<StringQueryOperatorInput>,
   rss?: Maybe<StringQueryOperatorInput>,
   vkontakte?: Maybe<StringQueryOperatorInput>,
