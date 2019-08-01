@@ -4,6 +4,7 @@ import styled from "styled-components";
 import Header from "./Header";
 
 import { rhythm } from "../utils/typography";
+import { device } from "../styles/constants";
 
 interface LayoutProps {
   location?: any;
@@ -30,7 +31,11 @@ const Root = styled.div`
   margin: 0 auto;
   max-width: ${rhythm(42)};
   height: 100vh;
-  padding: ${rhythm(1.5)} ${rhythm(3 / 4)};
+  padding: ${rhythm(3 / 4)};
+
+  @media ${device.tablet} {
+    padding: ${rhythm(1.5)} ${rhythm(3 / 4)};
+  }
 `;
 
 const Main = styled.main`
