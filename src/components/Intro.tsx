@@ -10,14 +10,18 @@ import { useStaticQuery, graphql } from "gatsby";
 import Image from "gatsby-image";
 import styled from "styled-components";
 
+import Social from "./Social";
+
 import { rhythm, scale } from "../utils/typography";
 import useSiteMetadata from "../hooks/useSiteMetadata";
 import { device } from "../styles/constants";
 
-const Bio = () => {
+interface IntroProps {}
+
+const Intro: React.FunctionComponent<IntroProps> = (): React.ReactElement => {
   const { author } = useSiteMetadata();
   const data = useStaticQuery(graphql`
-    query BioQuery {
+    query Intro {
       avatar: file(absolutePath: { regex: "/profile-pic.png/" }) {
         childImageSharp {
           fixed(width: 150, height: 150) {
@@ -41,12 +45,13 @@ const Bio = () => {
         <PitchContainer>
           <Greeting>Hi, I'm Robert 👋</Greeting>
           <SubTitle>Javascript Engineer</SubTitle>
-          <Intro>
+          <Description>
             A web developer fascinated by automation, having a product mindset
             and a neverending hunger to grow.
-          </Intro>
+          </Description>
         </PitchContainer>
       </HeadingContainer>
+      <Social />
     </Root>
   );
 };
@@ -54,18 +59,16 @@ const Bio = () => {
 const Root = styled.div`
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  /* justify-content: center; */
 `;
 
 const HeadingContainer = styled.section`
   display: grid;
   grid-template-rows: 150px auto;
-  margin-top: ${rhythm(1.25)};
 
   @media ${device.tablet} {
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: none;
+    margin-top: ${rhythm(1.25)};
   }
 `;
 
@@ -109,7 +112,7 @@ const SubTitle = styled.h4`
   }
 `;
 
-const Intro = styled.p`
+const Description = styled.p`
   ${scale(-0.3)};
 
   @media ${device.tablet} {
@@ -130,4 +133,4 @@ const StyledImage = styled(Image)`
   }
 `;
 
-export default Bio;
+export default Intro;
