@@ -59,6 +59,11 @@ const Intro: React.FunctionComponent<IntroProps> = (): React.ReactElement => {
 const Root = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
+
+  @media ${device.tablet} {
+    align-items: inherit;
+  }
 `;
 
 const HeadingContainer = styled.section`

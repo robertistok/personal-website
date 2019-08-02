@@ -14,32 +14,43 @@ const Layout: React.FunctionComponent<
   const { author } = useSiteMetadata();
   return (
     <Root>
-      <Title>
-        <Link to="/">{author.social.twitter.toLowerCase()}</Link>
-      </Title>
-      <StyledNav>
-        <StyledLink to="/about">about</StyledLink>
-        <StyledLink to="/blog">blog</StyledLink>
-      </StyledNav>
+      <StyledHeader>
+        <Title>
+          <Link to="/">{author.social.twitter.toLowerCase()}</Link>
+        </Title>
+        <StyledNav>
+          <StyledLink to="/about">about</StyledLink>
+          <StyledLink to="/blog">blog</StyledLink>
+        </StyledNav>
+      </StyledHeader>
     </Root>
   );
 };
 
-const Root = styled.header`
+const Root = styled.div`
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
+
+const StyledHeader = styled.header`
+  width: 100%;
+  max-width: ${rhythm(42)};
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: ${rhythm(1.5)};
+  padding: ${rhythm(3 / 4)};
 
   @media ${device.tablet} {
-    flex-direction: row;
+    padding: ${rhythm(3 / 4)};
   }
 `;
 
 const Title = styled.h2`
-  margin: 0 0 ${rhythm(3 / 4)} 0;
-  ${scale(0.5)};
+  margin: 0;
+  ${scale(0.25)};
 
   a {
     color: inherit;

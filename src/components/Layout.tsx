@@ -7,7 +7,7 @@ import { rhythm } from "../utils/typography";
 import { device } from "../styles/constants";
 
 interface LayoutProps {
-  location?: any;
+  location?: Location;
   title?: string;
 }
 
@@ -29,19 +29,18 @@ const Layout: React.FunctionComponent<LayoutProps> = ({
 
 const Root = styled.div`
   margin: 0 auto;
-  max-width: ${rhythm(42)};
   height: 100vh;
-  padding: ${rhythm(3 / 4)};
-
-  @media ${device.tablet} {
-    padding: ${rhythm(1.5)} ${rhythm(3 / 4)};
-  }
 `;
 
 const Main = styled.main`
   margin: 0 auto;
   max-width: ${rhythm(42)};
   height: calc(100% - 30px - ${rhythm(1.5)});
+  padding: ${rhythm(3 / 4)};
+
+  @media ${device.tablet} {
+    padding: ${rhythm(1.5)} ${rhythm(3 / 4)};
+  }
 `;
 
 export default Layout;
