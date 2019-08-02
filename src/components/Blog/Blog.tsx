@@ -48,7 +48,6 @@ const Blog: React.FunctionComponent = (): React.ReactElement => {
 const Root = styled.section`
   display: flex;
   flex-direction: column;
-
   margin: auto;
   max-width: ${rhythm(24)};
 `;
