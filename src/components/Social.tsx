@@ -31,6 +31,11 @@ const Root = styled.div`
   svg {
     width: 30px;
     height: 30px;
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+    }
   }
 `;
 
