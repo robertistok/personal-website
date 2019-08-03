@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     description: "A starter blog demonstrating what Gatsby can do.",
     url: "https://gatsby-starter-blog-demo.netlify.com/",
+    siteUrl: "https://gatsby-starter-blog-demo.netlify.com/",
     pathPrefix: "/",
     title: "Gatsby Starter Blog",
     subtitle:
