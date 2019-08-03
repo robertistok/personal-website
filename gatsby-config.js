@@ -78,5 +78,13 @@ module.exports = {
         dest: "./src/generated/graphql-types.d.ts",
       },
     },
+
+    // Netlify
+    {
+      resolve: `gatsby-plugin-netlify-cms`,
+      options: {
+        enableIdentityWidget: false,
+      },
+    },
   ],
 };
