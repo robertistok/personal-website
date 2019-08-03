@@ -642,8 +642,13 @@ export type FileFieldsEnum =
   'childMarkdownRemark___internal___owner' |
   'childMarkdownRemark___internal___type' |
   'childMarkdownRemark___frontmatter___title' |
+  'childMarkdownRemark___frontmatter___template' |
+  'childMarkdownRemark___frontmatter___slug' |
+  'childMarkdownRemark___frontmatter___draft' |
   'childMarkdownRemark___frontmatter___date' |
   'childMarkdownRemark___frontmatter___description' |
+  'childMarkdownRemark___frontmatter___category' |
+  'childMarkdownRemark___frontmatter___tags' |
   'childMarkdownRemark___excerpt' |
   'childMarkdownRemark___rawMarkdownBody' |
   'childMarkdownRemark___fileAbsolutePath' |
@@ -1530,8 +1535,13 @@ export type MarkdownRemarkFieldsEnum =
   'internal___owner' |
   'internal___type' |
   'frontmatter___title' |
+  'frontmatter___template' |
+  'frontmatter___slug' |
+  'frontmatter___draft' |
   'frontmatter___date' |
   'frontmatter___description' |
+  'frontmatter___category' |
+  'frontmatter___tags' |
   'excerpt' |
   'rawMarkdownBody' |
   'fileAbsolutePath' |
@@ -1573,8 +1583,13 @@ export type MarkdownRemarkFilterInput = {
 
 export type MarkdownRemarkFrontmatter = {
   title?: Maybe<Scalars['String']>,
+  template?: Maybe<Scalars['String']>,
+  slug?: Maybe<Scalars['String']>,
+  draft?: Maybe<Scalars['Boolean']>,
   date?: Maybe<Scalars['Date']>,
   description?: Maybe<Scalars['String']>,
+  category?: Maybe<Scalars['String']>,
+  tags?: Maybe<Array<Maybe<Scalars['String']>>>,
 };
 
 
@@ -1587,8 +1602,13 @@ export type MarkdownRemarkFrontmatterDateArgs = {
 
 export type MarkdownRemarkFrontmatterFilterInput = {
   title?: Maybe<StringQueryOperatorInput>,
+  template?: Maybe<StringQueryOperatorInput>,
+  slug?: Maybe<StringQueryOperatorInput>,
+  draft?: Maybe<BooleanQueryOperatorInput>,
   date?: Maybe<DateQueryOperatorInput>,
   description?: Maybe<StringQueryOperatorInput>,
+  category?: Maybe<StringQueryOperatorInput>,
+  tags?: Maybe<StringQueryOperatorInput>,
 };
 
 export type MarkdownRemarkGroupConnection = {
@@ -2132,66 +2152,10 @@ export type SitePageConnectionGroupArgs = {
 
 export type SitePageContext = {
   slug?: Maybe<Scalars['String']>,
-  previous?: Maybe<SitePageContextPrevious>,
-  next?: Maybe<SitePageContextNext>,
 };
 
 export type SitePageContextFilterInput = {
   slug?: Maybe<StringQueryOperatorInput>,
-  previous?: Maybe<SitePageContextPreviousFilterInput>,
-  next?: Maybe<SitePageContextNextFilterInput>,
-};
-
-export type SitePageContextNext = {
-  fields?: Maybe<SitePageContextNextFields>,
-  frontmatter?: Maybe<SitePageContextNextFrontmatter>,
-};
-
-export type SitePageContextNextFields = {
-  slug?: Maybe<Scalars['String']>,
-};
-
-export type SitePageContextNextFieldsFilterInput = {
-  slug?: Maybe<StringQueryOperatorInput>,
-};
-
-export type SitePageContextNextFilterInput = {
-  fields?: Maybe<SitePageContextNextFieldsFilterInput>,
-  frontmatter?: Maybe<SitePageContextNextFrontmatterFilterInput>,
-};
-
-export type SitePageContextNextFrontmatter = {
-  title?: Maybe<Scalars['String']>,
-};
-
-export type SitePageContextNextFrontmatterFilterInput = {
-  title?: Maybe<StringQueryOperatorInput>,
-};
-
-export type SitePageContextPrevious = {
-  fields?: Maybe<SitePageContextPreviousFields>,
-  frontmatter?: Maybe<SitePageContextPreviousFrontmatter>,
-};
-
-export type SitePageContextPreviousFields = {
-  slug?: Maybe<Scalars['String']>,
-};
-
-export type SitePageContextPreviousFieldsFilterInput = {
-  slug?: Maybe<StringQueryOperatorInput>,
-};
-
-export type SitePageContextPreviousFilterInput = {
-  fields?: Maybe<SitePageContextPreviousFieldsFilterInput>,
-  frontmatter?: Maybe<SitePageContextPreviousFrontmatterFilterInput>,
-};
-
-export type SitePageContextPreviousFrontmatter = {
-  title?: Maybe<Scalars['String']>,
-};
-
-export type SitePageContextPreviousFrontmatterFilterInput = {
-  title?: Maybe<StringQueryOperatorInput>,
 };
 
 export type SitePageEdge = {
@@ -2293,10 +2257,6 @@ export type SitePageFieldsEnum =
   'componentChunkName' |
   'isCreatedByStatefulCreatePages' |
   'context___slug' |
-  'context___previous___fields___slug' |
-  'context___previous___frontmatter___title' |
-  'context___next___fields___slug' |
-  'context___next___frontmatter___title' |
   'pluginCreator___id' |
   'pluginCreator___parent___id' |
   'pluginCreator___parent___parent___id' |
@@ -2358,6 +2318,7 @@ export type SitePageFieldsEnum =
   'pluginCreator___pluginOptions___icon' |
   'pluginCreator___pluginOptions___pathToConfigModule' |
   'pluginCreator___pluginOptions___dest' |
+  'pluginCreator___pluginOptions___enableIdentityWidget' |
   'pluginCreator___pluginOptions___pathCheck' |
   'pluginCreator___nodeAPIs' |
   'pluginCreator___browserAPIs' |
@@ -2567,6 +2528,7 @@ export type SitePluginFieldsEnum =
   'pluginOptions___icon' |
   'pluginOptions___pathToConfigModule' |
   'pluginOptions___dest' |
+  'pluginOptions___enableIdentityWidget' |
   'pluginOptions___pathCheck' |
   'nodeAPIs' |
   'browserAPIs' |
@@ -2696,6 +2658,7 @@ export type SitePluginPluginOptions = {
   icon?: Maybe<Scalars['String']>,
   pathToConfigModule?: Maybe<Scalars['String']>,
   dest?: Maybe<Scalars['String']>,
+  enableIdentityWidget?: Maybe<Scalars['Boolean']>,
   pathCheck?: Maybe<Scalars['Boolean']>,
 };
 
@@ -2713,6 +2676,7 @@ export type SitePluginPluginOptionsFilterInput = {
   icon?: Maybe<StringQueryOperatorInput>,
   pathToConfigModule?: Maybe<StringQueryOperatorInput>,
   dest?: Maybe<StringQueryOperatorInput>,
+  enableIdentityWidget?: Maybe<BooleanQueryOperatorInput>,
   pathCheck?: Maybe<BooleanQueryOperatorInput>,
 };
 
