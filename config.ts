@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
     description: "A starter blog demonstrating what Gatsby can do.",
-    url: "https://gatsby-starter-blog-demo.netlify.com/",
-    siteUrl: "https://gatsby-starter-blog-demo.netlify.com/",
+    url: "https://robertistok.netlify.com/",
+    siteUrl: "https://robertistok.netlify.com/",
     pathPrefix: "/",
-    title: "Gatsby Starter Blog",
+    title: "robertistok",
     subtitle:
       "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
     copyright: "© All rights reserved.",
