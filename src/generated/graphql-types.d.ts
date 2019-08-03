@@ -2042,6 +2042,7 @@ export type SiteFieldsEnum =
   'internal___type' |
   'siteMetadata___description' |
   'siteMetadata___url' |
+  'siteMetadata___siteUrl' |
   'siteMetadata___pathPrefix' |
   'siteMetadata___title' |
   'siteMetadata___subtitle' |
@@ -2759,6 +2760,7 @@ export type SitePluginSortInput = {
 export type SiteSiteMetadata = {
   description?: Maybe<Scalars['String']>,
   url?: Maybe<Scalars['String']>,
+  siteUrl?: Maybe<Scalars['String']>,
   pathPrefix?: Maybe<Scalars['String']>,
   title?: Maybe<Scalars['String']>,
   subtitle?: Maybe<Scalars['String']>,
@@ -2811,6 +2813,7 @@ export type SiteSiteMetadataAuthorSocialFilterInput = {
 export type SiteSiteMetadataFilterInput = {
   description?: Maybe<StringQueryOperatorInput>,
   url?: Maybe<StringQueryOperatorInput>,
+  siteUrl?: Maybe<StringQueryOperatorInput>,
   pathPrefix?: Maybe<StringQueryOperatorInput>,
   title?: Maybe<StringQueryOperatorInput>,
   subtitle?: Maybe<StringQueryOperatorInput>,
