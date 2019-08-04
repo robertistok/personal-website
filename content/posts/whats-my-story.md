@@ -3,7 +3,7 @@ template: post
 title: What's my story?
 slug: whats-my-story
 draft: false
-date: 2019-08-04T12:47:17.569Z
+date: 2019-04-07T15:00:00.000Z
 description: >-
   This post will give you a better understanding of the content I am going to
   put out and the ideas I am going to express.
