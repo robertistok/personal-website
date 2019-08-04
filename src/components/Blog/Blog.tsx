@@ -15,7 +15,10 @@ const Blog: React.FunctionComponent = (): React.ReactElement => {
     allMarkdownRemark: MarkdownRemarkConnection;
   } = useStaticQuery(graphql`
     query {
-      allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+      allMarkdownRemark(
+        filter: { frontmatter: { draft: { eq: false } } }
+        sort: { fields: [frontmatter___date], order: DESC }
+      ) {
         edges {
           node {
             excerpt
