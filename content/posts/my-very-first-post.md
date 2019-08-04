@@ -2,19 +2,20 @@
 template: post
 title: "My very first\_post"
 slug: my-very-first-post
-draft: true
+draft: false
+featured: false
 date: 2019-04-03T10:18:48.576Z
 description: >-
   This is the first post I've ever published and it marks the beginning of a new
   journey.
+cover: /media/my-very-first-post-cover.jpg
 category: Personal
 tags:
-  - writing
-  - sharing
-  - storytelling
-  - personalgrowth
+  - Storytelling
+  - Personal Growth
 ---
-### My very first post
+![](/media/my-very-first-post-cover.jpg)
+Photo by [Alfred Twj](https://unsplash.com/photos/6ep77eZi6jA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/what%27s-my-story?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 This is the first post I've ever published and it marks the beginning of a new journey.
 
