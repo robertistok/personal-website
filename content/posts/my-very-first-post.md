@@ -9,11 +9,12 @@ description: >-
   journey.
 category: Personal
 tags:
-  - writing
-  - sharing
-  - storytelling
-  - personalgrowth
+  - Storytelling
+  - Personal Growth
 ---
+![](/media/my-very-first-post-cover.jpg)
+Photo by [Alfred Twj](https://unsplash.com/photos/6ep77eZi6jA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/what%27s-my-story?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
 This is the first post I've ever published and it marks the beginning of a new journey.
 
 ### Why am I doing this?
