@@ -14,7 +14,7 @@ tags:
   - Personal Growth
 ---
 ![](/media/my-very-first-post-cover.jpg)
-Photo by [Alfred Twj](https://unsplash.com/photos/6ep77eZi6jA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/what%27s-my-story?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+Photo by [Alessandro Erbetta](https://unsplash.com/photos/8oYPewvmhnY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/explore?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 The main goal of this post is to give you a short intro about myself. It should serve as an informal catch-up with those of you, who don't know me that well yet 🙂.
 
