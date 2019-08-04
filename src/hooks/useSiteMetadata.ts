@@ -16,11 +16,11 @@ const useSiteMetadata = (): SiteSiteMetadata => {
               photo
               social {
                 email
-                telegram
+                medium
                 twitter
                 github
-                rss
-                vkontakte
+                goodreads
+                linkedin
               }
             }
             menu {
