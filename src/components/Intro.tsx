@@ -119,9 +119,11 @@ const SubTitle = styled.h4`
 
 const Description = styled.p`
   ${scale(-0.3)};
+  text-align: center;
 
   @media ${device.tablet} {
     ${scale(0)};
+    text-align: inherit;
   }
 `;
 
