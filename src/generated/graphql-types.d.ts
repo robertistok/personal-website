@@ -2079,12 +2079,11 @@ export type SiteFieldsEnum =
   'siteMetadata___author___photo' |
   'siteMetadata___author___bio' |
   'siteMetadata___author___social___email' |
-  'siteMetadata___author___social___telegram' |
   'siteMetadata___author___social___twitter' |
   'siteMetadata___author___social___linkedin' |
   'siteMetadata___author___social___github' |
-  'siteMetadata___author___social___rss' |
-  'siteMetadata___author___social___vkontakte' |
+  'siteMetadata___author___social___medium' |
+  'siteMetadata___author___social___goodreads' |
   'port' |
   'host' |
   'polyfill' |
@@ -2152,10 +2151,66 @@ export type SitePageConnectionGroupArgs = {
 
 export type SitePageContext = {
   slug?: Maybe<Scalars['String']>,
+  previous?: Maybe<SitePageContextPrevious>,
+  next?: Maybe<SitePageContextNext>,
 };
 
 export type SitePageContextFilterInput = {
   slug?: Maybe<StringQueryOperatorInput>,
+  previous?: Maybe<SitePageContextPreviousFilterInput>,
+  next?: Maybe<SitePageContextNextFilterInput>,
+};
+
+export type SitePageContextNext = {
+  fields?: Maybe<SitePageContextNextFields>,
+  frontmatter?: Maybe<SitePageContextNextFrontmatter>,
+};
+
+export type SitePageContextNextFields = {
+  slug?: Maybe<Scalars['String']>,
+};
+
+export type SitePageContextNextFieldsFilterInput = {
+  slug?: Maybe<StringQueryOperatorInput>,
+};
+
+export type SitePageContextNextFilterInput = {
+  fields?: Maybe<SitePageContextNextFieldsFilterInput>,
+  frontmatter?: Maybe<SitePageContextNextFrontmatterFilterInput>,
+};
+
+export type SitePageContextNextFrontmatter = {
+  title?: Maybe<Scalars['String']>,
+};
+
+export type SitePageContextNextFrontmatterFilterInput = {
+  title?: Maybe<StringQueryOperatorInput>,
+};
+
+export type SitePageContextPrevious = {
+  fields?: Maybe<SitePageContextPreviousFields>,
+  frontmatter?: Maybe<SitePageContextPreviousFrontmatter>,
+};
+
+export type SitePageContextPreviousFields = {
+  slug?: Maybe<Scalars['String']>,
+};
+
+export type SitePageContextPreviousFieldsFilterInput = {
+  slug?: Maybe<StringQueryOperatorInput>,
+};
+
+export type SitePageContextPreviousFilterInput = {
+  fields?: Maybe<SitePageContextPreviousFieldsFilterInput>,
+  frontmatter?: Maybe<SitePageContextPreviousFrontmatterFilterInput>,
+};
+
+export type SitePageContextPreviousFrontmatter = {
+  title?: Maybe<Scalars['String']>,
+};
+
+export type SitePageContextPreviousFrontmatterFilterInput = {
+  title?: Maybe<StringQueryOperatorInput>,
 };
 
 export type SitePageEdge = {
@@ -2257,6 +2312,10 @@ export type SitePageFieldsEnum =
   'componentChunkName' |
   'isCreatedByStatefulCreatePages' |
   'context___slug' |
+  'context___previous___fields___slug' |
+  'context___previous___frontmatter___title' |
+  'context___next___fields___slug' |
+  'context___next___frontmatter___title' |
   'pluginCreator___id' |
   'pluginCreator___parent___id' |
   'pluginCreator___parent___parent___id' |
@@ -2756,22 +2815,20 @@ export type SiteSiteMetadataAuthorFilterInput = {
 
 export type SiteSiteMetadataAuthorSocial = {
   email?: Maybe<Scalars['String']>,
-  telegram?: Maybe<Scalars['String']>,
   twitter?: Maybe<Scalars['String']>,
   linkedin?: Maybe<Scalars['String']>,
   github?: Maybe<Scalars['String']>,
-  rss?: Maybe<Scalars['String']>,
-  vkontakte?: Maybe<Scalars['String']>,
+  medium?: Maybe<Scalars['String']>,
+  goodreads?: Maybe<Scalars['String']>,
 };
 
 export type SiteSiteMetadataAuthorSocialFilterInput = {
   email?: Maybe<StringQueryOperatorInput>,
-  telegram?: Maybe<StringQueryOperatorInput>,
   twitter?: Maybe<StringQueryOperatorInput>,
   linkedin?: Maybe<StringQueryOperatorInput>,
   github?: Maybe<StringQueryOperatorInput>,
-  rss?: Maybe<StringQueryOperatorInput>,
-  vkontakte?: Maybe<StringQueryOperatorInput>,
+  medium?: Maybe<StringQueryOperatorInput>,
+  goodreads?: Maybe<StringQueryOperatorInput>,
 };
 
 export type SiteSiteMetadataFilterInput = {
