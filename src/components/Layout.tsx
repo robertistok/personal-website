@@ -1,10 +1,10 @@
 import React from "react";
-import styled from "styled-components";
+import { default as styled, ThemeProvider } from "styled-components";
 
 import Header from "./Header";
 
 import { rhythm } from "../utils/typography";
-import { device } from "../styles/constants";
+import { device, colors } from "../styles/constants";
 
 interface LayoutProps {
   location?: Location;
@@ -15,15 +15,12 @@ const Layout: React.FunctionComponent<LayoutProps> = ({
   children,
 }): React.ReactElement => {
   return (
-    <Root>
-      <Header />
-      <Main>{children}</Main>
-      {/* <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
-      </footer> */}
-    </Root>
+    <ThemeProvider theme={{ colors }}>
+      <Root>
+        <Header />
+        <Main>{children}</Main>
+      </Root>
+    </ThemeProvider>
   );
 };
 
