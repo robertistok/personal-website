@@ -2,7 +2,7 @@
 template: post
 title: "My very first\_post"
 slug: my-very-first-post
-draft: true
+draft: false
 date: 2019-04-03T10:18:48.576Z
 description: >-
   This is the first post I've ever published and it marks the beginning of a new
@@ -14,8 +14,6 @@ tags:
   - storytelling
   - personalgrowth
 ---
-### My very first post
-
 This is the first post I've ever published and it marks the beginning of a new journey.
 
 ### Why am I doing this?
