@@ -2,7 +2,7 @@
 template: post
 title: What's my story?
 slug: whats-my-story
-draft: true
+draft: false
 date: 2019-08-04T12:47:17.569Z
 description: >-
   This post will give you a better understanding of the content I am going to
@@ -13,8 +13,6 @@ tags:
   - Storytelling
   - Personal Growth
 ---
-
-
 ![](/media/my-very-first-post-cover.jpg)
 
 Photo by [Alfred Twj](https://unsplash.com/photos/6ep77eZi6jA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/what%27s-my-story?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
@@ -62,9 +60,3 @@ Taking it easy. This can be anything from meeting up with friends, taking a long
 Want to know more about me? Don't be shy and reach out to me on any of the socials listed down below. I am always up for interesting discussions!
 
 Thanks for reading! 🙏
-
-### About the author
-
-Robert is a full-stack web developer, currently working at [Relatable](https://bit.ly/2WQyMOn). He loves to inspire people, explore new places, read great books, take inspiring pictures and learn new stuff constantly.
-
-Follow him on [LinkedIn](https://bit.ly/2OMrsAp), [Instagram](https://bit.ly/2TQxvVu), [GitHub](https://bit.ly/2Vk7Fup), [Goodreads](https://bit.ly/2HYH9DQ) or here, on [Medium](https://bit.ly/2HYayho).
