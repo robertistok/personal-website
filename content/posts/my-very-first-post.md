@@ -4,7 +4,7 @@ title: "My very first\_post"
 slug: my-very-first-post
 draft: false
 featured: false
-date: 2019-04-03T10:18:48.576Z
+date: 2019-04-03T15:00:00.000Z
 description: >-
   This is the first post I've ever published and it marks the beginning of a new
   journey.
@@ -15,7 +15,7 @@ tags:
   - Personal Growth
 ---
 ![](/media/my-very-first-post-cover.jpg)
-Photo by [Alfred Twj](https://unsplash.com/photos/6ep77eZi6jA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/what%27s-my-story?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+Photo by [Clemens van Lay](https://unsplash.com/@clemensvanlay?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/@clemensvanlay?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 This is the first post I've ever published and it marks the beginning of a new journey.
 
@@ -73,12 +73,4 @@ Leave comments, write me a message or find me on any of the socials listed below
 
 ### Final thoughts
 
-If you enjoyed this article, got curious about what am I up to here, hit the follow button and let's connect.
-
-Until then, see you next time. Thanks for reading!
-
-### About the author
-
-Robert is a full-stack web developer, currently working at [Relatable](http://relatable.me/). He loves to inspire people, explore new places, read great books, take beautiful pictures and learn about new things.
-
-Follow him on [LinkedIn](https://www.linkedin.com/in/robertistok/), [Instagram](https://www.instagram.com/robertistok/), [GitHub](https://github.com/robertistok) or here, on [Medium](https://medium.com/@robertistok).
+If you enjoyed this article, got curious about what am I up to here, let's connect. Thanks for reading! 🙏
