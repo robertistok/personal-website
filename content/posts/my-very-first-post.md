@@ -3,10 +3,12 @@ template: post
 title: "My very first\_post"
 slug: my-very-first-post
 draft: false
+featured: false
 date: 2019-04-03T10:18:48.576Z
 description: >-
   This is the first post I've ever published and it marks the beginning of a new
   journey.
+cover: /media/my-very-first-post-cover.jpg
 category: Personal
 tags:
   - Storytelling
