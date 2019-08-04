@@ -13,10 +13,7 @@ tags:
   - Personal Growth
   - ''
 ---
-### Solo traveling is a lot of fun!
-
 ![](/media/solo-traveling-is-a-lot-of-fun-cover.jpg)
-
 Photo by [Alessandro Erbetta](https://unsplash.com/photos/8oYPewvmhnY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/explore?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 What? Traveling alone? Are you crazy? Won't you feel lonely all the time? Isn't that dangerous? Why are you even doing it?
