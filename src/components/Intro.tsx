@@ -38,9 +38,6 @@ const Intro: React.FunctionComponent<IntroProps> = (): React.ReactElement => {
         <StyledImage
           fixed={data.avatar.childImageSharp.fixed}
           alt={author.name}
-          imgStyle={{
-            borderRadius: `50%`,
-          }}
         />
         <PitchContainer>
           <Greeting>Hi, I'm Robert 👋</Greeting>
@@ -132,7 +129,7 @@ const StyledImage = styled(Image)`
   justify-self: center;
   min-width: 150px;
   min-height: 150px;
-  border-radius: 100%;
+  border-radius: 50%;
 
   @media ${device.tablet} {
     grid-row: auto;
