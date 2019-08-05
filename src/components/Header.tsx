@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import styled from "styled-components";
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 import { rhythm, scale } from "../utils/typography";
 import useSiteMetadata from "../hooks/useSiteMetadata";
@@ -16,11 +17,17 @@ const Layout: React.FunctionComponent<
     <Root>
       <StyledHeader>
         <Title>
-          <Link to="/">{author.social.twitter.toLowerCase()}</Link>
+          <AniLink entryOffset={100} swipe to="/">
+            {author.social.twitter.toLowerCase()}
+          </AniLink>
         </Title>
         <StyledNav>
-          <StyledLink to="/about">about</StyledLink>
-          <StyledLink to="/blog">blog</StyledLink>
+          <StyledLink entryOffset={100} swipe to="/about">
+            about
+          </StyledLink>
+          <StyledLink entryOffset={100} swipe to="/blog">
+            blog
+          </StyledLink>
         </StyledNav>
       </StyledHeader>
     </Root>
@@ -66,7 +73,7 @@ const Title = styled.h2`
 
 const StyledNav = styled.nav``;
 
-const StyledLink = styled(Link)`
+const StyledLink = styled(AniLink)`
   margin-right: ${rhythm(1 / 2)};
 `;
 
