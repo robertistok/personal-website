@@ -7,6 +7,7 @@ import Layout from "../components/Layout";
 import SEO from "../components/Seo";
 import { rhythm } from "../utils/typography";
 import useSiteMetadata from "../hooks/useSiteMetadata";
+import FeaturedPosts from "../components/Home/FeaturedPosts";
 
 const BlogIndex = props => {
   const { data } = props;
@@ -18,6 +19,7 @@ const BlogIndex = props => {
     <Layout location={props.location} title={siteTitle}>
       <SEO title="All posts" />
       <Intro />
+      <FeaturedPosts />
     </Layout>
   );
 };
