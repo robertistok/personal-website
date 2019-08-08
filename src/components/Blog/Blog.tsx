@@ -30,6 +30,7 @@ const Blog: React.FunctionComponent = (): React.ReactElement => {
               title
               description
             }
+            timeToRead
           }
         }
       }
@@ -65,6 +66,7 @@ const Blog: React.FunctionComponent = (): React.ReactElement => {
             slug={node.fields.slug}
             description={node.frontmatter.description || node.excerpt}
             date={node.frontmatter.date}
+            timeToRead={node.timeToRead}
           />
         );
       })}
