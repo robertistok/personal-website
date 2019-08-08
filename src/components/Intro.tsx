@@ -1,10 +1,3 @@
-/**
- * Bio component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import Image from "gatsby-image";
@@ -57,6 +50,14 @@ const Root = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  &:after {
+    margin: 30px 0;
+    content: "";
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    display: block;
+  }
 
   @media ${device.tablet} {
     align-items: inherit;
