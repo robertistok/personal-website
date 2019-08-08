@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 import styled from "styled-components";
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
@@ -17,15 +16,27 @@ const Layout: React.FunctionComponent<
     <Root>
       <StyledHeader>
         <Title>
-          <AniLink entryOffset={100} swipe to="/">
+          <AniLink swipe direction="right" to="/" delay={1} entryOffset={100}>
             {author.social.twitter.toLowerCase()}
           </AniLink>
         </Title>
         <StyledNav>
-          <StyledLink entryOffset={100} swipe to="/about">
+          <StyledLink
+            swipe
+            direction="right"
+            to="/about"
+            delay={1}
+            entryOffset={100}
+          >
             about
           </StyledLink>
-          <StyledLink entryOffset={100} swipe to="/blog">
+          <StyledLink
+            swipe
+            direction="right"
+            to="/blog"
+            delay={1}
+            entryOffset={100}
+          >
             blog
           </StyledLink>
         </StyledNav>
