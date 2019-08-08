@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "gatsby";
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 import { rhythm } from "../../../utils/typography";
 
@@ -9,6 +9,7 @@ interface PostCardProps {
   slug: string;
   description: string;
   date: string;
+  timeToRead: number;
 }
 
 const PostCard: React.FunctionComponent<PostCardProps> = ({
@@ -16,13 +17,24 @@ const PostCard: React.FunctionComponent<PostCardProps> = ({
   slug,
   description,
   date,
+  timeToRead,
 }): React.ReactElement => {
   return (
     <Root>
       <Title>
-        <Link to={"blog" + slug}>{title}</Link>
+        <AniLink
+          swipe
+          direction="right"
+          to={"blog" + slug}
+          delay={1}
+          entryOffset={100}
+        >
+          {title}
+        </AniLink>
       </Title>
-      <small>{date}</small>
+      <small>
+        {date} · {timeToRead} min read
+      </small>
       <p
         dangerouslySetInnerHTML={{
           __html: description,
@@ -39,7 +51,7 @@ const Root = styled.section`
 `;
 
 const Title = styled.h3`
-  margin-bottom: ${rhythm(1 / 4)};
+  margin: ${rhythm(1)} 0 ${rhythm(1 / 4)};
 `;
 
 export default PostCard;
