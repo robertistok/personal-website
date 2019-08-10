@@ -12,8 +12,11 @@ const FeaturedPosts: React.FunctionComponent = (): React.ReactElement => {
     graphql`
       query FeaturedPosts {
         allMarkdownRemark(
-          filter: { frontmatter: { draft: { eq: false } } }
+          filter: {
+            frontmatter: { draft: { eq: false }, featured: { eq: true } }
+          }
           sort: { fields: [frontmatter___date], order: DESC }
+          limit: 3
         ) {
           edges {
             node {
