@@ -22,7 +22,10 @@ const PostCard: React.FunctionComponent<PostCardProps> = ({
   return (
     <Root>
       <Title>
-        <Link to={"/blog" + slug} state={{ prevPath: location.pathname }}>
+        <Link
+          to={"/blog" + slug}
+          state={{ prevPath: window.location.pathname }}
+        >
           {title}
         </Link>
       </Title>
