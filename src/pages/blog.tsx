@@ -5,11 +5,17 @@ import Blog from "../components/Blog";
 import SEO from "../components/Seo";
 import useSiteMetadata from "../hooks/useSiteMetadata";
 
-const BlogIndex = props => {
+interface BlogIndexProps {
+  location: Location;
+}
+
+const BlogIndex: React.FunctionComponent<BlogIndexProps> = ({
+  location,
+}): React.ReactElement => {
   const { title: siteTitle } = useSiteMetadata();
 
   return (
-    <Layout location={props.location} title={siteTitle}>
+    <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
       <Blog />
     </Layout>
