@@ -1,47 +1,37 @@
 import React from "react";
-import { Link, graphql } from "gatsby";
+import { useTransition, animated, config } from "react-spring";
 
-import Bio from "../components/Bio";
 import Intro from "../components/Intro";
 import Layout from "../components/Layout";
 import SEO from "../components/Seo";
-import { rhythm } from "../utils/typography";
 import useSiteMetadata from "../hooks/useSiteMetadata";
 import FeaturedPosts from "../components/Home/FeaturedPosts";
 
-const BlogIndex = props => {
-  const { data } = props;
+interface IndexProps {
+  location?: Location;
+}
+
+const Index: React.FunctionComponent<IndexProps> = ({
+  location,
+}): React.ReactElement => {
   const { title: siteTitle } = useSiteMetadata();
 
-  const posts = data.allMarkdownRemark.edges;
-
+  const transitions = useTransition(location, location => location.pathname, {
+    from: { opacity: 0.1, transform: "translate3d(-40vw, 0, 0)" },
+    enter: { opacity: 1, transform: "translate3d(0, 0, 0)" },
+    config: config.gentle,
+  });
   return (
-    <Layout location={props.location} title={siteTitle}>
+    <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
-      <Intro />
-      <FeaturedPosts />
+      {transitions.map(({ props, key }) => (
+        <animated.div key={key} style={props}>
+          <Intro />
+          <FeaturedPosts />
+        </animated.div>
+      ))}
     </Layout>
   );
 };
 
-export default BlogIndex;
-
-export const pageQuery = graphql`
-  query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-            description
-          }
-        }
-      }
-    }
-  }
-`;
+export default Index;
