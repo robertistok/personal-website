@@ -1,44 +1,35 @@
 import React from "react";
 import styled from "styled-components";
-import AniLink from "gatsby-plugin-transition-link/AniLink";
+import { Link } from "gatsby";
+import { FaArrowLeft } from "react-icons/fa";
 
 import { rhythm, scale } from "../utils/typography";
 import useSiteMetadata from "../hooks/useSiteMetadata";
 import { device } from "../styles/constants";
 
-interface LayoutProps {}
+export interface HeaderProps {
+  showBackNav: boolean;
+}
 
-const Layout: React.FunctionComponent<
-  LayoutProps
-> = ({}): React.ReactElement => {
+const Header: React.FunctionComponent<HeaderProps> = ({
+  showBackNav = false,
+}): React.ReactElement => {
   const { author } = useSiteMetadata();
   return (
     <Root>
       <StyledHeader>
         <Title>
-          <AniLink swipe direction="right" to="/" delay={1} entryOffset={100}>
-            {author.social.twitter.toLowerCase()}
-          </AniLink>
+          <Link to="/">
+            {showBackNav ? (
+              <FaArrowLeft />
+            ) : (
+              author.social.twitter.toLowerCase()
+            )}
+          </Link>
         </Title>
         <StyledNav>
-          <StyledLink
-            swipe
-            direction="right"
-            to="/about"
-            delay={1}
-            entryOffset={100}
-          >
-            about
-          </StyledLink>
-          <StyledLink
-            swipe
-            direction="right"
-            to="/blog"
-            delay={1}
-            entryOffset={100}
-          >
-            blog
-          </StyledLink>
+          <StyledLink to="/about">about</StyledLink>
+          <StyledLink to="/blog">blog</StyledLink>
         </StyledNav>
       </StyledHeader>
     </Root>
@@ -46,10 +37,17 @@ const Layout: React.FunctionComponent<
 };
 
 const Root = styled.div`
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: ${rhythm(3)};
+  overflow: hidden;
+  background: #fefffe;
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 1;
 `;
 
 const StyledHeader = styled.header`
@@ -74,18 +72,19 @@ const Title = styled.h2`
     color: inherit;
     text-decoration: none;
     box-shadow: none;
+    display: flex;
   }
 
   @media ${device.tablet} {
     margin-bottom: 0;
-    ${scale(0.75)};
+    ${scale(0.5)};
   }
 `;
 
 const StyledNav = styled.nav``;
 
-const StyledLink = styled(AniLink)`
+const StyledLink = styled(Link)`
   margin-right: ${rhythm(1 / 2)};
 `;
 
-export default Layout;
+export default Header;
