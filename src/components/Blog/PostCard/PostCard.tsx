@@ -10,6 +10,7 @@ interface PostCardProps {
   description: string;
   date: string;
   timeToRead: number;
+  location: Location;
 }
 
 const PostCard: React.FunctionComponent<PostCardProps> = ({
@@ -18,14 +19,12 @@ const PostCard: React.FunctionComponent<PostCardProps> = ({
   description,
   date,
   timeToRead,
+  location,
 }): React.ReactElement => {
   return (
     <Root>
       <Title>
-        <Link
-          to={"/blog" + slug}
-          state={{ prevPath: window.location.pathname }}
-        >
+        <Link to={"/blog" + slug} state={{ prevPath: location.pathname }}>
           {title}
         </Link>
       </Title>

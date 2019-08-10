@@ -9,7 +9,13 @@ import { device } from "../../styles/constants";
 import { File, MarkdownRemarkConnection } from "../../generated/graphql-types";
 import useSiteMetadata from "../../hooks/useSiteMetadata";
 
-const Blog: React.FunctionComponent = (): React.ReactElement => {
+interface BlogProps {
+  location: Location;
+}
+
+const Blog: React.FunctionComponent<BlogProps> = ({
+  location,
+}): React.ReactElement => {
   const data: {
     avatar: File;
     allMarkdownRemark: MarkdownRemarkConnection;
@@ -67,6 +73,7 @@ const Blog: React.FunctionComponent = (): React.ReactElement => {
             description={node.frontmatter.description || node.excerpt}
             date={node.frontmatter.date}
             timeToRead={node.timeToRead}
+            location={location}
           />
         );
       })}

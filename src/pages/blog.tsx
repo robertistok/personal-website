@@ -17,7 +17,7 @@ const BlogIndex: React.FunctionComponent<BlogIndexProps> = ({
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
-      <Blog />
+      <Blog location={location} />
     </Layout>
   );
 };
