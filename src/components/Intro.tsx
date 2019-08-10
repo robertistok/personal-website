@@ -52,7 +52,7 @@ const Root = styled.div`
   align-items: center;
 
   &:after {
-    margin: 30px 0;
+    margin: 40px 0;
     content: "";
     width: 100%;
     border-bottom: 1px solid #ccc;
@@ -106,7 +106,7 @@ const SubTitle = styled.h4`
     ${scale(0.25)};
 
     &:after {
-      margin: 30px 0;
+      margin: 20px 0;
       content: "";
       width: 50px;
       border-bottom: 1px solid #ccc;

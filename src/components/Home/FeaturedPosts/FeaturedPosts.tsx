@@ -51,13 +51,6 @@ const FeaturedPosts: React.FunctionComponent = (): React.ReactElement => {
             slug={edge.node.fields.slug}
             timeToRead={edge.node.timeToRead}
           />
-          // <PostCard>
-          //   <h4>{edge.node.frontmatter.title}</h4>
-          //   <span>
-          //     {edge.node.frontmatter.date} • {edge.node.timeToRead} min read
-          //   </span>
-          //   <p>{edge.node.frontmatter.description}</p>
-          // </PostCard>
         ))}
       </PostsContainer>
     </Root>
@@ -79,13 +72,11 @@ const Root = styled.section`
   }
 
   h2 {
+    margin: 0;
     margin-bottom: 0;
-    /* color: ${({ theme }) => theme.colors.accent}; */
-    /* margin-bottom: ${rhythm(2)}; */
   }
 
   @media ${device.tablet} {
-    /* align-items: center; */
   }
 `;
 
@@ -95,19 +86,6 @@ const PostsContainer = styled.div`
   grid-template-columns: 100%;
   align-items: center;
   justify-content: center;
-
-
-  /* @media ${device.tablet} {
-    grid-template-columns: repeat(3, 1fr);
-  } */
 `;
-
-// const PostCard = styled.section`
-//   padding: ${rhythm(1)} ${rhythm(3 / 4)};
-
-//   h4 {
-//     margin: 0;
-//   }
-// `;
 
 export default FeaturedPosts;
