@@ -5,31 +5,36 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react"
-import Helmet from "react-helmet"
-import styled from "styled-components"
+import React from "react";
+import Helmet from "react-helmet";
+import styled from "styled-components";
 
-import useSiteMetadata from "../hooks/useSiteMetadata"
+import useSiteMetadata from "../hooks/useSiteMetadata";
 
 interface SEOProps {
-  lang?: string
-  meta?: any[]
-  title: string
+  lang?: string;
+  meta?: any[];
+  title: string;
 }
 
 const SEO: React.FunctionComponent<SEOProps> = ({
   lang = "en",
   meta = [],
+  title,
 }): React.ReactElement => {
-  const { title = "", description: metaDescription, author } = useSiteMetadata()
+  const {
+    title: defaultTitle = "",
+    description: metaDescription,
+    author,
+  } = useSiteMetadata();
 
   return (
     <Helmet
       htmlAttributes={{
         lang,
       }}
-      title={title}
-      titleTemplate={`%s | ${title}`}
+      title={defaultTitle}
+      titleTemplate={`${title} | %s`}
       meta={[
         {
           name: `description`,
@@ -37,7 +42,7 @@ const SEO: React.FunctionComponent<SEOProps> = ({
         },
         {
           property: `og:title`,
-          content: title,
+          content: defaultTitle,
         },
         {
           property: `og:description`,
@@ -57,7 +62,7 @@ const SEO: React.FunctionComponent<SEOProps> = ({
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: author.social.twitter,
         },
         {
           name: `twitter:description`,
@@ -65,7 +70,7 @@ const SEO: React.FunctionComponent<SEOProps> = ({
         },
       ].concat(meta)}
     />
-  )
-}
+  );
+};
 
-export default SEO
+export default SEO;
