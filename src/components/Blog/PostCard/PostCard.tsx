@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import AniLink from "gatsby-plugin-transition-link/AniLink";
+import { Link } from "gatsby";
 
 import { rhythm } from "../../../utils/typography";
 
@@ -22,15 +22,7 @@ const PostCard: React.FunctionComponent<PostCardProps> = ({
   return (
     <Root>
       <Title>
-        <AniLink
-          swipe
-          direction="right"
-          to={"blog" + slug}
-          delay={1}
-          entryOffset={100}
-        >
-          {title}
-        </AniLink>
+        <Link to={"/blog" + slug}>{title}</Link>
       </Title>
       <small>
         {date} · {timeToRead} min read

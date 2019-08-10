@@ -1,5 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
+import { useTransition, animated, config } from "react-spring";
 
 import Layout from "../components/Layout";
 import SEO from "../components/Seo";
@@ -20,10 +21,24 @@ const BlogPostTemplate: React.FunctionComponent<BlogPostTemplateProps> = (
   const post = props.data.markdownRemark;
   const { title: siteTitle } = useSiteMetadata();
 
+  const transitions = useTransition(location, location => location.pathname, {
+    from: { opacity: 0.5, transform: "translate3d(100vw, 0, 0)" },
+    enter: { opacity: 1, transform: "translate3d(0, 0, 0)" },
+    config: { tension: 280, friction: 40 },
+  });
+
   return (
-    <Layout location={props.location} title={siteTitle}>
+    <Layout
+      location={props.location}
+      title={siteTitle}
+      headerProps={{ showBackNav: true }}
+    >
       <SEO title={post.frontmatter.title} />
-      <Post post={post} />
+      {transitions.map(({ item, props, key }) => (
+        <animated.div key={key} style={props}>
+          <Post post={post} />
+        </animated.div>
+      ))}
     </Layout>
   );
 };
