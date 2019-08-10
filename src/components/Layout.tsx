@@ -15,11 +15,12 @@ interface LayoutProps {
 const Layout: React.FunctionComponent<LayoutProps> = ({
   children,
   headerProps,
+  location,
 }): React.ReactElement => {
   return (
     <ThemeProvider theme={{ colors }}>
       <Root>
-        <Header {...headerProps} />
+        <Header location={location} {...headerProps} />
         <Main>{children}</Main>
       </Root>
     </ThemeProvider>

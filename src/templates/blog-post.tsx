@@ -15,10 +15,11 @@ interface BlogPostTemplateProps {
   };
 }
 
-const BlogPostTemplate: React.FunctionComponent<BlogPostTemplateProps> = (
-  props
-): React.ReactElement => {
-  const post = props.data.markdownRemark;
+const BlogPostTemplate: React.FunctionComponent<BlogPostTemplateProps> = ({
+  data,
+  location,
+}): React.ReactElement => {
+  const post = data.markdownRemark;
   const { title: siteTitle } = useSiteMetadata();
 
   const transitions = useTransition(location, location => location.pathname, {
@@ -29,12 +30,12 @@ const BlogPostTemplate: React.FunctionComponent<BlogPostTemplateProps> = (
 
   return (
     <Layout
-      location={props.location}
+      location={location}
       title={siteTitle}
       headerProps={{ showBackNav: true }}
     >
       <SEO title={post.frontmatter.title} />
-      {transitions.map(({ item, props, key }) => (
+      {transitions.map(({ props, key }) => (
         <animated.div key={key} style={props}>
           <Post post={post} />
         </animated.div>

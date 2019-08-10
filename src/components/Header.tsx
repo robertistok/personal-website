@@ -9,17 +9,26 @@ import { device } from "../styles/constants";
 
 export interface HeaderProps {
   showBackNav: boolean;
+  location?: Location & { state?: any };
 }
 
 const Header: React.FunctionComponent<HeaderProps> = ({
   showBackNav = false,
+  location,
 }): React.ReactElement => {
   const { author } = useSiteMetadata();
   return (
     <Root>
       <StyledHeader>
         <Title>
-          <Link to="/">
+          <Link
+            to={
+              showBackNav && location.state && location.state.prevPath
+                ? location.state.prevPath
+                : "/"
+            }
+            state={{ prevPath: location.pathname }}
+          >
             {showBackNav ? (
               <FaArrowLeft />
             ) : (

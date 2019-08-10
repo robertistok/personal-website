@@ -22,7 +22,9 @@ const PostCard: React.FunctionComponent<PostCardProps> = ({
   return (
     <Root>
       <Title>
-        <Link to={"/blog" + slug}>{title}</Link>
+        <Link to={"/blog" + slug} state={{ prevPath: location.pathname }}>
+          {title}
+        </Link>
       </Title>
       <small>
         {date} · {timeToRead} min read
