@@ -15,6 +15,7 @@ tags:
   - Storytelling
   - Personal Growth
 ---
+
 ![](/media/whats-my-story-cover.jpg)
 Photo by [Alfred Twj](https://unsplash.com/photos/6ep77eZi6jA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/what%27s-my-story?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
@@ -24,17 +25,17 @@ Hopefully, this will give you a better understanding of the content I am going t
 
 ### The present in a nutshell
 
-I am a *24 years* old **Hungarian** from **Romania** based in Stockholm*,* **Sweden**. A lot of different cultures in one sentence, right?
+I am a _24 years_ old **Hungarian** from **Romania** based in Stockholm*,* **Sweden**. A lot of different cultures in one sentence, right?
 
 Currently, I work at [**Relatable**](https://bit.ly/2WQyMOn), a digital marketing agency where we turn influencer marketing into a global scalable media channel.
 
-My main responsibility at Relatable is developing our product, mostly contributing with my *coding* skills, but there are times when I branch out and make some *designs*, have some *sales* meetings or just *drive* around cars around Sweden. to make the campaign puzzle work.
+My main responsibility at Relatable is developing our product, mostly contributing with my _coding_ skills, but there are times when I branch out and make some _designs_, have some _sales_ meetings or just _drive_ around cars around Sweden. to make the campaign puzzle work.
 
-Thanks to not being tied to my desk all the time, I can do my work **wherever** there is a decent internet connection, given that I also have my laptop with me. This allows me to **travel** and **work****remotely** at the same time, for which I am extremely **grateful**. Don't be afraid to come and say hi if you catch me in any coffee shop or co-working space. I am happy to chat most of the times.
+Thanks to not being tied to my desk all the time, I can do my work **wherever** there is a decent internet connection, given that I also have my laptop with me. This allows me to **travel** and **work\*\***remotely** at the same time, for which I am extremely **grateful\*\*. Don't be afraid to come and say hi if you catch me in any coffee shop or co-working space. I am happy to chat most of the times.
 
 ### How did I get to this point?
 
-Originally I am from [**Kézdivásárhely**](https://en.wikipedia.org/wiki/T%C3%A2rgu_Secuiesc), Romania, a small town with approximately *18000* people living there. After graduation from high school, I've moved to [**Cluj**](https://en.wikipedia.org/wiki/Cluj-Napoca)to take my studies to the next level**.**
+Originally I am from [**Kézdivásárhely**](https://en.wikipedia.org/wiki/T%C3%A2rgu_Secuiesc), Romania, a small town with approximately _18000_ people living there. After graduation from high school, I've moved to [**Cluj**](https://en.wikipedia.org/wiki/Cluj-Napoca)to take my studies to the next level**.**
 
 That's where I've started tapping into the energy of big cities, even though the city seemed big only because I was coming from a tiny one. My perspective about the world widened a lot during the 4 years I've stayed there.
 
@@ -58,6 +59,6 @@ Taking it easy. This can be anything from meeting up with friends, taking a long
 
 ### Final thoughts
 
-Want to know more about me? Don't be shy and reach out to me on any of the socials listed down below. I am always up for interesting discussions!
+Want to know more about me? Don't be shy and reach out to me on any of the socials listed on the homepage. I am always up for interesting discussions!
 
 Thanks for reading! 🙏

@@ -1,6 +1,6 @@
 ---
 template: post
-title: "What you should know before learning to\_code"
+title: "What you should know before learning to code"
 slug: what-you-should-know-before-learning-to-code
 draft: false
 featured: true
@@ -13,8 +13,9 @@ cover: /media/what-you-should-know-before-learning-to-code.jpg
 category: Programming
 tags:
   - Coding
-  - ''
+  - ""
 ---
+
 ![](/media/what-you-should-know-before-learning-to-code-cover.jpg)
 Photo by [Daria Nepriakhina](https://unsplash.com/photos/i5iIhHSAtp4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/person-using-macbook?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
@@ -64,7 +65,7 @@ Now all of the benefits I have told you may sound great and you are right, they 
 
 This is the most important one, I think. If you want to work as a developer only for the sake of an increased paycheck, you are not going to get far.
 
-You should have at least an interest in technology. If you do this for the wrong reasons, you will eventually wake up one day hating what you do and that is not desirable, especially not in this field(*see the next point why*).
+You should have at least an interest in technology. If you do this for the wrong reasons, you will eventually wake up one day hating what you do and that is not desirable, especially not in this field(_see the next point why_).
 
 #### Constant learning
 
@@ -116,6 +117,6 @@ Learning to code will take a lot of time, dedication and you will face a lot of 
 
 You will suddenly have dozens of opportunities to choose from, have the skills to test out almost **any** idea you have and be part of an amazing community which continues to evolve every minute.
 
-Let me know in the comments what do you think about the article, what methods do you use to expand your knowledge and what are the biggest challenges you face in the process of learning or just ask me any questions you have.
+Let me know what do you think about the article, what methods do you use to expand your knowledge and what are the biggest challenges you face in the process of learning or just ask me any questions you have.
 
 Thanks for reading! 🙏

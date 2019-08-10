@@ -8,11 +8,13 @@ description: >-
   What? Traveling alone? Are you crazy? Won't you feel lonely all the time?
   Isn't that dangerous? Why are you even doing it?
 category: Travel
+cover: /media/solo-traveling-is-a-lot-of-fun-cover.jpg
 tags:
   - Travel
   - Personal Growth
-  - ''
+  - ""
 ---
+
 ![](/media/solo-traveling-is-a-lot-of-fun-cover.jpg)
 Photo by [Alessandro Erbetta](https://unsplash.com/photos/8oYPewvmhnY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/explore?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
@@ -84,13 +86,13 @@ Free walking tours are also a fantastic way to meet people and they also give yo
 
 The tour itself is basically free, but you are welcome to give something at the end of it if you had a good time. I've participated at tours, where more than 50 people showed up. That's a lot of potential new friends.
 
-Just Google **free walking tour *'place you are at'***and choose one from the many results which will pop up. They are available in most of the places I went to, even in smaller cities.
+Just Google **free walking tour _'place you are at'_**and choose one from the many results which will pop up. They are available in most of the places I went to, even in smaller cities.
 
 #### Couchsurfing
 
 This could be a double win. [Couchsurfing](https://www.couchsurfing.com/) is not only an amazing way to meet locals, but it is also the place if you want to get free accommodation. Yes, you heard it right, using the application you can get a couch to spend the night and you will also meet super cool people. I've done it in many cities and it is still one of my favorite ways to travel.
 
-However, don't expect to just "*check-in*" to the room and then forget about the person hosting you. While that could also happen, your host(s) usually would like to spend some time with you, show you their favorite restaurant or just take you along a walk in the city. This is the idea behind the whole concept, to **connect locals with travelers** and develop friendships.
+However, don't expect to just "_check-in_" to the room and then forget about the person hosting you. While that could also happen, your host(s) usually would like to spend some time with you, show you their favorite restaurant or just take you along a walk in the city. This is the idea behind the whole concept, to **connect locals with travelers** and develop friendships.
 
 #### Travel friends
 
@@ -104,9 +106,8 @@ You might think this is not something you would like to do and that is perfectly
 
 > However, I would like to challenge you. If you've never traveled solo, just book a trip and give it a shot.
 
-Do a *short weekend* city break, *take off a week* to do a road trip or *get crazy* and go on a longer journey anywhere in the world. It does not matter, just go out and do it. You might actually fall in love with exploring.
+Do a _short weekend_ city break, _take off a week_ to do a road trip or _get crazy_ and go on a longer journey anywhere in the world. It does not matter, just go out and do it. You might actually fall in love with exploring.
 
 What is your next destination? What are your thoughts about traveling solo? Did you try it? Do you like it? What is your favorite part about it? Did I miss something?
-
 
 Thanks for reading! 🙏

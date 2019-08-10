@@ -17,6 +17,7 @@ tags:
   - Personal Growth
   - Motivation
 ---
+
 ![](/media/my-relationship-with-coding-cover.jpg)
 Photo by [Jefferson Santos](https://unsplash.com/photos/9SoCnyQmkzI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
@@ -42,7 +43,7 @@ Fortunately, the demand for developers is extremely high right now. I get to cho
 
 Relocating to a new city or working remotely from anywhere, small startups or big corporations, backend or frontend, web or mobile are just a few of the options developers have.
 
-* * * * *
+---
 
 With these being said, let's jump back into time and find out how the journey began. **No**, it is not going to be a story about me developing full-fledged applications at age seven 😉
 
@@ -62,7 +63,7 @@ Honestly, I had no idea what path to take...
 
 ### The tipping point
 
-One evening, while I was preparing for the graduation exam, I had the **"aha"** moment which influenced a lot the decision I was going to take. I finally understood the ***control flow statements*** and the lines of code on the screen started to make sense. Control flow statements are one of the most used and most important concepts in coding. Getting them right is crucial.
+One evening, while I was preparing for the graduation exam, I had the **"aha"** moment which influenced a lot the decision I was going to take. I finally understood the **_control flow statements_** and the lines of code on the screen started to make sense. Control flow statements are one of the most used and most important concepts in coding. Getting them right is crucial.
 
 With this new perspective, understanding more difficult concepts got simpler and suddenly, applying to an engineering faculty almost seemed obvious.
 
@@ -114,19 +115,13 @@ The story continues. I don't know where it is going to bring me, but I will do m
 
 Everything happens for a reason and I would not change a single thing. The mistakes thought me valuable lessons and they are an essential part of the whole journey.
 
-> *"You can't connect the dots looking forward; you can only connect them looking backward. So you have to trust that the dots will somehow connect in your future."\
-> -* Steve Jobs
+> _"You can't connect the dots looking forward; you can only connect them looking backward. So you have to trust that the dots will somehow connect in your future."\
+> -_ Steve Jobs
 
-What about you? What's your story with programming? What was the biggest **"aha"** moment you've had? What was the tipping point for you? Why do you like programming? Would you like to learn to programme? Let me know in the comments, I would love to hear some of your stories!
+What about you? What's your story with programming? What was the biggest **"aha"** moment you've had? What was the tipping point for you? Why do you like programming? Would you like to learn to programme? Let me know, I would love to hear some of your stories!
 
 Thanks for reading! 🙏
 
-### About the author
+---
 
-Robert is a full-stack web developer, currently working at [Relatable](https://bit.ly/2WQyMOn). He loves to inspire people, explore new places, read great books, take inspiring pictures and learn new stuff all the time.
-
-Follow him on [LinkedIn](https://bit.ly/2OMrsAp), [Instagram](https://bit.ly/2TQxvVu), [GitHub](https://bit.ly/2Vk7Fup), [Goodreads](https://bit.ly/2HYH9DQ) or here, on [Medium](https://bit.ly/2HYayho).
-
-* * * * *
-
-*Thanks to my friend,* [*Zoltán*](https://www.linkedin.com/in/zcserei/) *for editing this article, it made a huge difference.*
+_Thanks to my friend,_ [_Zoltán_](https://www.linkedin.com/in/zcserei/) _for editing this article, it made a huge difference._

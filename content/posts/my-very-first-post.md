@@ -14,6 +14,7 @@ tags:
   - Storytelling
   - Personal Growth
 ---
+
 ![](/media/my-very-first-post-cover.jpg)
 Photo by [Clemens van Lay](https://unsplash.com/@clemensvanlay?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/@clemensvanlay?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
@@ -21,11 +22,11 @@ This is the first post I've ever published and it marks the beginning of a new j
 
 ### Why am I doing this?
 
-I've always wanted to start writing, gather my thoughts, summarize my learnings and share them with you, it just never felt the *"right time"*.
+I've always wanted to start writing, gather my thoughts, summarize my learnings and share them with you, it just never felt the _"right time"_.
 
 #### Sharing knowledge
 
-More and more friends have started to ask me about my favorite books, ups, and downs of the nomad lifestyle, the gear I am using, how could they get into programming, just to name a few. Putting on *paper* some of these ideas is one of the best ways to reach even more people.
+More and more friends have started to ask me about my favorite books, ups, and downs of the nomad lifestyle, the gear I am using, how could they get into programming, just to name a few. Putting on _paper_ some of these ideas is one of the best ways to reach even more people.
 
 #### Giving back
 
@@ -41,7 +42,7 @@ Most importantly though, I want **2019 to be the year of creation**. I want to s
 
 ### Why now?
 
-I've been following for a while [**Nuseir Yassi's**](https://www.facebook.com/nasdaily/)journey of creating a video **every single day** for 1000 days and his challenge ended on [*January the 5th*](https://www.facebook.com/nasdaily/videos/2294732100572166/). He managed to become one of the most inspiring human beings on planet Earth and everything began with a single video on *April 10th of 2016*.
+I've been following for a while [**Nuseir Yassi's**](https://www.facebook.com/nasdaily/)journey of creating a video **every single day** for 1000 days and his challenge ended on [_January the 5th_](https://www.facebook.com/nasdaily/videos/2294732100572166/). He managed to become one of the most inspiring human beings on planet Earth and everything began with a single video on _April 10th of 2016_.
 
 Recently I've participated on the [**Nomad Cruise**](https://nomadcruise.com), an epic journey crossing the Atlantic Ocean with almost 500 people onboard, all interested in some ways in the digital nomad lifestyle. On this cruise, I've met hundreds of amazing people doing all kind of super cool things and it inspired me to start creating more.
 
@@ -51,7 +52,7 @@ Finally, there will be never a perfect time for anything. The best is to just st
 
 ### How I am gonna do it?
 
-Initially, I wanted to have my website and all the social media channels up and going for the "*launch*". The problem with that approach is that it takes so much more time and it makes putting out content *10X harder*.
+Initially, I wanted to have my website and all the social media channels up and going for the "_launch_". The problem with that approach is that it takes so much more time and it makes putting out content _10X harder_.
 
 Why not start lean and share as soon as possible? Instead of having everything set up, I've decided to just start publishing here, on Medium, and build out the rest of the things along the way.
 
@@ -73,4 +74,6 @@ Leave comments, write me a message or find me on any of the socials listed below
 
 ### Final thoughts
 
-If you enjoyed this article, got curious about what am I up to here, let's connect. Thanks for reading! 🙏
+If you enjoyed this article, got curious about what am I up to here, let's connect.
+
+Thanks for reading! 🙏
