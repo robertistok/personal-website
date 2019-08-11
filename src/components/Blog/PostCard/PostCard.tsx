@@ -29,9 +29,9 @@ const PostCard: React.FunctionComponent<PostCardProps> = ({
           {title}
         </Link>
       </Title>
-      <small>
+      <ContentInfo>
         {date} · {timeToRead} min read
-      </small>
+      </ContentInfo>
       <Content
         dangerouslySetInnerHTML={{
           __html: description,
@@ -51,6 +51,10 @@ const Root = styled.section`
 
 const Title = styled.h3`
   margin: ${rhythm(1)} 0 0;
+`;
+
+const ContentInfo = styled.small`
+  font-style: italic;
 `;
 
 const Content = styled.p`

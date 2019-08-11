@@ -24,7 +24,27 @@ const Post: React.FunctionComponent<PostProps> = ({
 
 const Root = styled.section`
   margin: auto;
-  max-width: ${rhythm(24)};
+  max-width: ${rhythm(28)};
+  ${scale(0.1)}
+
+  .separator {
+    margin: 20px 0px;
+    border: none;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+
+    &:before {
+      line-height: 1.4;
+      text-indent: 0.6em;
+      letter-spacing: 0.6em;
+      content: "···";
+    }
+  }
+
+  img {
+    margin-bottom: 0;
+  }
 `;
 
 const Title = styled.h1`
