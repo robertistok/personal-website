@@ -1,3 +1,4 @@
-// custom typefaces
-import "typeface-montserrat"
-import "typeface-merriweather"
+exports.onInitialClientRender = () => {
+  require("typeface-arvo");
+  require("typeface-cabin");
+};
