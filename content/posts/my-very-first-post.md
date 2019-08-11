@@ -20,19 +20,19 @@ Photo by [Clemens van Lay](https://unsplash.com/@clemensvanlay?utm_source=unspl
 
 This is the first post I've ever published and it marks the beginning of a new journey.
 
-### Why am I doing this?
+## Why am I doing this?
 
 I've always wanted to start writing, gather my thoughts, summarize my learnings and share them with you, it just never felt the _"right time"_.
 
-#### Sharing knowledge
+### Sharing knowledge
 
 More and more friends have started to ask me about my favorite books, ups, and downs of the nomad lifestyle, the gear I am using, how could they get into programming, just to name a few. Putting on _paper_ some of these ideas is one of the best ways to reach even more people.
 
-#### Giving back
+### Giving back
 
 Without all the authors, YouTubers, bloggers or anyone out there who inspires me constantly, I would not be writing this post for sure. I owe a lot to all of these amazing people and content creators. I think that a great way to express my gratitude and give back to the community is to start documenting and sharing the journey I am on.
 
-#### For myself
+### For myself
 
 It is also a little bit for myself. I believe this challenge will help me to grow in ways which I can not even imagine right now.
 
@@ -40,7 +40,7 @@ I also want to use this opportunity to be more visible online, punch the fear of
 
 Most importantly though, I want **2019 to be the year of creation**. I want to start creating more, be that blog posts, photos, videos or just hacking something together over the weekend.
 
-### Why now?
+## Why now?
 
 I've been following for a while [**Nuseir Yassi's**](https://www.facebook.com/nasdaily/)journey of creating a video **every single day** for 1000 days and his challenge ended on [_January the 5th_](https://www.facebook.com/nasdaily/videos/2294732100572166/). He managed to become one of the most inspiring human beings on planet Earth and everything began with a single video on _April 10th of 2016_.
 
@@ -50,13 +50,13 @@ I've also stumbled upon the [90-day content creation challenge](https://medium.c
 
 Finally, there will be never a perfect time for anything. The best is to just start now and figure out the details along the way.
 
-### How I am gonna do it?
+## How I am gonna do it?
 
 Initially, I wanted to have my website and all the social media channels up and going for the "_launch_". The problem with that approach is that it takes so much more time and it makes putting out content _10X harder_.
 
 Why not start lean and share as soon as possible? Instead of having everything set up, I've decided to just start publishing here, on Medium, and build out the rest of the things along the way.
 
-### What can you expect following me?
+## What can you expect following me?
 
 I am still in the process of finding my voice and I have no idea yet what approach I am going to take to express my thoughts.
 
@@ -66,13 +66,13 @@ Most importantly, I will try to make every post compact, easy to digest, while a
 
 Stay curious 😉.
 
-### What can you do to support me?
+## What can you do to support me?
 
 Please give me feedback, as much as you can. Because I am doing this for the very first time, I will need a lot of improvements for sure. If you have any ideas thoughts or comments, don't be afraid to reach out and tell me, it would mean the world to me.
 
 Leave comments, write me a message or find me on any of the socials listed below. Taking into account your feedback, I will be able to improve the content I am putting out and give you more value. I believe it is a **win-win** situation 🙏.
 
-### Final thoughts
+## Final thoughts
 
 If you enjoyed this article, got curious about what am I up to here, let's connect.
 

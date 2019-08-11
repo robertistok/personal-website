@@ -2376,7 +2376,6 @@ export type SitePageFieldsEnum =
   'pluginCreator___pluginOptions___path' |
   'pluginCreator___pluginOptions___name' |
   'pluginCreator___pluginOptions___maxWidth' |
-  'pluginCreator___pluginOptions___showCaptions' |
   'pluginCreator___pluginOptions___wrapperStyle' |
   'pluginCreator___pluginOptions___trackingId' |
   'pluginCreator___pluginOptions___short_name' |
@@ -2581,7 +2580,6 @@ export type SitePluginFieldsEnum =
   'pluginOptions___plugins___name' |
   'pluginOptions___plugins___version' |
   'pluginOptions___plugins___pluginOptions___maxWidth' |
-  'pluginOptions___plugins___pluginOptions___showCaptions' |
   'pluginOptions___plugins___pluginOptions___wrapperStyle' |
   'pluginOptions___plugins___browserAPIs' |
   'pluginOptions___plugins___ssrAPIs' |
@@ -2589,7 +2587,6 @@ export type SitePluginFieldsEnum =
   'pluginOptions___path' |
   'pluginOptions___name' |
   'pluginOptions___maxWidth' |
-  'pluginOptions___showCaptions' |
   'pluginOptions___wrapperStyle' |
   'pluginOptions___trackingId' |
   'pluginOptions___short_name' |
@@ -2721,7 +2718,6 @@ export type SitePluginPluginOptions = {
   path?: Maybe<Scalars['String']>,
   name?: Maybe<Scalars['String']>,
   maxWidth?: Maybe<Scalars['Int']>,
-  showCaptions?: Maybe<Scalars['Boolean']>,
   wrapperStyle?: Maybe<Scalars['String']>,
   trackingId?: Maybe<Scalars['String']>,
   short_name?: Maybe<Scalars['String']>,
@@ -2741,7 +2737,6 @@ export type SitePluginPluginOptionsFilterInput = {
   path?: Maybe<StringQueryOperatorInput>,
   name?: Maybe<StringQueryOperatorInput>,
   maxWidth?: Maybe<IntQueryOperatorInput>,
-  showCaptions?: Maybe<BooleanQueryOperatorInput>,
   wrapperStyle?: Maybe<StringQueryOperatorInput>,
   trackingId?: Maybe<StringQueryOperatorInput>,
   short_name?: Maybe<StringQueryOperatorInput>,
@@ -2784,13 +2779,11 @@ export type SitePluginPluginOptionsPluginsFilterListInput = {
 
 export type SitePluginPluginOptionsPluginsPluginOptions = {
   maxWidth?: Maybe<Scalars['Int']>,
-  showCaptions?: Maybe<Scalars['Boolean']>,
   wrapperStyle?: Maybe<Scalars['String']>,
 };
 
 export type SitePluginPluginOptionsPluginsPluginOptionsFilterInput = {
   maxWidth?: Maybe<IntQueryOperatorInput>,
-  showCaptions?: Maybe<BooleanQueryOperatorInput>,
   wrapperStyle?: Maybe<StringQueryOperatorInput>,
 };
 

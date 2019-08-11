@@ -15,14 +15,13 @@ tags:
 ---
 
 ![](https://cdn-images-1.medium.com/max/1600/1*US_mG5T3NC-3aE31fjS5hQ.jpeg)
-
 Photo by [LinkedIn](https://unsplash.com/photos/u3hmzw5U-SI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/linkedin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-### TL;DR:
+## TL;DR:
 
 Build an outstanding [LinkedIn profile](https://www.linkedin.com/in/robertistok/), introduce yourself to hundreds of recruiters, attend interviews and sign the contract ✅
 
-### The long version
+## The long version
 
 It was the summer of 2017, I finished university, I had close to zero professional experience, I wanted to _grow_ and I was _ready_ to move to a new country.
 
@@ -30,7 +29,7 @@ With almost zero savings in my bank account, going to a random city and chasing 
 
 I was also a little lazy, to be honest. I wanted to skip applying to hundreds of jobs, write motivation letters and hope that someone will answer. There must be another way. Something _more fun_. Something _more effective_.
 
-#### Turns out there is, hello LinkedIn
+### Turns out there is, hello LinkedIn
 
 ![](https://cdn-images-1.medium.com/max/1600/1*pcml915jKYYR32BMsRlX-A.jpeg)
 
@@ -44,7 +43,7 @@ If I connect with enough recruiters and make a good first impression, they are g
 
 _I saw an opportunity here_
 
-#### Breaking it down
+### Breaking it down
 
 **_1\. Polish your profile_**
 
@@ -99,7 +98,7 @@ You've completed all the steps and got offered a contract. If it is a "fuck yes"
 
 Now you can sit back, pat yourself on the back for the effort and prepare for the new adventure.
 
-### Final thoughts
+## Final thoughts
 
 Now go out, [create your profile](https://www.linkedin.com/reg/join) if you don't have one and take steps towards your dream job.
 

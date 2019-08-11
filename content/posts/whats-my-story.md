@@ -12,7 +12,7 @@ cover: /media/whats-my-story-cover.jpg
 category: Personal
 tags:
   - Travel
-  - Storytelling
+  - Storytime
   - Personal Growth
 ---
 
@@ -23,7 +23,7 @@ The main goal of this post is to give you a short intro about myself. It should 
 
 Hopefully, this will give you a better understanding of the content I am going to put out and the ideas I am going to express.
 
-### The present in a nutshell
+## The present in a nutshell
 
 I am a _24 years_ old **Hungarian** from **Romania** based in Stockholm*,* **Sweden**. A lot of different cultures in one sentence, right?
 
@@ -33,7 +33,7 @@ My main responsibility at Relatable is developing our product, mostly contributi
 
 Thanks to not being tied to my desk all the time, I can do my work **wherever** there is a decent internet connection, given that I also have my laptop with me. This allows me to **travel** and **work\*\***remotely** at the same time, for which I am extremely **grateful\*\*. Don't be afraid to come and say hi if you catch me in any coffee shop or co-working space. I am happy to chat most of the times.
 
-### How did I get to this point?
+## How did I get to this point?
 
 Originally I am from [**Kézdivásárhely**](https://en.wikipedia.org/wiki/T%C3%A2rgu_Secuiesc), Romania, a small town with approximately _18000_ people living there. After graduation from high school, I've moved to [**Cluj**](https://en.wikipedia.org/wiki/Cluj-Napoca)to take my studies to the next level**.**
 
@@ -45,7 +45,7 @@ During my studies, I also got into exploring different countries and not being a
 
 Fast forward a couple of months and a lot of trips all over Europe, I graduated from university in the summer of 2017. I did not see the reason why I should pursue getting a masters degree, so I decided that now is the time to try living abroad and I've started to look for opportunities throughout Europe. Long story short, I found [Relatable](https://bit.ly/2WQyMOn) and relocated to the gorgeous city of Stockholm.
 
-### What about my free time?
+## What about my free time?
 
 I like to choose activities which add value to the world, be that to someone else or to me. I try to refrain from things which drain my energy, make me feel bad or does not align with my long term vision. I fail at this sometimes though, but I am trying my best.
 
@@ -57,7 +57,7 @@ Searching for new destinations to explore. Once I've got bitten by the travel bu
 
 Taking it easy. This can be anything from meeting up with friends, taking a long walk, reflecting back on life or just enjoying the [JOMO](https://www.psychologytoday.com/us/blog/happiness-is-state-mind/201807/jomo-the-joy-missing-out).
 
-### Final thoughts
+## Final thoughts
 
 Want to know more about me? Don't be shy and reach out to me on any of the socials listed on the homepage. I am always up for interesting discussions!
 
