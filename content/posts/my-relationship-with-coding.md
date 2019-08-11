@@ -15,7 +15,7 @@ category: Programming
 tags:
   - Coding
   - Personal Growth
-  - Motivation
+  - Storytime
 ---
 
 ![](/media/my-relationship-with-coding-cover.jpg)

@@ -12,7 +12,6 @@ cover: /media/solo-traveling-is-a-lot-of-fun-cover.jpg
 tags:
   - Travel
   - Personal Growth
-  - ""
 ---
 
 ![](/media/solo-traveling-is-a-lot-of-fun-cover.jpg)

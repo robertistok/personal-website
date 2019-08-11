@@ -13,7 +13,6 @@ cover: /media/what-you-should-know-before-learning-to-code.jpg
 category: Programming
 tags:
   - Coding
-  - ""
 ---
 
 ![](/media/what-you-should-know-before-learning-to-code-cover.jpg)
