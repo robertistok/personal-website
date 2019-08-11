@@ -4,9 +4,9 @@ import { Link } from "gatsby";
 import { FaArrowLeft } from "react-icons/fa";
 import { GatsbyLocation } from "local-types";
 
-import { rhythm, scale } from "../utils/typography";
-import useSiteMetadata from "../hooks/useSiteMetadata";
-import { device } from "../styles/constants";
+import { rhythm, scale } from "../../../utils/typography";
+import useSiteMetadata from "../../../hooks/useSiteMetadata";
+import { device } from "../../../styles/constants";
 
 export interface HeaderProps {
   showBackNav: boolean;
@@ -49,6 +49,7 @@ const Header: React.FunctionComponent<HeaderProps> = ({
 const Root = styled.div`
   position: fixed;
   top: 0;
+  left: 0;
   width: 100vw;
   height: ${rhythm(3)};
   overflow: hidden;
@@ -67,11 +68,7 @@ const StyledHeader = styled.header`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: ${rhythm(3 / 4)};
-
-  @media ${device.tablet} {
-    padding: ${rhythm(3 / 4)};
-  }
+  padding: ${rhythm(3 / 4)} 0;
 `;
 
 const Title = styled.h2`
