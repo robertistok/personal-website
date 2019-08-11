@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 import { rhythm, scale } from "../../utils/typography";
-import { MarkdownRemark } from "../../generated/graphql-types";
+import { MarkdownRemark } from "../../types/graphql-types";
 
 interface PostProps {
   post: MarkdownRemark;

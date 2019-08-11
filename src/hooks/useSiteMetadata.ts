@@ -1,6 +1,6 @@
 import { useStaticQuery, graphql } from "gatsby";
 
-import { Query, SiteSiteMetadata } from "../generated/graphql-types";
+import { Query, SiteSiteMetadata } from "../types/graphql-types";
 
 const useSiteMetadata = (): SiteSiteMetadata => {
   const { site }: Query = useStaticQuery(

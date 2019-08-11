@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import PostCard from "../../Blog/PostCard";
 
 import { device } from "../../../styles/constants";
-import { Query } from "../../../generated/graphql-types";
+import { Query } from "../../../types/graphql-types";
 import { rhythm } from "../../../utils/typography.js";
 
 interface FeaturedPostsProps {

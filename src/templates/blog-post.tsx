@@ -6,7 +6,7 @@ import Layout from "../components/Layout";
 import SEO from "../components/Seo";
 import Post from "../components/Post";
 import useSiteMetadata from "../hooks/useSiteMetadata";
-import { MarkdownRemark } from "../generated/graphql-types";
+import { MarkdownRemark } from "../types/graphql-types";
 
 interface BlogPostTemplateProps {
   location: Location;
