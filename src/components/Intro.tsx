@@ -1,6 +1,6 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import Image from "gatsby-image";
+import Image, { FixedObject } from "gatsby-image";
 import styled from "styled-components";
 
 import Social from "./Social";
@@ -8,12 +8,15 @@ import Social from "./Social";
 import { rhythm, scale } from "../utils/typography";
 import useSiteMetadata from "../hooks/useSiteMetadata";
 import { device } from "../styles/constants";
+import { File } from "../types/graphql-types";
 
 interface IntroProps {}
 
 const Intro: React.FunctionComponent<IntroProps> = (): React.ReactElement => {
   const { author } = useSiteMetadata();
-  const data = useStaticQuery(graphql`
+  const data: {
+    avatar: File;
+  } = useStaticQuery(graphql`
     query Intro {
       avatar: file(absolutePath: { regex: "/profile-pic.png/" }) {
         childImageSharp {
@@ -29,7 +32,7 @@ const Intro: React.FunctionComponent<IntroProps> = (): React.ReactElement => {
     <Root>
       <HeadingContainer>
         <StyledImage
-          fixed={data.avatar.childImageSharp.fixed}
+          fixed={data.avatar.childImageSharp.fixed as FixedObject}
           alt={author.name}
         />
         <PitchContainer>

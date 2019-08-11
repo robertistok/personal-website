@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 import { graphql, useStaticQuery } from "gatsby";
-import Image from "gatsby-image";
+import Image, { FixedObject } from "gatsby-image";
 
 import PostCard from "./PostCard";
 import { rhythm } from "../../utils/typography";
 import { device } from "../../styles/constants";
-import { File, MarkdownRemarkConnection } from "../../generated/graphql-types";
+import { MarkdownRemarkConnection, File } from "../../types/graphql-types";
 import useSiteMetadata from "../../hooks/useSiteMetadata";
 
 interface BlogProps {
@@ -58,7 +58,7 @@ const Blog: React.FunctionComponent<BlogProps> = ({
     <Root>
       <Header>
         <StyledImage
-          fixed={data.avatar.childImageSharp.fixed}
+          fixed={data.avatar.childImageSharp.fixed as FixedObject}
           alt={author.name}
         />
         <h5>Personal blog about coding, remote work, habits and much more</h5>
