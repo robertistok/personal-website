@@ -7,7 +7,13 @@ import { device } from "../../../styles/constants";
 import { Query } from "../../../generated/graphql-types";
 import { rhythm } from "../../../utils/typography.js";
 
-const FeaturedPosts: React.FunctionComponent = (): React.ReactElement => {
+interface FeaturedPostsProps {
+  location: Location;
+}
+
+const FeaturedPosts: React.FunctionComponent<FeaturedPostsProps> = ({
+  location,
+}): React.ReactElement => {
   const { allMarkdownRemark }: Query = useStaticQuery(
     graphql`
       query FeaturedPosts {
@@ -50,6 +56,7 @@ const FeaturedPosts: React.FunctionComponent = (): React.ReactElement => {
             date={edge.node.frontmatter.date}
             slug={edge.node.fields.slug}
             timeToRead={edge.node.timeToRead}
+            location={location}
           />
         ))}
       </PostsContainer>

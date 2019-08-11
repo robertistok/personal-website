@@ -27,7 +27,7 @@ const Index: React.FunctionComponent<IndexProps> = ({
       {transitions.map(({ props, key }) => (
         <animated.div key={key} style={props}>
           <Intro />
-          <FeaturedPosts />
+          <FeaturedPosts location={location} />
         </animated.div>
       ))}
     </Layout>
