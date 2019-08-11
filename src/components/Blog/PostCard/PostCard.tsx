@@ -32,7 +32,7 @@ const PostCard: React.FunctionComponent<PostCardProps> = ({
       <small>
         {date} · {timeToRead} min read
       </small>
-      <p
+      <Content
         dangerouslySetInnerHTML={{
           __html: description,
         }}
@@ -42,13 +42,19 @@ const PostCard: React.FunctionComponent<PostCardProps> = ({
 };
 
 const Root = styled.section`
+  margin-bottom: ${rhythm(1)};
+
   a {
     box-shadow: none;
   }
 `;
 
 const Title = styled.h3`
-  margin: ${rhythm(1)} 0 ${rhythm(1 / 4)};
+  margin: ${rhythm(1)} 0 0;
+`;
+
+const Content = styled.p`
+  margin: ${rhythm(2 / 6)} 0;
 `;
 
 export default PostCard;

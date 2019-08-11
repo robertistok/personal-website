@@ -14,7 +14,9 @@ const Post: React.FunctionComponent<PostProps> = ({
   return (
     <Root>
       <Title>{post.frontmatter.title}</Title>
-      <Date>{post.frontmatter.date}</Date>
+      <Info>
+        {post.frontmatter.date} · {post.timeToRead} min read
+      </Info>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
     </Root>
   );
@@ -27,9 +29,10 @@ const Root = styled.section`
 
 const Title = styled.h1`
   margin-top: ${rhythm(1)};
+  margin-bottom: 0;
 `;
 
-const Date = styled.p`
+const Info = styled.p`
   ${scale(-1 / 5)}
   display: block;
   margin-bottom: ${rhythm(1)};
