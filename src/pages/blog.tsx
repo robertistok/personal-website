@@ -15,9 +15,9 @@ const BlogIndex: React.FunctionComponent<BlogIndexProps> = ({
   location,
 }): React.ReactElement => {
   const { title: siteTitle } = useSiteMetadata();
-  const { prevPath = "" } = location.state;
+  const { state: locationState = { prevPath: "" } } = location;
 
-  const comingBack = prevPath.match(/\/blog\/*/);
+  const comingBack = locationState.prevPath.match(/\/blog\/*/);
 
   const transitions = useTransition(location, location => location.pathname, {
     from: {
