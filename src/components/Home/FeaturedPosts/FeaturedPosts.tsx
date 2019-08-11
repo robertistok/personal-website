@@ -69,16 +69,6 @@ const Root = styled.section`
   display: flex;
   flex-direction: column;
 
-  &:after {
-    margin: 30px 0;
-    content: "";
-
-    max-width: ${rhythm(42)};
-    border-bottom: 1px solid #ccc;
-    display: block;
-    position: relative;
-  }
-
   h2 {
     margin: 0;
     margin-bottom: 0;
