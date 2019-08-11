@@ -50,7 +50,7 @@ const Root = styled.div`
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: ${rhythm(3)};
   overflow: hidden;
   background: #fefffe;
@@ -59,6 +59,7 @@ const Root = styled.div`
   align-items: center;
   justify-content: center;
   z-index: 1;
+  padding: ${rhythm(3 / 4)};
 `;
 
 const StyledHeader = styled.header`
@@ -68,7 +69,6 @@ const StyledHeader = styled.header`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: ${rhythm(3 / 4)} 0;
 `;
 
 const Title = styled.h2`
