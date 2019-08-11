@@ -2,13 +2,14 @@ import React from "react";
 import styled from "styled-components";
 import { useStaticQuery, graphql } from "gatsby";
 import PostCard from "../../Blog/PostCard";
+import { GatsbyLocation } from "local-types";
 
 import { device } from "../../../styles/constants";
 import { Query } from "../../../types/graphql-types";
 import { rhythm } from "../../../utils/typography.js";
 
 interface FeaturedPostsProps {
-  location: Location;
+  location: GatsbyLocation;
 }
 
 const FeaturedPosts: React.FunctionComponent<FeaturedPostsProps> = ({

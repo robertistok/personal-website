@@ -1,6 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
-import { useTransition, animated, config } from "react-spring";
+import { useTransition, animated } from "react-spring";
+import { GatsbyLocation } from "local-types";
 
 import Layout from "../components/Layout";
 import SEO from "../components/Seo";
@@ -9,7 +10,7 @@ import useSiteMetadata from "../hooks/useSiteMetadata";
 import { MarkdownRemark } from "../types/graphql-types";
 
 interface BlogPostTemplateProps {
-  location: Location;
+  location: GatsbyLocation;
   data: {
     markdownRemark: MarkdownRemark;
   };

@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "gatsby";
 import { FaArrowLeft } from "react-icons/fa";
+import { GatsbyLocation } from "local-types";
 
 import { rhythm, scale } from "../utils/typography";
 import useSiteMetadata from "../hooks/useSiteMetadata";
@@ -9,7 +10,7 @@ import { device } from "../styles/constants";
 
 export interface HeaderProps {
   showBackNav: boolean;
-  location?: Location & { state?: any };
+  location?: GatsbyLocation;
 }
 
 const Header: React.FunctionComponent<HeaderProps> = ({

@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { graphql, useStaticQuery } from "gatsby";
 import Image, { FixedObject } from "gatsby-image";
+import { GatsbyLocation } from "local-types";
 
 import PostCard from "./PostCard";
 import { rhythm } from "../../utils/typography";
@@ -10,7 +11,7 @@ import { MarkdownRemarkConnection, File } from "../../types/graphql-types";
 import useSiteMetadata from "../../hooks/useSiteMetadata";
 
 interface BlogProps {
-  location: Location;
+  location: GatsbyLocation;
 }
 
 const Blog: React.FunctionComponent<BlogProps> = ({

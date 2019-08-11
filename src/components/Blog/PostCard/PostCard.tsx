@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "gatsby";
+import { GatsbyLocation } from "local-types";
 
 import { rhythm } from "../../../utils/typography";
 
@@ -10,7 +11,7 @@ interface PostCardProps {
   description: string;
   date: string;
   timeToRead: number;
-  location: Location;
+  location: GatsbyLocation;
 }
 
 const PostCard: React.FunctionComponent<PostCardProps> = ({

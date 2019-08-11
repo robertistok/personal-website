@@ -1,5 +1,6 @@
 import React from "react";
 import { useTransition, animated, config } from "react-spring";
+import { GatsbyLocation } from "local-types";
 
 import Intro from "../components/Intro";
 import Layout from "../components/Layout";
@@ -8,7 +9,7 @@ import useSiteMetadata from "../hooks/useSiteMetadata";
 import FeaturedPosts from "../components/Home/FeaturedPosts";
 
 interface IndexProps {
-  location?: Location;
+  location?: GatsbyLocation;
 }
 
 const Index: React.FunctionComponent<IndexProps> = ({

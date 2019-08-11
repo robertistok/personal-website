@@ -1,5 +1,6 @@
 import React from "react";
 import { default as styled, ThemeProvider } from "styled-components";
+import { GatsbyLocation } from "local-types";
 
 import Header, { HeaderProps } from "./Header";
 
@@ -7,7 +8,7 @@ import { rhythm } from "../utils/typography";
 import { device, colors } from "../styles/constants";
 
 interface LayoutProps {
-  location?: Location;
+  location?: GatsbyLocation;
   title?: string;
   headerProps?: HeaderProps;
 }
