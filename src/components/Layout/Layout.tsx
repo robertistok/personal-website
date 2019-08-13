@@ -3,8 +3,9 @@ import { default as styled, ThemeProvider } from "styled-components";
 import { GatsbyLocation } from "local-types";
 
 import Header, { HeaderProps } from "./Header";
+import Footer from "./Footer";
 
-import { rhythm, scale } from "../../utils/typography";
+import { rhythm } from "../../utils/typography";
 import { device, colors } from "../../styles/constants";
 
 interface LayoutProps {
@@ -23,7 +24,7 @@ const Layout: React.FunctionComponent<LayoutProps> = ({
       <Root>
         <Header location={location} {...headerProps} />
         <Main>{children}</Main>
-        <Footer>© 2019 robertistok</Footer>
+        <Footer />
       </Root>
     </ThemeProvider>
   );
@@ -44,23 +45,6 @@ const Main = styled.main`
   margin: 0 auto;
   max-width: ${rhythm(42)};
   height: calc(100% - 30px - ${rhythm(1.5)});
-`;
-
-const Footer = styled.footer`
-  max-width: ${rhythm(42)};
-  margin: 0 auto;
-  color: rgba(0, 0, 0, 0.6);
-  ${scale(-0.5)};
-
-  &:before {
-    margin: ${rhythm(2)} 0 ${rhythm(1)};
-    content: "";
-
-    max-width: ${rhythm(42)};
-    border-bottom: 1px solid #ccc;
-    display: block;
-    position: relative;
-  }
 `;
 
 export default Layout;
