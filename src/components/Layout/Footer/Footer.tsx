@@ -7,8 +7,9 @@ import Social from "../../Social";
 const Footer: React.FunctionComponent = (): React.ReactElement => {
   return (
     <Root>
+      <CTA>Reach out to me on your favorite social :)</CTA>
       <Social className="footer_social" />
-      <div>© 2019 robertistok</div>
+      <CopyRight>© 2019 robertistok</CopyRight>
     </Root>
   );
 };
@@ -42,6 +43,15 @@ const Root = styled.footer`
       height: ${rhythm(1)};
     }
   }
+`;
+
+const CTA = styled.span`
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: ${rhythm(0.125)};
+`;
+
+const CopyRight = styled.span`
+  margin: ${rhythm(0.5)} 0;
 `;
 
 export default Footer;
