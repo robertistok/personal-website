@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  FaAt,
   FaLinkedin,
   FaTwitter,
   FaGithub,
@@ -9,6 +10,7 @@ import {
 import styled from "styled-components";
 
 import useSiteMetadata from "../hooks/useSiteMetadata";
+import { rhythm, scale } from "../utils/typography.js";
 
 const LINKEDIN = "https://www.linkedin.com/in";
 const GITHUB = "https://github.com";
@@ -16,13 +18,19 @@ const MEDIUM = "https://medium.com";
 const TWITTER = "https://twitter.com";
 const GOODREADS = "https://goodreads.com";
 
-const Social: React.FunctionComponent = (): React.ReactElement => {
+interface SocialProps {
+  className?: string;
+}
+
+const Social: React.FunctionComponent<SocialProps> = ({
+  className,
+}): React.ReactElement => {
   const {
     author: { social },
   } = useSiteMetadata();
 
   return (
-    <Root>
+    <Root className={className}>
       <OutsideLink href={`${LINKEDIN}/${social.linkedin}`} title="LinkedIn">
         <FaLinkedin />
       </OutsideLink>
@@ -38,18 +46,24 @@ const Social: React.FunctionComponent = (): React.ReactElement => {
       <OutsideLink href={`${GOODREADS}/${social.goodreads}`} title="Goodreads">
         <FaGoodreadsG />
       </OutsideLink>
+      <OutsideLink
+        href={`mailto:${social.email}?subject=Hey Robert%21`}
+        title="Email"
+      >
+        <FaAt />
+      </OutsideLink>
     </Root>
   );
 };
 
 const Root = styled.div`
   display: grid;
-  grid-template-columns: repeat(5, 30px);
+  grid-template-columns: repeat(6, ${rhythm(1.25)});
   grid-gap: 10px;
 
   svg {
-    width: 30px;
-    height: 30px;
+    width: ${rhythm(1.25)};
+    height: ${rhythm(1.25)};
 
     &:hover {
       cursor: pointer;
