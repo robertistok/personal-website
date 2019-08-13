@@ -46,7 +46,7 @@ const FeaturedPosts: React.FunctionComponent<FeaturedPostsProps> = ({
 
   return (
     <Root>
-      <h2>Featured Posts</h2>
+      <h2>Featured</h2>
 
       <PostsContainer>
         {allMarkdownRemark.edges.map(edge => (
