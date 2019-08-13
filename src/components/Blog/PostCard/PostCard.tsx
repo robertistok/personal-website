@@ -53,8 +53,9 @@ const Title = styled.h3`
   margin: ${rhythm(1)} 0 0;
 `;
 
-const ContentInfo = styled.small`
+const ContentInfo = styled.span`
   font-style: italic;
+  font-size: ${rhythm(0.6)};
 `;
 
 const Content = styled.p`

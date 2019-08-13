@@ -31,7 +31,7 @@ const Root = styled.section`
     margin: 20px 0px;
     border: none;
     text-align: center;
-    font-size: 28px;
+    font-size: ${rhythm(1)};
     font-weight: 300;
 
     &:before {
@@ -53,7 +53,8 @@ const Title = styled.h1`
 `;
 
 const Info = styled.p`
-  ${scale(-1 / 5)}
+  font-size: ${rhythm(0.6)};
+  font-style: italic;
   display: block;
   margin-bottom: ${rhythm(1)};
 `;
