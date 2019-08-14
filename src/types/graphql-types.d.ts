@@ -648,8 +648,8 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___featured' |
   'childMarkdownRemark___frontmatter___date' |
   'childMarkdownRemark___frontmatter___description' |
-  'childMarkdownRemark___frontmatter___cover' |
   'childMarkdownRemark___frontmatter___category' |
+  'childMarkdownRemark___frontmatter___cover' |
   'childMarkdownRemark___frontmatter___tags' |
   'childMarkdownRemark___excerpt' |
   'childMarkdownRemark___rawMarkdownBody' |
@@ -1543,8 +1543,8 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___featured' |
   'frontmatter___date' |
   'frontmatter___description' |
-  'frontmatter___cover' |
   'frontmatter___category' |
+  'frontmatter___cover' |
   'frontmatter___tags' |
   'excerpt' |
   'rawMarkdownBody' |
@@ -1593,8 +1593,8 @@ export type MarkdownRemarkFrontmatter = {
   featured?: Maybe<Scalars['Boolean']>,
   date?: Maybe<Scalars['Date']>,
   description?: Maybe<Scalars['String']>,
-  cover?: Maybe<Scalars['String']>,
   category?: Maybe<Scalars['String']>,
+  cover?: Maybe<Scalars['String']>,
   tags?: Maybe<Array<Maybe<Scalars['String']>>>,
 };
 
@@ -1614,8 +1614,8 @@ export type MarkdownRemarkFrontmatterFilterInput = {
   featured?: Maybe<BooleanQueryOperatorInput>,
   date?: Maybe<DateQueryOperatorInput>,
   description?: Maybe<StringQueryOperatorInput>,
-  cover?: Maybe<StringQueryOperatorInput>,
   category?: Maybe<StringQueryOperatorInput>,
+  cover?: Maybe<StringQueryOperatorInput>,
   tags?: Maybe<StringQueryOperatorInput>,
 };
 
