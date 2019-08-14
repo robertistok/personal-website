@@ -1,11 +1,11 @@
 import React from "react";
 import { GatsbyLocation } from "local-types";
-import { useTransition, animated } from "react-spring";
+import { animated } from "react-spring";
 
 import Layout from "../components/Layout";
 import Blog from "../components/Blog";
 import SEO from "../components/Seo";
-import useSiteMetadata from "../hooks/useSiteMetadata";
+import { useSiteMetadata, usePageTransitions } from "../hooks";
 
 interface BlogIndexProps {
   location: GatsbyLocation;
@@ -21,13 +21,8 @@ const BlogIndex: React.FunctionComponent<BlogIndexProps> = ({
       ? Boolean(location.state.prevPath.match(/\/blog\/*/))
       : false;
 
-  const transitions = useTransition(location, location => location.pathname, {
-    from: {
-      opacity: 0.5,
-      transform: `translate3d(${comingBack ? "-100vw" : "100vw"}, 0, 0)`,
-    },
-    enter: { opacity: 1, transform: "translate3d(0, 0, 0)" },
-    config: { tension: 280, friction: 40 },
+  const transitions = usePageTransitions({
+    translateX: comingBack ? -100 : 100,
   });
 
   return (

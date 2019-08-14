@@ -5,7 +5,7 @@ import { GatsbyLocation } from "local-types";
 import Intro from "../components/Intro";
 import Layout from "../components/Layout";
 import SEO from "../components/Seo";
-import useSiteMetadata from "../hooks/useSiteMetadata";
+import { useSiteMetadata, usePageTransitions } from "../hooks";
 import FeaturedPosts from "../components/Home/FeaturedPosts";
 
 interface IndexProps {
@@ -17,11 +17,11 @@ const Index: React.FunctionComponent<IndexProps> = ({
 }): React.ReactElement => {
   const { title: siteTitle } = useSiteMetadata();
 
-  const transitions = useTransition(location, location => location.pathname, {
-    from: { opacity: 0.1, transform: "translate3d(-40vw, 0, 0)" },
-    enter: { opacity: 1, transform: "translate3d(0, 0, 0)" },
+  const transitions = usePageTransitions({
     config: config.gentle,
+    translateX: -50,
   });
+
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
