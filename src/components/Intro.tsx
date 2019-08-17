@@ -39,8 +39,8 @@ const Intro: React.FunctionComponent<IntroProps> = (): React.ReactElement => {
           <Greeting>Hi, I'm Robert 👋</Greeting>
           <SubTitle>Javascript Engineer</SubTitle>
           <Description>
-            A web developer fascinated by automation, having a product mindset
-            and a neverending hunger to grow.
+            I'm a developer and a dreamer, passionated about freeing up energy
+            through code and healthy habits.
           </Description>
         </PitchContainer>
       </HeadingContainer>
