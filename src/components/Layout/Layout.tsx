@@ -20,7 +20,7 @@ const Layout: React.FunctionComponent<LayoutProps> = ({
   location,
 }): React.ReactElement => {
   return (
-    <ThemeProvider theme={{ colors }}>
+    <ThemeProvider theme={{ colors, device }}>
       <Root>
         <Header location={location} {...headerProps} />
         <Main>{children}</Main>
