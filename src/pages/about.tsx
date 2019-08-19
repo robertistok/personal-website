@@ -15,7 +15,7 @@ interface AboutPageProps {
 const AboutPage: React.FunctionComponent<AboutPageProps> = ({
   location,
 }): React.ReactElement => {
-  const { title: siteTitle } = useSiteMetadata();
+  const { title: siteTitle, author } = useSiteMetadata();
 
   const transitions = usePageTransitions({ location });
 
@@ -24,7 +24,7 @@ const AboutPage: React.FunctionComponent<AboutPageProps> = ({
       <SEO title="All posts" />
       {transitions.map(({ props, key }) => (
         <animated.div key={key} style={props}>
-          <About />
+          <About author={author} />
         </animated.div>
       ))}
     </Layout>

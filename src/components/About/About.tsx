@@ -3,11 +3,19 @@ import styled from "styled-components";
 import Image, { FixedObject } from "gatsby-image";
 import { useStaticQuery, graphql } from "gatsby";
 
-import { File } from "../../types/graphql-types";
+import { File, SiteSiteMetadataAuthor } from "../../types/graphql-types";
 import { rhythm } from "../../utils/typography";
+import { yearsSince } from "../../utils/timeSince";
 import { device } from "../../styles/constants";
 
-const About: React.FunctionComponent = (): React.ReactElement => {
+interface AboutProps {
+  author: SiteSiteMetadataAuthor;
+}
+
+const About: React.FunctionComponent<AboutProps> = ({
+  author,
+}): React.ReactElement => {
+  console.log(author);
   const data: {
     avatar: File;
   } = useStaticQuery(graphql`
@@ -34,9 +42,10 @@ const About: React.FunctionComponent = (): React.ReactElement => {
       <div>
         <h4>Hey there my friend!</h4>
         <p>
-          My name is Róbert Istók and I am x years old. I have a passion for
-          products which have a constructive effect on our lifes and I love to
-          be involved in the development of purposeful applications.
+          My name is Róbert Istók and I am {yearsSince(author.birthDate)} years
+          old. I have a passion for products which have a constructive effect on
+          our lifes and I love to be involved in the development of purposeful
+          applications.
         </p>
 
         <p>

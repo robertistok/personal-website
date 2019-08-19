@@ -14,6 +14,7 @@ const useSiteMetadata = (): SiteSiteMetadata => {
               name
               bio
               photo
+              birthDate
               social {
                 email
                 medium
