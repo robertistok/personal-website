@@ -12,9 +12,9 @@ interface AboutPageProps {
   location: GatsbyLocation;
 }
 
-const AboutPage: React.FunctionComponent<
-  AboutPageProps
-> = (): React.ReactElement => {
+const AboutPage: React.FunctionComponent<AboutPageProps> = ({
+  location,
+}): React.ReactElement => {
   const { title: siteTitle } = useSiteMetadata();
 
   const transitions = usePageTransitions({ location });
