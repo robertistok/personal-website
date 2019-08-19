@@ -17,7 +17,7 @@ const AboutPage: React.FunctionComponent<
 > = (): React.ReactElement => {
   const { title: siteTitle } = useSiteMetadata();
 
-  const transitions = usePageTransitions();
+  const transitions = usePageTransitions({ location });
 
   return (
     <Layout location={location} title={siteTitle}>

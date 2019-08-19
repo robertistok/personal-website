@@ -23,6 +23,7 @@ const BlogIndex: React.FunctionComponent<BlogIndexProps> = ({
 
   const transitions = usePageTransitions({
     translateX: comingBack ? -100 : 100,
+    location,
   });
 
   return (

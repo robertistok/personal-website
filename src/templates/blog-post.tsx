@@ -23,7 +23,7 @@ const BlogPostTemplate: React.FunctionComponent<BlogPostTemplateProps> = ({
   const post = data.markdownRemark;
   const { title: siteTitle } = useSiteMetadata();
 
-  const transitions = usePageTransitions();
+  const transitions = usePageTransitions({ location });
 
   return (
     <Layout
