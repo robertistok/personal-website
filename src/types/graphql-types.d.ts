@@ -648,8 +648,8 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___featured' |
   'childMarkdownRemark___frontmatter___date' |
   'childMarkdownRemark___frontmatter___description' |
-  'childMarkdownRemark___frontmatter___category' |
   'childMarkdownRemark___frontmatter___cover' |
+  'childMarkdownRemark___frontmatter___category' |
   'childMarkdownRemark___frontmatter___tags' |
   'childMarkdownRemark___excerpt' |
   'childMarkdownRemark___rawMarkdownBody' |
@@ -1543,8 +1543,8 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___featured' |
   'frontmatter___date' |
   'frontmatter___description' |
-  'frontmatter___category' |
   'frontmatter___cover' |
+  'frontmatter___category' |
   'frontmatter___tags' |
   'excerpt' |
   'rawMarkdownBody' |
@@ -1593,8 +1593,8 @@ export type MarkdownRemarkFrontmatter = {
   featured?: Maybe<Scalars['Boolean']>,
   date?: Maybe<Scalars['Date']>,
   description?: Maybe<Scalars['String']>,
-  category?: Maybe<Scalars['String']>,
   cover?: Maybe<Scalars['String']>,
+  category?: Maybe<Scalars['String']>,
   tags?: Maybe<Array<Maybe<Scalars['String']>>>,
 };
 
@@ -1614,8 +1614,8 @@ export type MarkdownRemarkFrontmatterFilterInput = {
   featured?: Maybe<BooleanQueryOperatorInput>,
   date?: Maybe<DateQueryOperatorInput>,
   description?: Maybe<StringQueryOperatorInput>,
-  category?: Maybe<StringQueryOperatorInput>,
   cover?: Maybe<StringQueryOperatorInput>,
+  category?: Maybe<StringQueryOperatorInput>,
   tags?: Maybe<StringQueryOperatorInput>,
 };
 
@@ -2086,6 +2086,7 @@ export type SiteFieldsEnum =
   'siteMetadata___author___name' |
   'siteMetadata___author___photo' |
   'siteMetadata___author___bio' |
+  'siteMetadata___author___birthDate' |
   'siteMetadata___author___social___email' |
   'siteMetadata___author___social___twitter' |
   'siteMetadata___author___social___linkedin' |
@@ -2813,7 +2814,16 @@ export type SiteSiteMetadataAuthor = {
   name?: Maybe<Scalars['String']>,
   photo?: Maybe<Scalars['String']>,
   bio?: Maybe<Scalars['String']>,
+  birthDate?: Maybe<Scalars['Date']>,
   social?: Maybe<SiteSiteMetadataAuthorSocial>,
+};
+
+
+export type SiteSiteMetadataAuthorBirthDateArgs = {
+  formatString?: Maybe<Scalars['String']>,
+  fromNow?: Maybe<Scalars['Boolean']>,
+  difference?: Maybe<Scalars['String']>,
+  locale?: Maybe<Scalars['String']>
 };
 
 export type SiteSiteMetadataAuthorFilterInput = {
@@ -2822,6 +2832,7 @@ export type SiteSiteMetadataAuthorFilterInput = {
   name?: Maybe<StringQueryOperatorInput>,
   photo?: Maybe<StringQueryOperatorInput>,
   bio?: Maybe<StringQueryOperatorInput>,
+  birthDate?: Maybe<DateQueryOperatorInput>,
   social?: Maybe<SiteSiteMetadataAuthorSocialFilterInput>,
 };
 

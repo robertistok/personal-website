@@ -31,6 +31,7 @@ module.exports = {
       name: "Robert Istok",
       photo: "/photo.jpg",
       bio: "lorem bio",
+      birthDate: new Date("1994-07-05"),
       social: {
         email: "robertistok94@gmail.com",
         twitter: "robertistok",
