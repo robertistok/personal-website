@@ -18,7 +18,8 @@ const Root = styled.footer`
   display: flex;
   text-align: center;
   flex-direction: column;
-  max-width: ${rhythm(42)};
+  width: 100%;
+
   margin: 0 auto;
   color: rgba(0, 0, 0, 0.6);
   ${scale(-0.5)};

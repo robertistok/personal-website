@@ -31,6 +31,8 @@ const Layout: React.FunctionComponent<LayoutProps> = ({
 };
 
 const Root = styled.div`
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
   min-height: 100vh;
   background: #fafafa;
@@ -45,6 +47,7 @@ const Main = styled.main`
   margin: 0 auto;
   max-width: ${rhythm(42)};
   height: calc(100% - 30px - ${rhythm(1.5)});
+  flex: 1 0 auto;
 `;
 
 export default Layout;
