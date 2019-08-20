@@ -25,9 +25,9 @@ const Root = styled.footer`
   ${scale(-0.5)};
 
   &:before {
-    margin: ${rhythm(2)} 0 ${rhythm(1)};
+    margin: ${rhythm(2)} auto ${rhythm(1)};
     content: "";
-
+    width: 100%;
     max-width: ${rhythm(42)};
     border-bottom: 1px solid #ccc;
     display: block;

@@ -33,16 +33,11 @@ const About: React.FunctionComponent<AboutProps> = ({
   return (
     <Root>
       <Avatar fixed={data.avatar.childImageSharp.fixed as FixedObject} />
-      {/* <div>
-          <div>Róbert Istók, 25 years</div>
-          <div>Software enginner @ Relatable</div>
-          <div>Gear</div>
-        </div> */}
 
-      <div>
+      <Description>
         <h4>Hey there my friend!</h4>
         <p>
-          My name is Róbert Istók and I am {yearsSince(author.birthDate)} years
+          My name is {author.name} and I am {yearsSince(author.birthDate)} years
           old. I have a passion for products which have a constructive effect on
           our lifes and I love to be involved in the development of purposeful
           applications.
@@ -50,19 +45,32 @@ const About: React.FunctionComponent<AboutProps> = ({
 
         <p>
           I contribute to the product life cycle with my comprehensive skills in
-          web development, my growing knowledge in behavioural sciences and
-          human psychology, and my neverending hunger for growth.
+          web development, my growing knowledge of behavioral sciences and human
+          psychology, and my neverending hunger for growth.
         </p>
 
-        <p>When not building stuff, I love to explore and read.</p>
-      </div>
+        <p>
+          When not building stuff, I love to explore, read fascinating books,
+          learn languages, write about my experiences in life, have amazing
+          dinners and meet interesting people. I am also obsessed with building
+          positive habits, I believe they are the keys to unlock our full
+          potential.
+        </p>
+
+        <p>
+          Do you want to find out more about me? Shoot me an email at{" "}
+          <strong>{author.social.email}</strong> or reach out to me on social
+          media, listed below.
+        </p>
+      </Description>
     </Root>
   );
 };
 
-const Root = styled.section`
+const Root = styled.div`
   display: grid;
   grid-gap: ${rhythm(2)};
+  margin-top: ${rhythm(0.5)};
 
   @media ${device.tablet} {
     grid-template-columns: minmax(20%, 200px) 70%;
@@ -76,11 +84,18 @@ const Avatar = styled(Image)`
   width: 150px;
   height: 150px;
   justify-self: center;
+  align-self: flex-start;
 
   @media ${device.tablet} {
     width: auto;
     height: auto;
     justify-self: start;
+  }
+`;
+
+const Description = styled.section`
+  h4 {
+    margin-top: ${rhythm(0.5)};
   }
 `;
 
