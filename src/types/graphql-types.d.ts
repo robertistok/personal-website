@@ -2073,14 +2073,8 @@ export type SiteFieldsEnum =
   'siteMetadata___siteUrl' |
   'siteMetadata___pathPrefix' |
   'siteMetadata___title' |
-  'siteMetadata___subtitle' |
   'siteMetadata___copyright' |
-  'siteMetadata___disqusShortname' |
-  'siteMetadata___postsPerPage' |
   'siteMetadata___googleAnalyticsId' |
-  'siteMetadata___menu' |
-  'siteMetadata___menu___label' |
-  'siteMetadata___menu___path' |
   'siteMetadata___author___firstname' |
   'siteMetadata___author___lastname' |
   'siteMetadata___author___name' |
@@ -2799,12 +2793,8 @@ export type SiteSiteMetadata = {
   siteUrl?: Maybe<Scalars['String']>,
   pathPrefix?: Maybe<Scalars['String']>,
   title?: Maybe<Scalars['String']>,
-  subtitle?: Maybe<Scalars['String']>,
   copyright?: Maybe<Scalars['String']>,
-  disqusShortname?: Maybe<Scalars['String']>,
-  postsPerPage?: Maybe<Scalars['Int']>,
   googleAnalyticsId?: Maybe<Scalars['String']>,
-  menu?: Maybe<Array<Maybe<SiteSiteMetadataMenu>>>,
   author?: Maybe<SiteSiteMetadataAuthor>,
 };
 
@@ -2860,27 +2850,9 @@ export type SiteSiteMetadataFilterInput = {
   siteUrl?: Maybe<StringQueryOperatorInput>,
   pathPrefix?: Maybe<StringQueryOperatorInput>,
   title?: Maybe<StringQueryOperatorInput>,
-  subtitle?: Maybe<StringQueryOperatorInput>,
   copyright?: Maybe<StringQueryOperatorInput>,
-  disqusShortname?: Maybe<StringQueryOperatorInput>,
-  postsPerPage?: Maybe<IntQueryOperatorInput>,
   googleAnalyticsId?: Maybe<StringQueryOperatorInput>,
-  menu?: Maybe<SiteSiteMetadataMenuFilterListInput>,
   author?: Maybe<SiteSiteMetadataAuthorFilterInput>,
-};
-
-export type SiteSiteMetadataMenu = {
-  label?: Maybe<Scalars['String']>,
-  path?: Maybe<Scalars['String']>,
-};
-
-export type SiteSiteMetadataMenuFilterInput = {
-  label?: Maybe<StringQueryOperatorInput>,
-  path?: Maybe<StringQueryOperatorInput>,
-};
-
-export type SiteSiteMetadataMenuFilterListInput = {
-  elemMatch?: Maybe<SiteSiteMetadataMenuFilterInput>,
 };
 
 export type SiteSortInput = {

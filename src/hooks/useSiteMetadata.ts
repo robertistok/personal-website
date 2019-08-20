@@ -24,16 +24,10 @@ const useSiteMetadata = (): SiteSiteMetadata => {
                 linkedin
               }
             }
-            menu {
-              label
-              path
-            }
             description
             url
             title
-            subtitle
             copyright
-            disqusShortname
           }
         }
       }

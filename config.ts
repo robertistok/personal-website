@@ -1,34 +1,17 @@
 module.exports = {
   siteMetadata: {
-    description: "A starter blog demonstrating what Gatsby can do.",
+    description:
+      "robertistok's personal website with his articles, contact information and more.",
     url: "https://robertistok.netlify.com/",
     siteUrl: "https://robertistok.netlify.com/",
     pathPrefix: "/",
     title: "robertistok",
-    subtitle:
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
     copyright: "© All rights reserved.",
-    disqusShortname: "",
-    postsPerPage: 4,
     googleAnalyticsId: "UA-73379983-2",
-    menu: [
-      {
-        label: "Articles",
-        path: "/",
-      },
-      {
-        label: "About me",
-        path: "/pages/about",
-      },
-      {
-        label: "Contact me",
-        path: "/pages/contacts",
-      },
-    ],
     author: {
-      firstname: "Robert",
-      lastname: "Istok",
-      name: "Robert Istok",
+      firstname: "Róbert",
+      lastname: "Istók",
+      name: "Róbert Istók",
       photo: "/photo.jpg",
       bio: "lorem bio",
       birthDate: new Date("1994-07-05"),
