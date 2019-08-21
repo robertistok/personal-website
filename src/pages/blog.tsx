@@ -28,7 +28,7 @@ const BlogIndex: React.FunctionComponent<BlogIndexProps> = ({
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
+      <SEO title="Blog" />
       {transitions.map(({ props, key }) => (
         <animated.div key={key} style={props}>
           <Blog location={location} />

@@ -25,7 +25,7 @@ const Index: React.FunctionComponent<IndexProps> = ({
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="Home 🏡" />
+      <SEO title="Home" />
       {transitions.map(({ props, key }) => (
         <animated.div key={key} style={props}>
           <Intro />

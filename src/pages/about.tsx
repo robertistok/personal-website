@@ -21,7 +21,7 @@ const AboutPage: React.FunctionComponent<AboutPageProps> = ({
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
+      <SEO title="About" />
       {transitions.map(({ props, key }) => (
         <animated.div key={key} style={props}>
           <About author={author} />

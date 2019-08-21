@@ -3,7 +3,6 @@ export const yearsSince = (timestamp: Date | string) => {
     timestamp = new Date(timestamp);
   }
 
-  console.log(timestamp);
   const thisYear = new Date().getFullYear();
   const timestampYear = timestamp.getFullYear();
   const year = thisYear - timestampYear;

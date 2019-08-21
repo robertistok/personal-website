@@ -15,7 +15,6 @@ interface AboutProps {
 const About: React.FunctionComponent<AboutProps> = ({
   author,
 }): React.ReactElement => {
-  console.log(author);
   const data: {
     avatar: File;
   } = useStaticQuery(graphql`
@@ -38,8 +37,8 @@ const About: React.FunctionComponent<AboutProps> = ({
         <h4>Hey there my friend!</h4>
         <p>
           My name is {author.name} and I am {yearsSince(author.birthDate)} years
-          old. I have a passion for products which have a constructive effect on
-          our lifes and I love to be involved in the development of purposeful
+          old. I have a passion for products having constructive effects on our
+          lifes and I love to be involved in the development of purposeful
           applications.
         </p>
 
