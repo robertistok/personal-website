@@ -19,7 +19,7 @@ const Index: React.FunctionComponent<IndexProps> = ({
 
   const transitions = usePageTransitions({
     config: config.gentle,
-    translateX: -50,
+    translateX: -100,
     location,
   });
 
