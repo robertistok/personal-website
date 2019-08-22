@@ -9,6 +9,7 @@ import useSiteMetadata from "../../../hooks/useSiteMetadata";
 import { device } from "../../../styles/constants";
 
 export interface HeaderProps {
+  rootRef: React.RefObject<HTMLInputElement>;
   showBackNav: boolean;
   location?: GatsbyLocation;
 }
@@ -19,7 +20,7 @@ const Header: React.FunctionComponent<HeaderProps> = ({
 }): React.ReactElement => {
   const { author } = useSiteMetadata();
   return (
-    <Root>
+    <Root id="header-root">
       <StyledHeader>
         <Title>
           <Link
@@ -60,6 +61,13 @@ const Root = styled.div`
   justify-content: center;
   z-index: 1;
   padding: ${rhythm(3 / 4)};
+  transition: height 0.5s;
+
+  &.smaller {
+    /* padding: ${rhythm(1 / 4)} ${rhythm(3 / 4)}; */
+    height: ${rhythm(2)};
+    /* ${scale(-0.3)}; */
+  }
 `;
 
 const StyledHeader = styled.header`

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import { default as styled, ThemeProvider } from "styled-components";
 import { GatsbyLocation } from "local-types";
 
@@ -19,6 +19,26 @@ const Layout: React.FunctionComponent<LayoutProps> = ({
   headerProps,
   location,
 }): React.ReactElement => {
+  const resizeHeaderOnScroll = () => {
+    const distanceY = window.pageYOffset || document.documentElement.scrollTop;
+    const shrinkOn = 75;
+
+    const headerEl = document.getElementById("header-root");
+
+    if (headerEl) {
+      if (distanceY > shrinkOn) {
+        headerEl.classList.add("smaller");
+      } else {
+        headerEl.classList.remove("smaller");
+      }
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", resizeHeaderOnScroll);
+    return () => window.removeEventListener("scroll", resizeHeaderOnScroll);
+  });
+
   return (
     <ThemeProvider theme={{ colors, device }}>
       <Root>
