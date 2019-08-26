@@ -42,6 +42,14 @@ const Root = styled.section`
     }
   }
 
+  .youtube-video {
+    display: flex;
+
+    img {
+      margin: ${rhythm(1)} auto;
+    }
+  }
+
   img {
     margin-bottom: 0;
   }
