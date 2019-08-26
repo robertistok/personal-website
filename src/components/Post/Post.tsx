@@ -17,7 +17,7 @@ const Post: React.FunctionComponent<PostProps> = ({
       <Info>
         {post.frontmatter.date} · {post.timeToRead} min read
       </Info>
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <Content dangerouslySetInnerHTML={{ __html: post.html }} />
     </Root>
   );
 };
@@ -26,7 +26,21 @@ const Root = styled.section`
   margin: auto;
   max-width: ${rhythm(28)};
   ${scale(0.1)}
+`;
 
+const Title = styled.h1`
+  margin-top: ${rhythm(1)};
+  margin-bottom: 0;
+`;
+
+const Info = styled.p`
+  font-size: ${rhythm(0.6)};
+  font-style: italic;
+  display: block;
+  margin-bottom: ${rhythm(1)};
+`;
+
+const Content = styled.div`
   .separator {
     margin: 20px 0px;
     border: none;
@@ -42,29 +56,16 @@ const Root = styled.section`
     }
   }
 
-  .youtube-video {
-    display: flex;
-
-    img {
-      margin: ${rhythm(1)} auto;
-    }
+  .img-caption {
+    text-align: center;
   }
 
   img {
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 0;
+    display: flex;
   }
-`;
-
-const Title = styled.h1`
-  margin-top: ${rhythm(1)};
-  margin-bottom: 0;
-`;
-
-const Info = styled.p`
-  font-size: ${rhythm(0.6)};
-  font-style: italic;
-  display: block;
-  margin-bottom: ${rhythm(1)};
 `;
 
 export default Post;
