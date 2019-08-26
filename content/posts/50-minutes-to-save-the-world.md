@@ -10,7 +10,9 @@ description: >-
 category: Climate Change
 ---
 
-[![50 Minutes to Save the World](https://img.youtube.com/vi/wthTmQHmuZ0/0.jpg)](https://www.youtube.com/watch?v=wthTmQHmuZ0 "50 Minutes to Save the World")
+<a href="https://www.youtube.com/watch?v=wthTmQHmuZ0" title="50 Minutes to Save the World" class="youtube-video">
+<img src="https://img.youtube.com/vi/wthTmQHmuZ0/0.jpg" alt="50 Minutes to Save the World">
+</a>
 
 The video above kept showing up in my feed for almost a week, sitting there, always in the recommended videos. But it was long, 50 minutes is a lot of dedication. I just ignored it, _"I'll do it later"_.
 
