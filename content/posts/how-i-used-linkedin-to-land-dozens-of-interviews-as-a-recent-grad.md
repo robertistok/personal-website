@@ -31,7 +31,7 @@ I was also a little lazy, to be honest. I wanted to skip applying to hundreds of
 
 ### Turns out there is, hello LinkedIn
 
-![](https://cdn-images-1.medium.com/max/1600/1*pcml915jKYYR32BMsRlX-A.jpeg)
+<img src="https://cdn-images-1.medium.com/max/1600/1*pcml915jKYYR32BMsRlX-A.jpeg" />
 
 Photo by [Clever Visuals](https://unsplash.com/photos/iMwiPZNX3SI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/idea?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
@@ -90,7 +90,7 @@ Try to get **multiple offers**. This will increase your negotiation power. It wi
 
 Congratulations, you've made it!
 
-![](https://cdn-images-1.medium.com/max/1600/1*h4xBoeeDRdRkiPLGuQxUgQ.jpeg)
+<img src="https://cdn-images-1.medium.com/max/1600/1*h4xBoeeDRdRkiPLGuQxUgQ.jpeg"/>
 
 Photo by [Ambreen Hasan](https://unsplash.com/photos/E9ANYNkN4Sc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/celebration?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 

@@ -3,8 +3,8 @@ template: post
 title: My Nomad Cruise Experience
 slug: my-nomad-cruise-experience
 draft: false
-featured: true
-date: 2019-07-01T15:00:00.000Z
+featured: false
+date: 2019-07-16T15:00:00.000Z
 description: >-
   I've embarked on an epic journey with 500 nomads across the atlantic. It's time to talk about my personal experience aboard and some of my key takeaways.
 cover: /media/my-nomad-cruise-experience-cover.jpg
@@ -15,7 +15,8 @@ tags:
 ---
 
 ![](/media/my-nomad-cruise-experience-cover.jpg)
-Last supper on board by [Adrian](https://www.instagram.com/ptrash/?hl=en)
+
+<p class="img-caption">Last supper on board by [Adrian](https://www.instagram.com/ptrash/?hl=en)</p>
 
 At the end of November 2018, along with 500 other people, I've embarked on the Nomad Cruise 7, a 12-day journey sailing through the Atlantic ocean, from Barcelona 🇪🇸 to Recife 🇧🇷.
 

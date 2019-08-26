@@ -80,6 +80,7 @@ The cost and the speed of the internet in the middle of the ocean will give you 
 I hope that you now have a better understanding of the Nomad Cruise and why it is such an amazing, life-changing experience.
 
 The documentary down below sums up perfectly the whole experience:
+
 <a href="https://www.youtube.com/watch?v=OBVpNk6N4M8" title="Video by Ion Svet" class="youtube-video">
 <img src="https://img.youtube.com/vi/OBVpNk6N4M8/0.jpg" alt="Video by Ion Svet">
 </a>
