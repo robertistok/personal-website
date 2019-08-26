@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
     description:
-      "robertistok's personal website with his articles, contact information and more.",
-    url: "https://robertistok.netlify.com/",
-    siteUrl: "https://robertistok.netlify.com/",
+      "Follow me on my journey, I write about my lifestyle and code.",
+    url: "https://robertistok.com/",
+    siteUrl: "https://robertistok.com/",
     pathPrefix: "/",
-    title: "robertistok",
+    title: "Róbert Istók",
     copyright: "© All rights reserved.",
     googleAnalyticsId: "UA-73379983-2",
     author: {

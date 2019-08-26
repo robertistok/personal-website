@@ -76,6 +76,7 @@ module.exports = {
       },
     },
     "gatsby-plugin-styled-components",
+    "gatsby-plugin-sitemap",
 
     // Typescript
     "gatsby-plugin-typescript",
