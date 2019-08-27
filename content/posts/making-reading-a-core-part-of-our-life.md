@@ -25,11 +25,11 @@ The whole process seemed way too complicated. Find a great book, get a copy of i
 
 Then one day something changed.
 
-### What happened?
+## What happened?
 
 I acquired a [Kindle](https://amzn.to/2JOiofh) e-reader and the process became way simpler. While all of the steps discussed before still existed, it became easier to tackle them.
 
-#### 1\. Find a good book
+### 1\. Find a good book
 
 Deciding on what to read is only difficult in the beginning. After reading my very [first non-fiction](https://www.goodreads.com/book/show/35210.How_to_Talk_to_Anyone), my reading list started to grow exponentially.
 
@@ -37,7 +37,7 @@ Thanks to podcasts, friends, traveling and blogs, I keep extending my list with 
 
 Finding a good book nowadays is as smooth, as looking through my [_"Want to read"_](https://www.goodreads.com/review/list/52810400) list on Goodreads and select one.
 
-#### 2\. Get a copy of it
+### 2\. Get a copy of it
 
 Having thousands of books in our pocket is the coolest thing about having a Kindle. Getting new books is as easy, as going online and finding them at one of the stores.
 
@@ -47,7 +47,7 @@ Goodreads even gives you an overview of the various places you can obtain the de
 
 <p class="img-caption">Example of store recommendations on Goodreads</p>
 
-#### 3\. Blocking out time to read
+### 3\. Blocking out time to read
 
 While having a physical copy of a book has its beauty, it needs more thoughts around reading circumstances. Carrying it around is a hassle and it is hard to hold one while standing.
 
@@ -55,9 +55,9 @@ Owning an e-reader makes these problems disappear. I often carry my Kindle in my
 
 I still love blocking out time to read in a more relaxed manner though. However, having my Kindle with me all the time makes it possible to read much more than I could by solely relying on those special moments.
 
-### How could you start reading more from now?
+## How could you start reading more from now?
 
-#### 1\. Get a Kindle
+### 1\. Get a Kindle
 
 You could guess by now, I love e-readers.
 
@@ -71,7 +71,7 @@ Even though there are different e-readers on the market, I would recommend you g
 
 Owning a Kindle is the reason why I am able to read so much.
 
-#### 2\. Make it a habit
+### 2\. Make it a habit
 
 Reading is a habit and in order to acquire it, you want to work on it every day. [According to science](https://bit.ly/2TpuwnG), it takes on average 66 days to form a new habit.
 
@@ -79,7 +79,7 @@ In order for a habit to stick, you want to do it every day. When I started to re
 
 Instead of reaching to your phone to check Instagram while having 2 minutes to kill, try grabbing your Kindle and read a few pages. This will help to train your brain to read whenever you have some free time. It will also help you to reduce social media usage, which is always a good thing.
 
-#### 3\. Set a goal
+### 3\. Set a goal
 
 Goodreads is a really good place to track progress. It has the [yearly reading challenge](https://www.goodreads.com/user_challenges/15219462), where you can decide how many books would you like to read during a year.
 
@@ -87,11 +87,11 @@ This adds an extra fun thing to the game. It makes possible tracking your progre
 
 You could start by committing to 12 books for the year. That is only one book a month, which should be doable for anyone.
 
-#### 4\. Find books that you enjoy
+### 4\. Find books that you enjoy
 
 This may sound obvious, but if you repeatedly read books that you find boring, it can become tedious rapidly. There are many excellent books out there, so if you don't like one, just put it down and find a new one. Life is too short to read boring books.
 
-### Final thoughts
+## Final thoughts
 
 What is your experience with reading? What is your go-to strategy to achieve your reading goals? Do you own a Kindle or read physical books? What is blocking you to read?
 

@@ -21,7 +21,7 @@ tags:
 
 I've joined the Nomad Cruise 7 at the end of 2018, sailing from Barcelona to Brazil in a span of 12 days. But what is this whole thing about?
 
-#### What is the Nomad Cruise?
+### What is the Nomad Cruise?
 
 In a few words, it's a floating conference, a global community of location independent professionals, an active workation, personal growth, exploring incredible places and an all-inclusive cruise ship.
 
@@ -29,7 +29,7 @@ The whole conference was started by Johannes Voelkner in 2015. He found a cheap 
 
 The idea behind the project is to connect existing and aspiring location independent individuals with each other and form relationships, both personal and business, for life.
 
-#### Isn't that only for developers?
+### Isn't that only for developers?
 
 Absolutely not. While developers have a big advantage when it comes to working remotely, there are myriads of other options to make the dream work. In fact, less than 20% of the participants on NC7 is coding for a living.
 
@@ -41,7 +41,7 @@ I've even met people, who in the beginning were not interested in this lifestyle
 
 If you want to learn more about this lifestyle, make tons of new friends all around the world or just want to have a vacation with interesting people and visiting beautiful locations, this is a terrific option.
 
-#### A cruise ship? Is that fun?
+### A cruise ship? Is that fun?
 
 Not at all! While regular cruises could be boring, especially if you like active traveling, the Nomad Cruise is different. You can expect hundreds of amazing people, lots of insightful keynote speeches, practical workshops and exciting excursions on land.
 
@@ -53,7 +53,7 @@ If the meetups would not be enough, you can even join thematic dinners happening
 
 While on land, the team gives us the possibility to do excursions. As you could guess by now, there are also activities organized by cruisers. This year for example 70 of us went scuba diving in [Cape Verde](https://en.wikipedia.org/wiki/Cape_Verde), thanks to [David Vu](https://www.instagram.com/daviddangvu/)'s initiation.
 
-#### Embracing JOMO
+### Embracing JOMO
 
 Or the **_Joy Of Missing Out_**.
 
@@ -67,7 +67,7 @@ But most importantly, enjoy the **_JOMO_ **once in a while**_._ **Go for a jog o
 
 After spending time "_offline_", disconnecting from the craziness of the cruise, you will be ready for your next chapter on board.
 
-#### Digital detox
+### Digital detox
 
 If you have the possibility, limit your internet usage to the absolute minimum. This is an excellent opportunity to get rid of your phone for a couple of days and enjoy the present moment.
 
@@ -75,7 +75,7 @@ It is not gonna be easy, but it will be so rewarding! For me, the first few days
 
 The cost and the speed of the internet in the middle of the ocean will give you extra motivation for the detox. It is expensive and really slow.
 
-### Final thoughts
+## Final thoughts
 
 I hope that you now have a better understanding of the Nomad Cruise and why it is such an amazing, life-changing experience.
 
