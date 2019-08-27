@@ -9,7 +9,6 @@ import useSiteMetadata from "../../../hooks/useSiteMetadata";
 import { device } from "../../../styles/constants";
 
 export interface HeaderProps {
-  rootRef: React.RefObject<HTMLInputElement>;
   showBackNav: boolean;
   location?: GatsbyLocation;
 }
