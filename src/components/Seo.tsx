@@ -36,6 +36,11 @@ const SEO: React.FunctionComponent<SEOProps> = ({
       titleTemplate={`${title} | %s`}
       meta={[
         {
+          name: `google-site-verification`,
+          content: `OZ82-xGcAi-7G55v3p4iJa-qlkwTTG1ExzUrYXxdsT0`,
+        },
+
+        {
           name: `description`,
           content: metaDescription,
         },
