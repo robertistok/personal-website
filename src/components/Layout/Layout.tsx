@@ -4,6 +4,7 @@ import { GatsbyLocation } from "local-types";
 
 import Header, { HeaderProps } from "./Header";
 import Footer from "./Footer";
+import "../../styles/global.css";
 
 import { rhythm } from "../../utils/typography";
 import { device, colors } from "../../styles/constants";
