@@ -14,7 +14,7 @@ tags:
   - Personal Branding
 ---
 
-![](https://cdn-images-1.medium.com/max/1600/1*US_mG5T3NC-3aE31fjS5hQ.jpeg)
+![](/media/how-i-used-linkedin-to-land-dozens-of-interviews-as-a-recent-grad-cover.jpg)
 Photo by [LinkedIn](https://unsplash.com/photos/u3hmzw5U-SI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/linkedin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 ## TL;DR:
