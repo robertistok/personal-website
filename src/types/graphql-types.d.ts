@@ -2372,6 +2372,7 @@ export type SitePageFieldsEnum =
   'pluginCreator___pluginOptions___name' |
   'pluginCreator___pluginOptions___maxWidth' |
   'pluginCreator___pluginOptions___wrapperStyle' |
+  'pluginCreator___pluginOptions___inlineCodeMarker' |
   'pluginCreator___pluginOptions___trackingId' |
   'pluginCreator___pluginOptions___short_name' |
   'pluginCreator___pluginOptions___start_url' |
@@ -2576,6 +2577,7 @@ export type SitePluginFieldsEnum =
   'pluginOptions___plugins___version' |
   'pluginOptions___plugins___pluginOptions___maxWidth' |
   'pluginOptions___plugins___pluginOptions___wrapperStyle' |
+  'pluginOptions___plugins___pluginOptions___inlineCodeMarker' |
   'pluginOptions___plugins___browserAPIs' |
   'pluginOptions___plugins___ssrAPIs' |
   'pluginOptions___plugins___pluginFilepath' |
@@ -2583,6 +2585,7 @@ export type SitePluginFieldsEnum =
   'pluginOptions___name' |
   'pluginOptions___maxWidth' |
   'pluginOptions___wrapperStyle' |
+  'pluginOptions___inlineCodeMarker' |
   'pluginOptions___trackingId' |
   'pluginOptions___short_name' |
   'pluginOptions___start_url' |
@@ -2714,6 +2717,7 @@ export type SitePluginPluginOptions = {
   name?: Maybe<Scalars['String']>,
   maxWidth?: Maybe<Scalars['Int']>,
   wrapperStyle?: Maybe<Scalars['String']>,
+  inlineCodeMarker?: Maybe<Scalars['String']>,
   trackingId?: Maybe<Scalars['String']>,
   short_name?: Maybe<Scalars['String']>,
   start_url?: Maybe<Scalars['String']>,
@@ -2733,6 +2737,7 @@ export type SitePluginPluginOptionsFilterInput = {
   name?: Maybe<StringQueryOperatorInput>,
   maxWidth?: Maybe<IntQueryOperatorInput>,
   wrapperStyle?: Maybe<StringQueryOperatorInput>,
+  inlineCodeMarker?: Maybe<StringQueryOperatorInput>,
   trackingId?: Maybe<StringQueryOperatorInput>,
   short_name?: Maybe<StringQueryOperatorInput>,
   start_url?: Maybe<StringQueryOperatorInput>,
@@ -2775,11 +2780,13 @@ export type SitePluginPluginOptionsPluginsFilterListInput = {
 export type SitePluginPluginOptionsPluginsPluginOptions = {
   maxWidth?: Maybe<Scalars['Int']>,
   wrapperStyle?: Maybe<Scalars['String']>,
+  inlineCodeMarker?: Maybe<Scalars['String']>,
 };
 
 export type SitePluginPluginOptionsPluginsPluginOptionsFilterInput = {
   maxWidth?: Maybe<IntQueryOperatorInput>,
   wrapperStyle?: Maybe<StringQueryOperatorInput>,
+  inlineCodeMarker?: Maybe<StringQueryOperatorInput>,
 };
 
 export type SitePluginSortInput = {
