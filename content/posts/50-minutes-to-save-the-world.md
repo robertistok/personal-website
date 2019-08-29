@@ -10,9 +10,10 @@ description: >-
 category: Climate Change
 ---
 
-<p><a href="https://www.youtube.com/watch?v=wthTmQHmuZ0" title="50 Minutes to Save the World" class="youtube-video">
-<img src="https://img.youtube.com/vi/wthTmQHmuZ0/0.jpg" alt="50 Minutes to Save the World">
-</a></p>
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/wthTmQHmuZ0" frameborder="0" allowfullscreen="true"> </iframe>
+  <figcaption class="md-figure">50 Minutes to Save the World</figcaption>
+</figure>
 
 The video above kept showing up in my feed for almost a week, sitting there, always in the recommended videos. But it was long, 50 minutes is a lot of dedication. I just ignored it, _"I'll do it later"_.
 
@@ -26,9 +27,7 @@ While watching the short documentary, I was going through a lot of different emo
 
 Approximately **70% of our oxygen comes from the coral reefs** and they are **in danger all around the world**. Looking from the surface, there is no problem, as everything looks normal. The problem arises when we start looking beneath our oceans and realize that the _reefs are dying_, thanks to **our lifestyle of polluting the environment**.
 
-<img src="https://cdn-images-1.medium.com/max/1600/1*_59icHBaZrDH-6x3sG9dpg.png"/>
-
-[The opening scene of the video](https://www.youtube.com/channel/UCwjGajl9pjoxtWztvyEI1dA)
+[![The opening scene of the video](https://cdn-images-1.medium.com/max/1600/1*_59icHBaZrDH-6x3sG9dpg.png)](https://www.youtube.com/channel/UCwjGajl9pjoxtWztvyEI1dA)
 
 The video starts off with a futuristic scene from 2050, where the actor has to wear an oxygen mask to breath outside, people are surfing in chemical protective clothing and a reporter announcing the death of the coral reef. _It looks scary AF_... But as things look as of now, there is a big chance that in 2050 that will be the reality.
 

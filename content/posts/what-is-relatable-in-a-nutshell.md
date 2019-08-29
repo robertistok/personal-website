@@ -25,9 +25,7 @@ Relatable is a marketing tech company on a mission to revolutionize advertising 
 
 We run influencer marketing campaigns for some of the [biggest brands in the world](https://bit.ly/2TeZnX8), currently on Instagram and Youtube.
 
-<img src="https://cdn-images-1.medium.com/max/1600/1*K0L5R17860F9UvV0Ucx1Yg.png" />
-
-Some of the brands we have worked with
+![Some of the brands we have worked with](https://cdn-images-1.medium.com/max/1600/1*K0L5R17860F9UvV0Ucx1Yg.png)
 
 Our in-house technology helps us to run campaigns of any scale with the same efficiency and quality. We, the product team, always look for ways to help our colleagues to be more effective by automatizing tasks which are more suitable for a machine.
 
@@ -40,8 +38,7 @@ Check out [our website](https://bit.ly/2xNCyOj), if you want to learn more about
 - The company is 3 years old and we managed to open up 3 new offices during this short period. Los Angeles in 2017, London in 2018 and New York in 2019. These offices help us to compete for new sales in some of the biggest markets in the world.
 - We have **3 office dogs** and all have their own Instagram([Lenny](https://www.instagram.com/lennytheboston/?hl=en), [Ziggy](https://www.instagram.com/ziggysmalls_the_shihpoo/?hl=en), [Lydia](https://www.instagram.com/lydia_samoyed/?hl=en))
 
-<img src="https://cdn-images-1.medium.com/max/1600/1*ncRdm_dQb1k0czDhfKqjCQ.jpeg" />
-Our office dogs 😍
+![Our office dogs 😍](https://cdn-images-1.medium.com/max/1600/1*ncRdm_dQb1k0czDhfKqjCQ.jpeg)
 
 ## How did I end up here?
 

@@ -63,6 +63,7 @@ const Content = styled.div`
   .md-figure {
     text-align: center;
     ${scale(-0.2)};
+    font-style: italic;
   }
 
   .video_container {

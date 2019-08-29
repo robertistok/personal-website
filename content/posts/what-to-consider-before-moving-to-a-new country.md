@@ -18,8 +18,7 @@ tags:
   - Travel
 ---
 
-![](/media/what-to-consider-before-moving-to-a-new-country-cover.jpg)
-Photo by [Tycho Atsma](https://unsplash.com/photos/_7-kV-1AOc4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/big-city-alone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[![Photo by Tycho Atsma on Unsplash](/media/what-to-consider-before-moving-to-a-new-country-cover.jpg)](https://unsplash.com/photos/_7-kV-1AOc4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 > Relocating to a new country, leaving behind family, friends and familiar places is hard, no matter if the reason for the move is to experience a new culture, study at your dream university or just pure financial ones.
 

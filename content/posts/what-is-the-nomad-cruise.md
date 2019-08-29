@@ -14,8 +14,7 @@ tags:
   - Digital Nomad
 ---
 
-![](/media/what-is-the-nomad-cruise-cover.jpeg)
-[Group photo at NC7 by Tijmen Hobbel](https://www.instagram.com/brainbow_photography/)
+[![Group photo at NC7 by Tijmen Hobbel](/media/what-is-the-nomad-cruise-cover.jpeg)](https://www.instagram.com/brainbow_photography/)
 
 <div class="separator"></div>
 
@@ -81,9 +80,10 @@ I hope that you now have a better understanding of the Nomad Cruise and why it i
 
 The documentary down below sums up perfectly the whole experience:
 
-<a href="https://www.youtube.com/watch?v=OBVpNk6N4M8" title="Video by Ion Svet" class="youtube-video">
-<img src="https://img.youtube.com/vi/OBVpNk6N4M8/0.jpg" alt="Video by Ion Svet">
-</a>
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/OBVpNk6N4M8" frameborder="0" allowfullscreen="true"> </iframe>
+  <figcaption class="md-figure">Video by Ion Svet</figcaption>
+</figure>
 
 <div class="separator"></div>
 

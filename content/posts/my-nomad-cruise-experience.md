@@ -14,9 +14,7 @@ tags:
   - Digital Nomad
 ---
 
-![](/media/my-nomad-cruise-experience-cover.jpg)
-
-<p class="img-caption">Last supper on board by [Adrian](https://www.instagram.com/ptrash/?hl=en)</p>
+[![Last supper on board by Adrian](/media/my-nomad-cruise-experience-cover.jpg)](https://www.instagram.com/ptrash/?hl=en)
 
 At the end of November 2018, along with 500 other people, I've embarked on the Nomad Cruise 7, a 12-day journey sailing through the Atlantic ocean, from Barcelona 🇪🇸 to Recife 🇧🇷.
 
@@ -52,9 +50,7 @@ Actually, not even 20% of the cruisers are coding for a living. With a little cr
 
 ### 3\. The power of community
 
-![](https://miro.medium.com/max/1400/1*RMW1dCkork-oiUBEDgQNKA.jpeg)
-
-Photo by [Perry Grone](https://unsplash.com/@perrygrone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/community?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[![Photo by Perry Grone on Unsplash](https://miro.medium.com/max/1400/1*RMW1dCkork-oiUBEDgQNKA.jpeg)](https://unsplash.com/@perrygrone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 While traveling full time is no doubt an amazing thing, it has some costs. I'm referring now to the difficulty to cultivate friendships.
 
@@ -70,8 +66,7 @@ This is where the Nomad Cruise comes in the picture. By attending the conference
 
 ### 4\. Focus
 
-![](https://miro.medium.com/max/1400/1*QMMRrHM1TfqAV6MJ-GbeCA.jpeg)
-Photo by [Paul Skorupskas](https://unsplash.com/@pawelskor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/focus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[![Photo by Paul Skorupskas on Unsplash](https://miro.medium.com/max/1400/1*QMMRrHM1TfqAV6MJ-GbeCA.jpeg)](https://unsplash.com/@pawelskor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 I was trying to focus on way too many things at once and have not made any significant progress in any of them. I believe that concentrating only on a few areas, could make a huge difference when it comes to progress.
 
@@ -109,8 +104,7 @@ At NC7 I was running around trying to do everything. This was fun, however next 
 
 ### 4\. Share more
 
-![](https://miro.medium.com/max/1400/1*OjJf40z2xVv5oSuaBjhzKw.jpeg)
-[1-minute pitch - Photo by Tijmen Hobbel](https://www.instagram.com/brainbow_photography/)
+[![1-minute pitch - Photo by Tijmen Hobbel](https://miro.medium.com/max/1400/1*OjJf40z2xVv5oSuaBjhzKw.jpeg)](https://www.instagram.com/brainbow_photography/)
 
 Last year I mostly consumed information. Apart from one-on-one conversations, I have not shared that much. Next time, I would like to organize at least a meetup or a workshop.
 

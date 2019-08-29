@@ -14,8 +14,7 @@ tags:
   - Programming
 ---
 
-![](/media/debugging-simple-arrow-functions-more-efficiently-cover.jpeg)
-Photo by [Markus Spiske](https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/code?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[![Photo by Markus Spiske on Unsplash](/media/debugging-simple-arrow-functions-more-efficiently-cover.jpeg)](https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 <div class="separator"></div>
 

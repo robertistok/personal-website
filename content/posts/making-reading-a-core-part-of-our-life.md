@@ -14,8 +14,7 @@ tags:
   - Digital Nomad
 ---
 
-![](/media/making-reading-a-core-part-of-our-life-cover.jpeg)
-Photo by [Eugenio Mazzone](https://unsplash.com/@eugi1492?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/books?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[![Photo by Eugenio Mazzone on Unsplash](/media/making-reading-a-core-part-of-our-life-cover.jpeg)](https://unsplash.com/@eugi1492?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 Throughout the last 3 years, I've read more than 120 books and it completely changed my life.
 
@@ -43,9 +42,7 @@ Having thousands of books in our pocket is the coolest thing about having a Kind
 
 Goodreads even gives you an overview of the various places you can obtain the desired book.
 
-![](https://cdn-images-1.medium.com/max/1600/1*I4bQc5OfRiYe0BjG2wllIQ.png)
-
-<p class="img-caption">Example of store recommendations on Goodreads</p>
+![Example of store recommendations on Goodreads](https://cdn-images-1.medium.com/max/1600/1*I4bQc5OfRiYe0BjG2wllIQ.png)
 
 ### 3\. Blocking out time to read
 

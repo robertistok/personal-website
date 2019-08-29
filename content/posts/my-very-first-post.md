@@ -15,8 +15,7 @@ tags:
   - Personal Growth
 ---
 
-![](/media/my-very-first-post-cover.jpg)
-Photo by [Clemens van Lay](https://unsplash.com/@clemensvanlay?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/@clemensvanlay?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[![Photo by Clemens van Lay on Unsplash](/media/my-very-first-post-cover.jpg)](https://unsplash.com/@clemensvanlay?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 This is the first post I've ever published and it marks the beginning of a new journey.
 

@@ -18,8 +18,7 @@ tags:
   - Storytime
 ---
 
-![](/media/my-relationship-with-coding-cover.jpg)
-Photo by [Jefferson Santos](https://unsplash.com/photos/9SoCnyQmkzI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[![Photo by Jefferson Santos on Unsplash](/media/my-relationship-with-coding-cover.jpg)](https://unsplash.com/photos/9SoCnyQmkzI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 I am going to tell you the story of how programming became an essential part of my life. Starting with sharing what gets me out of bed every morning, transitioning into tales of how it all started and finishing with the story of ending up in Sweden.
 

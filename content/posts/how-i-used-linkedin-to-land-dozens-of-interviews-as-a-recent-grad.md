@@ -14,8 +14,7 @@ tags:
   - Personal Branding
 ---
 
-![](/media/how-i-used-linkedin-to-land-dozens-of-interviews-as-a-recent-grad-cover.jpg)
-Photo by [LinkedIn](https://unsplash.com/photos/u3hmzw5U-SI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/linkedin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[![Photo by LinkedIn on Unsplash](/media/how-i-used-linkedin-to-land-dozens-of-interviews-as-a-recent-grad-cover.jpg)](https://unsplash.com/photos/u3hmzw5U-SI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 ## TL;DR:
 
@@ -31,9 +30,7 @@ I was also a little lazy, to be honest. I wanted to skip applying to hundreds of
 
 ### Turns out there is, hello LinkedIn
 
-<img src="https://cdn-images-1.medium.com/max/1600/1*pcml915jKYYR32BMsRlX-A.jpeg" />
-
-Photo by [Clever Visuals](https://unsplash.com/photos/iMwiPZNX3SI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/idea?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[![Photo by Clever Visuals on Unsplash](https://cdn-images-1.medium.com/max/1600/1*pcml915jKYYR32BMsRlX-A.jpeg)](https://unsplash.com/photos/iMwiPZNX3SI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 [LinkedIn](https://www.linkedin.com/reg/join) is a social network tailored to professionals. It is the place to be to showcase your experience, achievements and your thoughts about your industry. You can connect with thousands of people from all over the world.
 
@@ -90,9 +87,7 @@ Try to get **multiple offers**. This will increase your negotiation power. It wi
 
 Congratulations, you've made it!
 
-<img src="https://cdn-images-1.medium.com/max/1600/1*h4xBoeeDRdRkiPLGuQxUgQ.jpeg"/>
-
-Photo by [Ambreen Hasan](https://unsplash.com/photos/E9ANYNkN4Sc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/celebration?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[![Photo by Ambreen Hasan on Unsplash](https://cdn-images-1.medium.com/max/1600/1*h4xBoeeDRdRkiPLGuQxUgQ.jpeg)](https://unsplash.com/photos/E9ANYNkN4Sc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 You've completed all the steps and got offered a contract. If it is a "fuck yes", go ahead and sign it.
 
