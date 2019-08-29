@@ -69,6 +69,7 @@ const Main = styled.main`
   max-width: ${rhythm(42)};
   height: calc(100% - 30px - ${rhythm(1.5)});
   flex: 1 0 auto;
+  width: 100%;
 `;
 
 export default Layout;
