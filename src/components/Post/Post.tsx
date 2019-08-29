@@ -60,10 +60,23 @@ const Content = styled.div`
     text-align: center;
   }
 
+  .md-figure {
+    text-align: center;
+    ${scale(-0.2)};
+  }
+
+  .video_container {
+    iframe {
+      width: 100%;
+      height: ${rhythm(20)};
+      margin-bottom: 0;
+    }
+  }
+
   img {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0;
+    margin-bottom: ${rhythm(0.1)};
     display: flex;
   }
 `;
