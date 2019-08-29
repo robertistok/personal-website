@@ -51,6 +51,7 @@ const Root = styled.div`
   top: 0;
   left: 0;
   width: 100%;
+  max-width: 100%;
   height: ${rhythm(3)};
   overflow: hidden;
   background: #fefffe;
