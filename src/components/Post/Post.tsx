@@ -56,14 +56,17 @@ const Content = styled.div`
     }
   }
 
-  .img-caption {
-    text-align: center;
-  }
-
-  .md-figure {
+  .md-figure-caption {
     text-align: center;
     ${scale(-0.2)};
     font-style: italic;
+  }
+
+  .md-figure-img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: ${rhythm(0.1)};
+    display: flex;
   }
 
   .video_container {
@@ -72,13 +75,6 @@ const Content = styled.div`
       height: ${rhythm(20)};
       margin-bottom: 0;
     }
-  }
-
-  img {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: ${rhythm(0.1)};
-    display: flex;
   }
 `;
 

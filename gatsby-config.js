@@ -36,7 +36,11 @@ module.exports = {
           },
           {
             resolve: `gatsby-remark-figure-caption`,
-            options: { figureClassName: "md-figure" },
+            options: {
+              figureClassName: "md-figure",
+              captionClassName: "md-figure-caption",
+              imageClassName: "md-figure-img",
+            },
           },
           {
             resolve: "gatsby-remark-responsive-iframe",
