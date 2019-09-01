@@ -1,12 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "robertistok-personal-website",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "My personal website",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "author": "Robert Istok <robertistok94@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.6",
     "gatsby": "^2.13.39",
@@ -65,15 +62,15 @@
     "ts-jest": "^24.0.2",
     "typescript": "^3.5.3"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://robertistok.com",
   "keywords": [
-    "gatsby"
+    "robertistok"
   ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/robertistok/personal-website"
   },
   "scripts": {
     "build": "gatsby build",
