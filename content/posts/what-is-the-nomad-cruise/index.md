@@ -7,14 +7,14 @@ featured: false
 date: 2019-07-01T15:00:00.000Z
 description: >-
   A floating conference, a global community of location independent professionals, an active workation, personal growth, exploring incredible places and an all-inclusive cruise ship.
-cover: /media/what-is-the-nomad-cruise-cover.jpeg
+cover: /what-is-the-nomad-cruise-cover.jpeg
 category: Travel
 tags:
   - Personal Growth
   - Digital Nomad
 ---
 
-[![Group photo at NC7 by Tijmen Hobbel](/media/what-is-the-nomad-cruise-cover.jpeg)](https://www.instagram.com/brainbow_photography/)
+[![Group photo at NC7 by Tijmen Hobbel](/what-is-the-nomad-cruise-cover.jpeg)](https://www.instagram.com/brainbow_photography/)
 
 <div class="separator"></div>
 
