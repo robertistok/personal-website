@@ -56,16 +56,21 @@ const Content = styled.div`
     }
   }
 
-  .md-figure-caption {
+  .md-figure-caption,
+  .gatsby-resp-image-figcaption {
     text-align: center;
     ${scale(-0.2)};
     font-style: italic;
   }
 
+  .gatsby-resp-image-background-image {
+    margin-bottom: ${rhythm(0.1)};
+  }
+
   .md-figure-img {
+    margin-bottom: ${rhythm(0.1)};
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: ${rhythm(0.1)};
     display: flex;
   }
 
