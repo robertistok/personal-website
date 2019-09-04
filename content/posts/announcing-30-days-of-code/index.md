@@ -7,7 +7,7 @@ featured: false
 date: 2019-06-09T15:00:00.000Z
 description: >-
   From the beginning of 2019, every month I've been experimenting with picking up different habits. Some of the easier ones are listening to 10 minutes of Spanish, walking 10000 steps a day, making a note of the day ahead before going to sleep, reflecting on my week, personal vlogs and meditating.
-cover: /media/announcing-30-days-of-code-cover.jpg
+cover: /announcing-30-days-of-code-cover.jpg
 category: Programming
 tags:
   - Coding
