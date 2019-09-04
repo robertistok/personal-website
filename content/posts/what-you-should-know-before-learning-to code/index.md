@@ -9,13 +9,13 @@ description: >-
   Ever thought about learning to code, but you just never really knew where to
   start? You don't know if it is the right thing for you? You are not sure if it
   is actually worth all the struggle?
-cover: /media/what-you-should-know-before-learning-to-code.jpg
+cover: /what-you-should-know-before-learning-to-code.jpg
 category: Programming
 tags:
   - Coding
 ---
 
-[![Photo by Daria Nepriakhina on Unsplash](/media/what-you-should-know-before-learning-to-code-cover.jpg)](https://unsplash.com/search/photos/person-using-macbook?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[![Photo by Daria Nepriakhina on Unsplash](/what-you-should-know-before-learning-to-code-cover.jpg)](https://unsplash.com/search/photos/person-using-macbook?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 Ever thought about learning to code, but you just never really knew where to start? You don't know if it is the right thing for you? You are not sure if it is actually worth all the struggle?
 
