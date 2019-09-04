@@ -7,15 +7,13 @@ featured: false
 date: 2019-05-09T15:00:00.000Z
 description: >-
   Relatable, the company why I moved to Stockholm in 2017 and how it is changing my life. Let's jump into it.
-cover: /media/what-is-relatable-in-a-nutshell-cover.png
+cover: /what-is-relatable-in-a-nutshell-cover.png
 category: Programming
 tags:
   - Storytime
 ---
 
-## What Is Relatable in a Nutshell
-
-![](/media/what-is-relatable-in-a-nutshell-cover.png)
+![](/what-is-relatable-in-a-nutshell-cover.png)
 
 **Relatable**, the company why I moved to Stockholm in 2017 and how it is changing my life. Let's jump into it.
 
@@ -25,7 +23,7 @@ Relatable is a marketing tech company on a mission to revolutionize advertising 
 
 We run influencer marketing campaigns for some of the [biggest brands in the world](https://bit.ly/2TeZnX8), currently on Instagram and Youtube.
 
-![Some of the brands we have worked with](https://cdn-images-1.medium.com/max/1600/1*K0L5R17860F9UvV0Ucx1Yg.png)
+![Some of the brands we have worked with](/relatable-clients.png)
 
 Our in-house technology helps us to run campaigns of any scale with the same efficiency and quality. We, the product team, always look for ways to help our colleagues to be more effective by automatizing tasks which are more suitable for a machine.
 
@@ -38,7 +36,7 @@ Check out [our website](https://bit.ly/2xNCyOj), if you want to learn more about
 - The company is 3 years old and we managed to open up 3 new offices during this short period. Los Angeles in 2017, London in 2018 and New York in 2019. These offices help us to compete for new sales in some of the biggest markets in the world.
 - We have **3 office dogs** and all have their own Instagram([Lenny](https://www.instagram.com/lennytheboston/?hl=en), [Ziggy](https://www.instagram.com/ziggysmalls_the_shihpoo/?hl=en), [Lydia](https://www.instagram.com/lydia_samoyed/?hl=en))
 
-![Our office dogs 😍](https://cdn-images-1.medium.com/max/1600/1*ncRdm_dQb1k0czDhfKqjCQ.jpeg)
+![Our office dogs 😍](/office-dogs.jpeg)
 
 ## How did I end up here?
 
