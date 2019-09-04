@@ -2372,6 +2372,9 @@ export type SitePageFieldsEnum =
   'pluginCreator___pluginOptions___name' |
   'pluginCreator___pluginOptions___maxWidth' |
   'pluginCreator___pluginOptions___showCaptions' |
+  'pluginCreator___pluginOptions___figureClassName' |
+  'pluginCreator___pluginOptions___captionClassName' |
+  'pluginCreator___pluginOptions___imageClassName' |
   'pluginCreator___pluginOptions___wrapperStyle' |
   'pluginCreator___pluginOptions___inlineCodeMarker' |
   'pluginCreator___pluginOptions___trackingId' |
@@ -2578,6 +2581,9 @@ export type SitePluginFieldsEnum =
   'pluginOptions___plugins___version' |
   'pluginOptions___plugins___pluginOptions___maxWidth' |
   'pluginOptions___plugins___pluginOptions___showCaptions' |
+  'pluginOptions___plugins___pluginOptions___figureClassName' |
+  'pluginOptions___plugins___pluginOptions___captionClassName' |
+  'pluginOptions___plugins___pluginOptions___imageClassName' |
   'pluginOptions___plugins___pluginOptions___wrapperStyle' |
   'pluginOptions___plugins___pluginOptions___inlineCodeMarker' |
   'pluginOptions___plugins___browserAPIs' |
@@ -2587,6 +2593,9 @@ export type SitePluginFieldsEnum =
   'pluginOptions___name' |
   'pluginOptions___maxWidth' |
   'pluginOptions___showCaptions' |
+  'pluginOptions___figureClassName' |
+  'pluginOptions___captionClassName' |
+  'pluginOptions___imageClassName' |
   'pluginOptions___wrapperStyle' |
   'pluginOptions___inlineCodeMarker' |
   'pluginOptions___trackingId' |
@@ -2720,6 +2729,9 @@ export type SitePluginPluginOptions = {
   name?: Maybe<Scalars['String']>,
   maxWidth?: Maybe<Scalars['Int']>,
   showCaptions?: Maybe<Scalars['Boolean']>,
+  figureClassName?: Maybe<Scalars['String']>,
+  captionClassName?: Maybe<Scalars['String']>,
+  imageClassName?: Maybe<Scalars['String']>,
   wrapperStyle?: Maybe<Scalars['String']>,
   inlineCodeMarker?: Maybe<Scalars['String']>,
   trackingId?: Maybe<Scalars['String']>,
@@ -2741,6 +2753,9 @@ export type SitePluginPluginOptionsFilterInput = {
   name?: Maybe<StringQueryOperatorInput>,
   maxWidth?: Maybe<IntQueryOperatorInput>,
   showCaptions?: Maybe<BooleanQueryOperatorInput>,
+  figureClassName?: Maybe<StringQueryOperatorInput>,
+  captionClassName?: Maybe<StringQueryOperatorInput>,
+  imageClassName?: Maybe<StringQueryOperatorInput>,
   wrapperStyle?: Maybe<StringQueryOperatorInput>,
   inlineCodeMarker?: Maybe<StringQueryOperatorInput>,
   trackingId?: Maybe<StringQueryOperatorInput>,
@@ -2785,6 +2800,9 @@ export type SitePluginPluginOptionsPluginsFilterListInput = {
 export type SitePluginPluginOptionsPluginsPluginOptions = {
   maxWidth?: Maybe<Scalars['Int']>,
   showCaptions?: Maybe<Scalars['Boolean']>,
+  figureClassName?: Maybe<Scalars['String']>,
+  captionClassName?: Maybe<Scalars['String']>,
+  imageClassName?: Maybe<Scalars['String']>,
   wrapperStyle?: Maybe<Scalars['String']>,
   inlineCodeMarker?: Maybe<Scalars['String']>,
 };
@@ -2792,6 +2810,9 @@ export type SitePluginPluginOptionsPluginsPluginOptions = {
 export type SitePluginPluginOptionsPluginsPluginOptionsFilterInput = {
   maxWidth?: Maybe<IntQueryOperatorInput>,
   showCaptions?: Maybe<BooleanQueryOperatorInput>,
+  figureClassName?: Maybe<StringQueryOperatorInput>,
+  captionClassName?: Maybe<StringQueryOperatorInput>,
+  imageClassName?: Maybe<StringQueryOperatorInput>,
   wrapperStyle?: Maybe<StringQueryOperatorInput>,
   inlineCodeMarker?: Maybe<StringQueryOperatorInput>,
 };
