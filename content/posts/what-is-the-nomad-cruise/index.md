@@ -82,7 +82,7 @@ The documentary down below sums up perfectly the whole experience:
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/OBVpNk6N4M8" frameborder="0" allowfullscreen="true"> </iframe>
-  <figcaption class="md-figure">Video by Ion Svet</figcaption>
+  <figcaption class="md-figure-caption">Video by Ion Svet</figcaption>
 </figure>
 
 <div class="separator"></div>
