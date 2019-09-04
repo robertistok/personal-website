@@ -7,14 +7,14 @@ featured: true
 date: 2019-08-05T15:00:00.000Z
 description: >-
   I was not an avid reader at that time though. The whole process seemed way too complicated. Find a great book, get a copy of it and block off time to actually read it. Too many steps, why not skip it?
-cover: /media/making-reading-a-core-part-of-our-life-cover.jpeg
+cover: /making-reading-a-core-part-of-our-life-cover.jpeg
 category: Travel
 tags:
   - Personal Growth
   - Digital Nomad
 ---
 
-[![Photo by Eugenio Mazzone on Unsplash](/media/making-reading-a-core-part-of-our-life-cover.jpeg)](https://unsplash.com/@eugi1492?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[![Photo by Eugenio Mazzone on Unsplash](/making-reading-a-core-part-of-our-life-cover.jpeg)](https://unsplash.com/@eugi1492?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 Throughout the last 3 years, I've read more than 120 books and it completely changed my life.
 
@@ -42,7 +42,7 @@ Having thousands of books in our pocket is the coolest thing about having a Kind
 
 Goodreads even gives you an overview of the various places you can obtain the desired book.
 
-![Example of store recommendations on Goodreads](https://cdn-images-1.medium.com/max/1600/1*I4bQc5OfRiYe0BjG2wllIQ.png)
+![Example of store recommendations on Goodreads](/goodreads-store-recommendation.png)
 
 ### 3\. Blocking out time to read
 
