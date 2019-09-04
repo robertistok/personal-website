@@ -8,13 +8,13 @@ description: >-
   What? Traveling alone? Are you crazy? Won't you feel lonely all the time?
   Isn't that dangerous? Why are you even doing it?
 category: Travel
-cover: /media/solo-traveling-is-a-lot-of-fun-cover.jpg
+cover: /solo-traveling-is-a-lot-of-fun-cover.jpg
 tags:
   - Travel
   - Personal Growth
 ---
 
-[![Photo by Alessandro Erbetta on Unsplash](/media/solo-traveling-is-a-lot-of-fun-cover.jpg)](https://unsplash.com/search/photos/explore?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[![Photo by Alessandro Erbetta on Unsplash](/solo-traveling-is-a-lot-of-fun-cover.jpg)](https://unsplash.com/search/photos/explore?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 What? Traveling alone? Are you crazy? Won't you feel lonely all the time? Isn't that dangerous? Why are you even doing it?
 
