@@ -7,14 +7,14 @@ featured: false
 date: 2019-07-30T15:00:00.000Z
 description: >-
   If we just want to log the parameters, the version of the function below is a quick way to do it. We no longer have to convert our single line arrow function into a multi-line one.
-cover: /media/debugging-simple-arrow-functions-more-efficiently-cover.jpeg
+cover: /debugging-simple-arrow-functions-more-efficiently-cover.jpeg
 category: JavaScript
 tags:
   - Debugging
   - Programming
 ---
 
-[![Photo by Markus Spiske on Unsplash](/media/debugging-simple-arrow-functions-more-efficiently-cover.jpeg)](https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[![Photo by Markus Spiske on Unsplash](/debugging-simple-arrow-functions-more-efficiently-cover.jpeg)](https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 <div class="separator"></div>
 
@@ -50,6 +50,7 @@ It seems a little hacky though and why does this even work? The statement is val
 Because `console.log` resolves to `falsy`, the function will return the second part of it, which in our case is the `a + b`. Pretty neat, right?
 
 ##Final words
+
 Discovering this small trick was game-changer when it comes to debugging arrow functions more efficiently. What do you think of this technique? Did you know about this before? Let's continue the discussion in the comments section.
 
 Thanks for reading, and subscribe to do not miss out on any of my future posts! 🙏
