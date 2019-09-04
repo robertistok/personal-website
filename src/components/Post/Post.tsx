@@ -67,13 +67,6 @@ const Content = styled.div`
     margin-bottom: ${rhythm(0.1)};
   }
 
-  .md-figure-img {
-    margin-bottom: ${rhythm(0.1)};
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-  }
-
   .video_container {
     iframe {
       width: 100%;

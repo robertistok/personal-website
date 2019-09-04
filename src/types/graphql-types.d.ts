@@ -2386,7 +2386,6 @@ export type SitePageFieldsEnum =
   'pluginCreator___pluginOptions___icon' |
   'pluginCreator___pluginOptions___pathToConfigModule' |
   'pluginCreator___pluginOptions___dest' |
-  'pluginCreator___pluginOptions___enableIdentityWidget' |
   'pluginCreator___pluginOptions___pathCheck' |
   'pluginCreator___nodeAPIs' |
   'pluginCreator___browserAPIs' |
@@ -2607,7 +2606,6 @@ export type SitePluginFieldsEnum =
   'pluginOptions___icon' |
   'pluginOptions___pathToConfigModule' |
   'pluginOptions___dest' |
-  'pluginOptions___enableIdentityWidget' |
   'pluginOptions___pathCheck' |
   'nodeAPIs' |
   'browserAPIs' |
@@ -2743,7 +2741,6 @@ export type SitePluginPluginOptions = {
   icon?: Maybe<Scalars['String']>,
   pathToConfigModule?: Maybe<Scalars['String']>,
   dest?: Maybe<Scalars['String']>,
-  enableIdentityWidget?: Maybe<Scalars['Boolean']>,
   pathCheck?: Maybe<Scalars['Boolean']>,
 };
 
@@ -2767,7 +2764,6 @@ export type SitePluginPluginOptionsFilterInput = {
   icon?: Maybe<StringQueryOperatorInput>,
   pathToConfigModule?: Maybe<StringQueryOperatorInput>,
   dest?: Maybe<StringQueryOperatorInput>,
-  enableIdentityWidget?: Maybe<BooleanQueryOperatorInput>,
   pathCheck?: Maybe<BooleanQueryOperatorInput>,
 };
 

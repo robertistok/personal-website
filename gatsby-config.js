@@ -18,13 +18,6 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        path: `${__dirname}/static/media`,
-        name: "media",
-      },
-    },
-    {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
@@ -102,14 +95,6 @@ module.exports = {
       resolve: "gatsby-plugin-generate-typings",
       options: {
         dest: "./src/types/graphql-types.d.ts",
-      },
-    },
-
-    // Netlify
-    {
-      resolve: `gatsby-plugin-netlify-cms`,
-      options: {
-        enableIdentityWidget: false,
       },
     },
   ],
