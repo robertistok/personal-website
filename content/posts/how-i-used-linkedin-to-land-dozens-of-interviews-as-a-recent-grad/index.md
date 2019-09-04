@@ -7,14 +7,14 @@ featured: false
 date: 2019-05-23T15:00:00.000Z
 description: >-
   Build an outstanding LinkedIn profile, introduce yourself to hundreds of recruiters, attend interviews and sign the contract ✅
-cover: /media/how-i-used-linkedin-to-land-dozens-of-interviews-as-a-recent-grad-cover.jpg
+cover: /how-i-used-linkedin-to-land-dozens-of-interviews-as-a-recent-grad-cover.jpg
 category: Programming
 tags:
   - Networking
   - Personal Branding
 ---
 
-[![Photo by LinkedIn on Unsplash](/media/how-i-used-linkedin-to-land-dozens-of-interviews-as-a-recent-grad-cover.jpg)](https://unsplash.com/photos/u3hmzw5U-SI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[![Photo by LinkedIn on Unsplash](/how-i-used-linkedin-to-land-dozens-of-interviews-as-a-recent-grad-cover.jpg)](https://unsplash.com/photos/u3hmzw5U-SI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 ## TL;DR:
 
@@ -30,7 +30,7 @@ I was also a little lazy, to be honest. I wanted to skip applying to hundreds of
 
 ### Turns out there is, hello LinkedIn
 
-[![Photo by Clever Visuals on Unsplash](https://cdn-images-1.medium.com/max/1600/1*pcml915jKYYR32BMsRlX-A.jpeg)](https://unsplash.com/photos/iMwiPZNX3SI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[![Photo by Clever Visuals on Unsplash](/book-with-lightbulb.jpeg)](https://unsplash.com/photos/iMwiPZNX3SI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 [LinkedIn](https://www.linkedin.com/reg/join) is a social network tailored to professionals. It is the place to be to showcase your experience, achievements and your thoughts about your industry. You can connect with thousands of people from all over the world.
 
@@ -87,7 +87,7 @@ Try to get **multiple offers**. This will increase your negotiation power. It wi
 
 Congratulations, you've made it!
 
-[![Photo by Ambreen Hasan on Unsplash](https://cdn-images-1.medium.com/max/1600/1*h4xBoeeDRdRkiPLGuQxUgQ.jpeg)](https://unsplash.com/photos/E9ANYNkN4Sc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[![Photo by Ambreen Hasan on Unsplash](/man-celebrating.jpeg)](https://unsplash.com/photos/E9ANYNkN4Sc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 You've completed all the steps and got offered a contract. If it is a "fuck yes", go ahead and sign it.
 
