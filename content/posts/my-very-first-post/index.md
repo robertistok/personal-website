@@ -8,14 +8,14 @@ date: 2019-04-03T15:00:00.000Z
 description: >-
   This is the first post I've ever published and it marks the beginning of a new
   journey.
-cover: /media/my-very-first-post-cover.jpg
+cover: /my-very-first-post-cover.jpg
 category: Personal
 tags:
   - Storytime
   - Personal Growth
 ---
 
-[![Photo by Clemens van Lay on Unsplash](/media/my-very-first-post-cover.jpg)](https://unsplash.com/@clemensvanlay?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[![Photo by Clemens van Lay on Unsplash](/my-very-first-post-cover.jpg)](https://unsplash.com/@clemensvanlay?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 This is the first post I've ever published and it marks the beginning of a new journey.
 
