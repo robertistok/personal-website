@@ -10,7 +10,7 @@ description: >-
   of my life. Starting with sharing what gets me out of bed every morning,
   transitioning into tales of how it all started and finishing with the story of
   ending up in Sweden.
-cover: /media/my-relationship-with-coding-cover.jpg
+cover: /my-relationship-with-coding-cover.jpg
 category: Programming
 tags:
   - Coding
@@ -18,7 +18,7 @@ tags:
   - Storytime
 ---
 
-[![Photo by Jefferson Santos on Unsplash](/media/my-relationship-with-coding-cover.jpg)](https://unsplash.com/photos/9SoCnyQmkzI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[![Photo by Jefferson Santos on Unsplash](/my-relationship-with-coding-cover.jpg)](https://unsplash.com/photos/9SoCnyQmkzI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 I am going to tell you the story of how programming became an essential part of my life. Starting with sharing what gets me out of bed every morning, transitioning into tales of how it all started and finishing with the story of ending up in Sweden.
 
