@@ -14,7 +14,7 @@ tags:
   - Personal Growth
 ---
 
-![Day1 → Day30  -  visualizing the progress is a key element in building a habit](/media/insights-learnings-and-the-next-steps-of-30daysofcode-cover.png)
+![Day1 → Day30  -  visualizing the progress is a key element in building a habit](/insights-learnings-and-the-next-steps-of-30daysofcode-cover.png)
 
 <div class="separator"></div>
 
