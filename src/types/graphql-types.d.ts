@@ -2362,8 +2362,8 @@ export type SitePageFieldsEnum =
   'pluginCreator___version' |
   'pluginCreator___pluginOptions___plugins' |
   'pluginCreator___pluginOptions___plugins___resolve' |
-  'pluginCreator___pluginOptions___plugins___id' |
   'pluginCreator___pluginOptions___plugins___name' |
+  'pluginCreator___pluginOptions___plugins___id' |
   'pluginCreator___pluginOptions___plugins___version' |
   'pluginCreator___pluginOptions___plugins___browserAPIs' |
   'pluginCreator___pluginOptions___plugins___ssrAPIs' |
@@ -2575,8 +2575,8 @@ export type SitePluginFieldsEnum =
   'version' |
   'pluginOptions___plugins' |
   'pluginOptions___plugins___resolve' |
-  'pluginOptions___plugins___id' |
   'pluginOptions___plugins___name' |
+  'pluginOptions___plugins___id' |
   'pluginOptions___plugins___version' |
   'pluginOptions___plugins___pluginOptions___maxWidth' |
   'pluginOptions___plugins___pluginOptions___showCaptions' |
@@ -2769,8 +2769,8 @@ export type SitePluginPluginOptionsFilterInput = {
 
 export type SitePluginPluginOptionsPlugins = {
   resolve?: Maybe<Scalars['String']>,
-  id?: Maybe<Scalars['String']>,
   name?: Maybe<Scalars['String']>,
+  id?: Maybe<Scalars['String']>,
   version?: Maybe<Scalars['String']>,
   pluginOptions?: Maybe<SitePluginPluginOptionsPluginsPluginOptions>,
   browserAPIs?: Maybe<Array<Maybe<Scalars['String']>>>,
@@ -2780,8 +2780,8 @@ export type SitePluginPluginOptionsPlugins = {
 
 export type SitePluginPluginOptionsPluginsFilterInput = {
   resolve?: Maybe<StringQueryOperatorInput>,
-  id?: Maybe<StringQueryOperatorInput>,
   name?: Maybe<StringQueryOperatorInput>,
+  id?: Maybe<StringQueryOperatorInput>,
   version?: Maybe<StringQueryOperatorInput>,
   pluginOptions?: Maybe<SitePluginPluginOptionsPluginsPluginOptionsFilterInput>,
   browserAPIs?: Maybe<StringQueryOperatorInput>,
