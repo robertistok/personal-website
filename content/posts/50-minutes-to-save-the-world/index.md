@@ -1,15 +1,16 @@
 ---
+title: "50 Minutes to Save the\_World"
 template: post
-title: 50 Minutes to Save the World
 slug: 50-minutes-to-save-the-world
 draft: false
 featured: false
-date: 2019-07-03T15:00:00.000Z
+date: '2019-07-03T15:00:00.000Z'
 description: >-
-  While watching the short documentary, I was going through a lot of different emotional states. Terrified, hopeful, shocked, sad and guilty were just some of the feelings I had.
+  While watching the short documentary, I was going through a lot of different
+  emotional states. Terrified, hopeful, shocked, sad and guilty were just some
+  of the feelings I had.
 category: Climate Change
 ---
-
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/wthTmQHmuZ0" frameborder="0" allowfullscreen="true"> </iframe>
   <figcaption class="md-figure-caption">50 Minutes to Save the World</figcaption>
@@ -27,7 +28,7 @@ While watching the short documentary, I was going through a lot of different emo
 
 Approximately **70% of our oxygen comes from the coral reefs** and they are **in danger all around the world**. Looking from the surface, there is no problem, as everything looks normal. The problem arises when we start looking beneath our oceans and realize that the _reefs are dying_, thanks to **our lifestyle of polluting the environment**.
 
-[![The opening scene of the video](/opening-schene-screenshot.png)](https://www.youtube.com/channel/UCwjGajl9pjoxtWztvyEI1dA)
+[![The opening scene of the video](/opening-schene-screenshot.png)](https://bit.ly/2PxBR6Y)
 
 The video starts off with a futuristic scene from 2050, where the actor has to wear an oxygen mask to breath outside, people are surfing in chemical protective clothing and a reporter announcing the death of the coral reef. _It looks scary AF_... But as things look as of now, there is a big chance that in 2050 that will be the reality.
 
@@ -65,9 +66,9 @@ Challenge yourself and others to reduce plastic and you might be surprised by ho
 
 ### Donate to organizations
 
-Check out some of [the charities](https://savethereef.org/charities.html) and donate some money. There is no such thing as a small amount, every cent counts. These do an incredible amount of work fighting climate change and preserving our environment.
+Check out some of [the charities](https://bit.ly/2zCMdaT) and donate some money. There is no such thing as a small amount, every cent counts. These do an incredible amount of work fighting climate change and preserving our environment.
 
-Personally, I choose [Oceana](https://act.oceana.org/page/37193/donate/1?ea.tracking.id=PM_2018), as part of my upcoming fundraiser campaign for my birthday on July 5th and I will continue donating to it on a monthly basis.
+Personally, I choose [Oceana](https://bit.ly/2zEJxJQ), as part of my upcoming fundraiser campaign for my birthday on July 5th and I will continue donating to it on a monthly basis.
 
 ### Share the video
 

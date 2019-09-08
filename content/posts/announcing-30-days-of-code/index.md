@@ -1,19 +1,21 @@
 ---
+title: "Announcing 30 Days of\_Code"
 template: post
-title: Announcing 30 Days of Code
 slug: announcing-30-days-of-code
 draft: false
 featured: false
-date: 2019-06-09T15:00:00.000Z
+date: '2019-06-09T15:00:00.000Z'
 description: >-
-  From the beginning of 2019, every month I've been experimenting with picking up different habits. Some of the easier ones are listening to 10 minutes of Spanish, walking 10000 steps a day, making a note of the day ahead before going to sleep, reflecting on my week, personal vlogs and meditating.
+  From the beginning of 2019, every month I've been experimenting with picking
+  up different habits. Some of the easier ones are listening to 10 minutes of
+  Spanish, walking 10000 steps a day, making a note of the day ahead before
+  going to sleep, reflecting on my week, personal vlogs and meditating.
 cover: /announcing-30-days-of-code-cover.jpg
 category: Programming
 tags:
   - Coding
   - Personal Growth
 ---
-
 ![](/announcing-30-days-of-code-cover.jpg)
 
 From the beginning of 2019, every month I've been experimenting with picking up different habits. Some of the easier ones are listening to 10 minutes of Spanish, walking 10000 steps a day, making a note of the day ahead before going to sleep, reflecting on my week, personal vlogs and meditating.
@@ -46,7 +48,7 @@ The game will have a couple of parts.
 
 1.  A calendar in my room to keep track of my streak.
 2.  Publishing the start of this challenge on my socials.
-3.  Holding myself accountable. This will consist of a daily tweet on (obviously) [Twitter](https://twitter.com/robertistok) and commits to my [GitHub](https://bit.ly/2Vk7Fup) account.
+3.  Holding myself accountable. This will consist of a daily tweet on (obviously) [Twitter](https://bit.ly/2PyJr1c) and commits to my [GitHub](https://bit.ly/2Vk7Fup) account.
 4.  Reflecting on the progress at the end of every week.
 
 I would love to ask you to hold me accountable and ask questions about the projects I am working on. This will help me to get extra motivation on days when I'll feel like skipping it.

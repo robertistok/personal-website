@@ -1,20 +1,21 @@
 ---
-template: post
 title: Debugging Simple Arrow Functions More Efficiently
+template: post
 slug: debugging-simple-arrow-functions-more-efficiently
 draft: false
 featured: false
-date: 2019-07-30T15:00:00.000Z
+date: '2019-07-30T15:00:00.000Z'
 description: >-
-  If we just want to log the parameters, the version of the function below is a quick way to do it. We no longer have to convert our single line arrow function into a multi-line one.
+  If we just want to log the parameters, the version of the function below is a
+  quick way to do it. We no longer have to convert our single line arrow
+  function into a multi-line one.
 cover: /debugging-simple-arrow-functions-more-efficiently-cover.jpeg
 category: JavaScript
 tags:
   - Debugging
   - Programming
 ---
-
-[![Photo by Markus Spiske on Unsplash](/debugging-simple-arrow-functions-more-efficiently-cover.jpeg)](https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[![Photo by Markus Spiske on Unsplash](/debugging-simple-arrow-functions-more-efficiently-cover.jpeg)](https://bit.ly/2PxBrxn)
 
 <div class="separator"></div>
 
@@ -45,11 +46,11 @@ const complexFunction = (a, b) => console.log("[DEBUG]", a, b) || a + b;
 
 It seems a little hacky though and why does this even work? The statement is valid because of how logical operators work in JavaScript.
 
-> "Logical operators are typically used with [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean "The Boolean object is an object wrapper for a boolean value.") (logical) values. When they are, they return a Boolean value. However, the `&&` and `||` operators actually return the value of one of the specified operands, so if these operators are used with non-Boolean values, they will return a non-Boolean value" --- [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)
+> "Logical operators are typically used with [Boolean](https://mzl.la/2zF1uIp "The Boolean object is an object wrapper for a boolean value.") (logical) values. When they are, they return a Boolean value. However, the `&&` and `||` operators actually return the value of one of the specified operands, so if these operators are used with non-Boolean values, they will return a non-Boolean value" --- [MDN web docs](https://mzl.la/2zEJFsO)
 
 Because `console.log` resolves to `falsy`, the function will return the second part of it, which in our case is the `a + b`. Pretty neat, right?
 
-##Final words
+## Final words
 
 Discovering this small trick was game-changer when it comes to debugging arrow functions more efficiently. What do you think of this technique? Did you know about this before? Let's continue the discussion in the comments section.
 
