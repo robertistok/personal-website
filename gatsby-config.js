@@ -1,3 +1,5 @@
+require("dotenv").config({ path: ".env" });
+
 const siteConfig = require("./config.ts");
 
 module.exports = {
@@ -21,19 +23,17 @@ module.exports = {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
+          // {
+          //   resolve: "gatsby-remark-bitly-links",
+          //   options: {
+          //     accessToken: process.env.BITLY_ACCESS_TOKEN,
+          //   },
+          // },
           {
             resolve: "gatsby-remark-images",
             options: {
               maxWidth: 820,
               showCaptions: true,
-            },
-          },
-          {
-            resolve: `gatsby-remark-figure-caption`,
-            options: {
-              figureClassName: "md-figure",
-              captionClassName: "md-figure-caption",
-              imageClassName: "md-figure-img",
             },
           },
           {
@@ -50,10 +50,6 @@ module.exports = {
           },
           "gatsby-remark-copy-linked-files",
           "gatsby-remark-smartypants",
-          // {
-          //   resolve: "gatsby-remark-bitly-links",
-          //   options: {},
-          // },
         ],
       },
     },
