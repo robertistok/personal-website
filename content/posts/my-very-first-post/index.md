@@ -1,10 +1,10 @@
 ---
-template: post
 title: "My very first\_post"
+template: post
 slug: my-very-first-post
 draft: false
 featured: false
-date: 2019-04-03T15:00:00.000Z
+date: '2019-04-03T15:00:00.000Z'
 description: >-
   This is the first post I've ever published and it marks the beginning of a new
   journey.
@@ -14,8 +14,7 @@ tags:
   - Storytime
   - Personal Growth
 ---
-
-[![Photo by Clemens van Lay on Unsplash](/my-very-first-post-cover.jpg)](https://unsplash.com/@clemensvanlay?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[![Photo by Clemens van Lay on Unsplash](/my-very-first-post-cover.jpg)](https://bit.ly/2Py2l8s)
 
 This is the first post I've ever published and it marks the beginning of a new journey.
 
@@ -41,11 +40,11 @@ Most importantly though, I want **2019 to be the year of creation**. I want to s
 
 ## Why now?
 
-I've been following for a while [**Nuseir Yassi's**](https://www.facebook.com/nasdaily/)journey of creating a video **every single day** for 1000 days and his challenge ended on [_January the 5th_](https://www.facebook.com/nasdaily/videos/2294732100572166/). He managed to become one of the most inspiring human beings on planet Earth and everything began with a single video on _April 10th of 2016_.
+I've been following for a while [**Nuseir Yassi's**](https://bit.ly/2zDJ4HZ)journey of creating a video **every single day** for 1000 days and his challenge ended on [_January the 5th_](https://bit.ly/2zEJDBc). He managed to become one of the most inspiring human beings on planet Earth and everything began with a single video on _April 10th of 2016_.
 
-Recently I've participated on the [**Nomad Cruise**](https://nomadcruise.com), an epic journey crossing the Atlantic Ocean with almost 500 people onboard, all interested in some ways in the digital nomad lifestyle. On this cruise, I've met hundreds of amazing people doing all kind of super cool things and it inspired me to start creating more.
+Recently I've participated on the [**Nomad Cruise**](https://bit.ly/2zEJGwS), an epic journey crossing the Atlantic Ocean with almost 500 people onboard, all interested in some ways in the digital nomad lifestyle. On this cruise, I've met hundreds of amazing people doing all kind of super cool things and it inspired me to start creating more.
 
-I've also stumbled upon the [90-day content creation challenge](https://medium.com/those-that-inspire/why-post-on-medium-what-my-90-blogging-challenge-taught-me-61e608f7319a) by [The Ginger Nomad](https://medium.com/@thegingernomad), where you should post a piece of content to a chosen platform every day for 90 days. This can be anything from a photo to Instagram, a post on Medium or a video on Youtube. The purpose of this challenge is to develop creative skills, stick to something until you finish it and build up an online presence.
+I've also stumbled upon the [90-day content creation challenge](https://bit.ly/2zT29pP) by [The Ginger Nomad](https://bit.ly/2zF1vvX), where you should post a piece of content to a chosen platform every day for 90 days. This can be anything from a photo to Instagram, a post on Medium or a video on Youtube. The purpose of this challenge is to develop creative skills, stick to something until you finish it and build up an online presence.
 
 Finally, there will be never a perfect time for anything. The best is to just start now and figure out the details along the way.
 

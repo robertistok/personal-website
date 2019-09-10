@@ -1,9 +1,9 @@
 ---
-template: post
 title: "Solo traveling is a lot of\_fun!"
+template: post
 slug: solo-traveling-is-a-lot-of-fun
 draft: false
-date: 2019-04-11T15:00:00.000Z
+date: '2019-04-11T15:00:00.000Z'
 description: >-
   What? Traveling alone? Are you crazy? Won't you feel lonely all the time?
   Isn't that dangerous? Why are you even doing it?
@@ -13,8 +13,7 @@ tags:
   - Travel
   - Personal Growth
 ---
-
-[![Photo by Alessandro Erbetta on Unsplash](/solo-traveling-is-a-lot-of-fun-cover.jpg)](https://unsplash.com/search/photos/explore?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[![Photo by Alessandro Erbetta on Unsplash](/solo-traveling-is-a-lot-of-fun-cover.jpg)](https://bit.ly/2PA8noX)
 
 What? Traveling alone? Are you crazy? Won't you feel lonely all the time? Isn't that dangerous? Why are you even doing it?
 
@@ -88,7 +87,7 @@ Just Google **free walking tour _'place you are at'_**and choose one from the ma
 
 ### Couchsurfing
 
-This could be a double win. [Couchsurfing](https://www.couchsurfing.com/) is not only an amazing way to meet locals, but it is also the place if you want to get free accommodation. Yes, you heard it right, using the application you can get a couch to spend the night and you will also meet super cool people. I've done it in many cities and it is still one of my favorite ways to travel.
+This could be a double win. [Couchsurfing](https://bit.ly/2zEJBJA) is not only an amazing way to meet locals, but it is also the place if you want to get free accommodation. Yes, you heard it right, using the application you can get a couch to spend the night and you will also meet super cool people. I've done it in many cities and it is still one of my favorite ways to travel.
 
 However, don't expect to just "_check-in_" to the room and then forget about the person hosting you. While that could also happen, your host(s) usually would like to spend some time with you, show you their favorite restaurant or just take you along a walk in the city. This is the idea behind the whole concept, to **connect locals with travelers** and develop friendships.
 

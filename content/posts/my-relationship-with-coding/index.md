@@ -1,10 +1,10 @@
 ---
-template: post
 title: My relationship with coding
+template: post
 slug: my-relationship-with-coding
 draft: false
 featured: true
-date: 2019-04-25T15:00:00.000Z
+date: '2019-04-25T15:00:00.000Z'
 description: >-
   I am going to tell you the story of how programming became an essential part
   of my life. Starting with sharing what gets me out of bed every morning,
@@ -17,8 +17,7 @@ tags:
   - Personal Growth
   - Storytime
 ---
-
-[![Photo by Jefferson Santos on Unsplash](/my-relationship-with-coding-cover.jpg)](https://unsplash.com/photos/9SoCnyQmkzI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[![Photo by Jefferson Santos on Unsplash](/my-relationship-with-coding-cover.jpg)](https://bit.ly/2PxBPMo)
 
 I am going to tell you the story of how programming became an essential part of my life. Starting with sharing what gets me out of bed every morning, transitioning into tales of how it all started and finishing with the story of ending up in Sweden.
 
@@ -42,7 +41,7 @@ Fortunately, the demand for developers is extremely high right now. I get to cho
 
 Relocating to a new city or working remotely from anywhere, small startups or big corporations, backend or frontend, web or mobile are just a few of the options developers have.
 
----
+* * *
 
 With these being said, let's jump back into time and find out how the journey began. **No**, it is not going to be a story about me developing full-fledged applications at age seven 😉
 
@@ -82,23 +81,23 @@ In retrospect, I came to the conclusion that it was 100% worth it, but for reaso
 
 **Secondly**, the university gave me a shallow introduction of the array of options I can choose from as an engineer. This allowed me to experience a lot of things and see which ones I like the most.
 
-**Finally**, the [diploma thesis project](https://github.com/robertistok/utsocial) helped me to learn [**full-stack web development**](https://skillcrush.com/2017/02/27/front-end-back-end-full-stack/) with JavaScript from **zero**. I was concentrated on this project for months, often working on it 10 hours a day. It was worth the effort though, as I was able to present this application to [companies](https://www.relatable.me) after graduation and show my competence as a fresh engineer.
+**Finally**, the [diploma thesis project](https://bit.ly/2zGxH1T) helped me to learn [**full-stack web development**](https://bit.ly/2zEJD4a) with JavaScript from **zero**. I was concentrated on this project for months, often working on it 10 hours a day. It was worth the effort though, as I was able to present this application to [companies](https://bit.ly/2zEKiCG) after graduation and show my competence as a fresh engineer.
 
 ## The big move
 
-I graduated from university, I did not want to attend a masters program and I always wanted to live abroad. It was time for a change. I was looking for product companies with a startup culture searching for (full-stack) [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) developers.
+I graduated from university, I did not want to attend a masters program and I always wanted to live abroad. It was time for a change. I was looking for product companies with a startup culture searching for (full-stack) [JavaScript](https://mzl.la/2zI6AUb) developers.
 
 I was open to any place in Europe if the above-mentioned criteria were satisfied. Berlin, Lisbon, Oslo, Amsterdam, Gothenburg, and Stockholm were just a few of the places I got in touch with.
 
-Long story short, thanks to [Anna](https://www.relatable.me), an amazing recruiter, I ended up in Stockholm at a small startup with a lot of potentials.
+Long story short, thanks to [Anna](https://bit.ly/2zEKiCG), an amazing recruiter, I ended up in Stockholm at a small startup with a lot of potentials.
 
 ## Now
 
-The company is called [Relatable](https://www.relatable.me/), we turn influencer marketing into a global scalable media channel and it is an amazing place to work.
+The company is called [Relatable](https://bit.ly/2zEKiCG), we turn influencer marketing into a global scalable media channel and it is an amazing place to work.
 
-We are working with cutting edge technologies on our product, it is remote friendly, we have amazing offices and we are working with some of the [biggest brands](https://www.relatable.me/brands), just to name the top reasons why I love being here.
+We are working with cutting edge technologies on our product, it is remote friendly, we have amazing offices and we are working with some of the [biggest brands](https://bit.ly/2zEJOwm), just to name the top reasons why I love being here.
 
-At Relatable, I am doing full stack development, mostly Javascript with [React](https://reactjs.org/) on the frontend and [Node](https://nodejs.org/en/) on the backend. However, because we are a small team, my tasks also include taking care of deployments, improving our infrastructure and being involved in product decisions.
+At Relatable, I am doing full stack development, mostly Javascript with [React](https://bit.ly/2zEJSfA) on the frontend and [Node](https://bit.ly/317yJzY) on the backend. However, because we are a small team, my tasks also include taking care of deployments, improving our infrastructure and being involved in product decisions.
 
 ## What is in the making?
 
@@ -114,7 +113,7 @@ The story continues. I don't know where it is going to bring me, but I will do m
 
 Everything happens for a reason and I would not change a single thing. The mistakes thought me valuable lessons and they are an essential part of the whole journey.
 
-> _"You can't connect the dots looking forward; you can only connect them looking backward. So you have to trust that the dots will somehow connect in your future."\
+> _"You can't connect the dots looking forward; you can only connect them looking backward. So you have to trust that the dots will somehow connect in your future."  
 > -_ Steve Jobs
 
 What about you? What's your story with programming? What was the biggest **"aha"** moment you've had? What was the tipping point for you? Why do you like programming? Would you like to learn to programme? Let me know, I would love to hear some of your stories!
@@ -123,4 +122,4 @@ Thanks for reading! 🙏
 
 <div class="separator"></div>
 
-_Thanks to my friend,_ [_Zoltán_](https://www.linkedin.com/in/zcserei/) _for editing this article, it made a huge difference._
+_Thanks to my friend,_ [_Zoltán_](https://bit.ly/315MQ8X) _for editing this article, it made a huge difference._
