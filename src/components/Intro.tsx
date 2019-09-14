@@ -18,7 +18,7 @@ const Intro: React.FunctionComponent<IntroProps> = (): React.ReactElement => {
     avatar: File;
   } = useStaticQuery(graphql`
     query Intro {
-      avatar: file(absolutePath: { regex: "/profile-pic.png/" }) {
+      avatar: file(absolutePath: { regex: "/robertistok_avatar.jpeg/" }) {
         childImageSharp {
           fixed(width: 150, height: 150) {
             ...GatsbyImageSharpFixed
