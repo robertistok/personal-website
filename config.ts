@@ -12,7 +12,7 @@ module.exports = {
       firstname: "Róbert",
       lastname: "Istók",
       name: "Róbert Istók",
-      photo: "/photo.jpg",
+      photo: "/robertistok_avatar.jpeg",
       bio: "lorem bio",
       birthDate: new Date("1994-07-05"),
       social: {

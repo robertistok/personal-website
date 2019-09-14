@@ -19,7 +19,7 @@ const About: React.FunctionComponent<AboutProps> = ({
     avatar: File;
   } = useStaticQuery(graphql`
     query About {
-      avatar: file(absolutePath: { regex: "/profile-pic.png/" }) {
+      avatar: file(absolutePath: { regex: "/robertistok_avatar.jpeg/" }) {
         childImageSharp {
           fixed(width: 200, height: 200) {
             ...GatsbyImageSharpFixed

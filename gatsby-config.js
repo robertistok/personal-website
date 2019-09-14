@@ -8,7 +8,7 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        path: `${__dirname}/content/posts`,
+        path: `${__dirname}/content/posts/`,
         name: "posts",
       },
     },
@@ -23,12 +23,13 @@ module.exports = {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
-          // {
-          //   resolve: "gatsby-remark-bitly-links",
-          //   options: {
-          //     accessToken: process.env.BITLY_ACCESS_TOKEN,
-          //   },
-          // },
+          {
+            resolve: "gatsby-remark-bitly-links",
+            options: {
+              accessToken: process.env.BITLY_ACCESS_TOKEN,
+              namedBitlys: ["mzl.la"],
+            },
+          },
           {
             resolve: "gatsby-remark-images",
             options: {
@@ -71,7 +72,7 @@ module.exports = {
         background_color: "#fafafa",
         theme_color: "#ff483b",
         display: "minimal-ui",
-        icon: "content/assets/profile-pic-rounded.png",
+        icon: "content/assets/robertistok_avatar_rounded.png",
       },
     },
     "gatsby-plugin-offline",

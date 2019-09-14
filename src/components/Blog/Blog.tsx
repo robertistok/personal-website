@@ -42,7 +42,7 @@ const Blog: React.FunctionComponent<BlogProps> = ({
         }
       }
 
-      avatar: file(absolutePath: { regex: "/profile-pic.png/" }) {
+      avatar: file(absolutePath: { regex: "/robertistok_avatar.jpeg/" }) {
         childImageSharp {
           fixed(width: 50, height: 50) {
             ...GatsbyImageSharpFixed
