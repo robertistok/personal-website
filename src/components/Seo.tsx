@@ -10,9 +10,19 @@ import Helmet from "react-helmet";
 
 import useSiteMetadata from "../hooks/useSiteMetadata";
 
+type OGMetaTag = {
+  property: string;
+  content: string;
+};
+
+type TwitterMetaTag = {
+  name: string;
+  content: string;
+};
+
 interface SEOProps {
   lang?: string;
-  meta?: any[];
+  meta?: (OGMetaTag | TwitterMetaTag)[];
   title: string;
 }
 
@@ -39,7 +49,6 @@ const SEO: React.FunctionComponent<SEOProps> = ({
           name: `google-site-verification`,
           content: `OZ82-xGcAi-7G55v3p4iJa-qlkwTTG1ExzUrYXxdsT0`,
         },
-
         {
           name: `description`,
           content: metaDescription,
@@ -59,6 +68,10 @@ const SEO: React.FunctionComponent<SEOProps> = ({
         {
           name: `twitter:card`,
           content: `summary`,
+        },
+        {
+          name: `twitter:creator`,
+          content: author.name,
         },
         {
           name: `twitter:creator`,
