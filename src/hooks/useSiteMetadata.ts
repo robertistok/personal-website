@@ -25,7 +25,7 @@ const useSiteMetadata = (): SiteSiteMetadata => {
               }
             }
             description
-            url
+            siteUrl
             title
             copyright
           }

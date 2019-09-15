@@ -2,8 +2,7 @@ module.exports = {
   siteMetadata: {
     description:
       "Follow me on my journey, I write about my lifestyle and code.",
-    url: "https://robertistok.com/",
-    siteUrl: "https://robertistok.com/",
+    siteUrl: "https://robertistok.com",
     pathPrefix: "/",
     title: "Róbert Istók",
     copyright: "© All rights reserved.",
