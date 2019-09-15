@@ -53,7 +53,7 @@ const BlogPostTemplate: React.FunctionComponent<BlogPostTemplateProps> = ({
           { property: "og:type", content: "article" },
           { property: "article:published_time", content: frontmatter.date },
           { property: "article:section", content: frontmatter.category },
-          ...frontmatter.tags.map(t => ({
+          ...(frontmatter.tags || []).map(t => ({
             property: "article:tag",
             content: t,
           })),
