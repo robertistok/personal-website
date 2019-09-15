@@ -648,8 +648,43 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___featured' |
   'childMarkdownRemark___frontmatter___date' |
   'childMarkdownRemark___frontmatter___description' |
-  'childMarkdownRemark___frontmatter___cover' |
   'childMarkdownRemark___frontmatter___category' |
+  'childMarkdownRemark___frontmatter___cover___birthtime' |
+  'childMarkdownRemark___frontmatter___cover___birthtimeMs' |
+  'childMarkdownRemark___frontmatter___cover___sourceInstanceName' |
+  'childMarkdownRemark___frontmatter___cover___absolutePath' |
+  'childMarkdownRemark___frontmatter___cover___relativePath' |
+  'childMarkdownRemark___frontmatter___cover___extension' |
+  'childMarkdownRemark___frontmatter___cover___size' |
+  'childMarkdownRemark___frontmatter___cover___prettySize' |
+  'childMarkdownRemark___frontmatter___cover___modifiedTime' |
+  'childMarkdownRemark___frontmatter___cover___accessTime' |
+  'childMarkdownRemark___frontmatter___cover___changeTime' |
+  'childMarkdownRemark___frontmatter___cover___birthTime' |
+  'childMarkdownRemark___frontmatter___cover___root' |
+  'childMarkdownRemark___frontmatter___cover___dir' |
+  'childMarkdownRemark___frontmatter___cover___base' |
+  'childMarkdownRemark___frontmatter___cover___ext' |
+  'childMarkdownRemark___frontmatter___cover___name' |
+  'childMarkdownRemark___frontmatter___cover___relativeDirectory' |
+  'childMarkdownRemark___frontmatter___cover___dev' |
+  'childMarkdownRemark___frontmatter___cover___mode' |
+  'childMarkdownRemark___frontmatter___cover___nlink' |
+  'childMarkdownRemark___frontmatter___cover___uid' |
+  'childMarkdownRemark___frontmatter___cover___gid' |
+  'childMarkdownRemark___frontmatter___cover___rdev' |
+  'childMarkdownRemark___frontmatter___cover___blksize' |
+  'childMarkdownRemark___frontmatter___cover___ino' |
+  'childMarkdownRemark___frontmatter___cover___blocks' |
+  'childMarkdownRemark___frontmatter___cover___atimeMs' |
+  'childMarkdownRemark___frontmatter___cover___mtimeMs' |
+  'childMarkdownRemark___frontmatter___cover___ctimeMs' |
+  'childMarkdownRemark___frontmatter___cover___atime' |
+  'childMarkdownRemark___frontmatter___cover___mtime' |
+  'childMarkdownRemark___frontmatter___cover___ctime' |
+  'childMarkdownRemark___frontmatter___cover___publicURL' |
+  'childMarkdownRemark___frontmatter___cover___id' |
+  'childMarkdownRemark___frontmatter___cover___children' |
   'childMarkdownRemark___frontmatter___tags' |
   'childMarkdownRemark___excerpt' |
   'childMarkdownRemark___rawMarkdownBody' |
@@ -1543,8 +1578,68 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___featured' |
   'frontmatter___date' |
   'frontmatter___description' |
-  'frontmatter___cover' |
   'frontmatter___category' |
+  'frontmatter___cover___birthtime' |
+  'frontmatter___cover___birthtimeMs' |
+  'frontmatter___cover___sourceInstanceName' |
+  'frontmatter___cover___absolutePath' |
+  'frontmatter___cover___relativePath' |
+  'frontmatter___cover___extension' |
+  'frontmatter___cover___size' |
+  'frontmatter___cover___prettySize' |
+  'frontmatter___cover___modifiedTime' |
+  'frontmatter___cover___accessTime' |
+  'frontmatter___cover___changeTime' |
+  'frontmatter___cover___birthTime' |
+  'frontmatter___cover___root' |
+  'frontmatter___cover___dir' |
+  'frontmatter___cover___base' |
+  'frontmatter___cover___ext' |
+  'frontmatter___cover___name' |
+  'frontmatter___cover___relativeDirectory' |
+  'frontmatter___cover___dev' |
+  'frontmatter___cover___mode' |
+  'frontmatter___cover___nlink' |
+  'frontmatter___cover___uid' |
+  'frontmatter___cover___gid' |
+  'frontmatter___cover___rdev' |
+  'frontmatter___cover___blksize' |
+  'frontmatter___cover___ino' |
+  'frontmatter___cover___blocks' |
+  'frontmatter___cover___atimeMs' |
+  'frontmatter___cover___mtimeMs' |
+  'frontmatter___cover___ctimeMs' |
+  'frontmatter___cover___atime' |
+  'frontmatter___cover___mtime' |
+  'frontmatter___cover___ctime' |
+  'frontmatter___cover___publicURL' |
+  'frontmatter___cover___id' |
+  'frontmatter___cover___parent___id' |
+  'frontmatter___cover___parent___children' |
+  'frontmatter___cover___children' |
+  'frontmatter___cover___children___id' |
+  'frontmatter___cover___children___children' |
+  'frontmatter___cover___internal___content' |
+  'frontmatter___cover___internal___contentDigest' |
+  'frontmatter___cover___internal___description' |
+  'frontmatter___cover___internal___fieldOwners' |
+  'frontmatter___cover___internal___ignoreType' |
+  'frontmatter___cover___internal___mediaType' |
+  'frontmatter___cover___internal___owner' |
+  'frontmatter___cover___internal___type' |
+  'frontmatter___cover___childMarkdownRemark___id' |
+  'frontmatter___cover___childMarkdownRemark___children' |
+  'frontmatter___cover___childMarkdownRemark___excerpt' |
+  'frontmatter___cover___childMarkdownRemark___rawMarkdownBody' |
+  'frontmatter___cover___childMarkdownRemark___fileAbsolutePath' |
+  'frontmatter___cover___childMarkdownRemark___html' |
+  'frontmatter___cover___childMarkdownRemark___htmlAst' |
+  'frontmatter___cover___childMarkdownRemark___excerptAst' |
+  'frontmatter___cover___childMarkdownRemark___headings' |
+  'frontmatter___cover___childMarkdownRemark___timeToRead' |
+  'frontmatter___cover___childMarkdownRemark___tableOfContents' |
+  'frontmatter___cover___childImageSharp___id' |
+  'frontmatter___cover___childImageSharp___children' |
   'frontmatter___tags' |
   'excerpt' |
   'rawMarkdownBody' |
@@ -1593,8 +1688,8 @@ export type MarkdownRemarkFrontmatter = {
   featured?: Maybe<Scalars['Boolean']>,
   date?: Maybe<Scalars['Date']>,
   description?: Maybe<Scalars['String']>,
-  cover?: Maybe<Scalars['String']>,
   category?: Maybe<Scalars['String']>,
+  cover?: Maybe<File>,
   tags?: Maybe<Array<Maybe<Scalars['String']>>>,
 };
 
@@ -1614,8 +1709,8 @@ export type MarkdownRemarkFrontmatterFilterInput = {
   featured?: Maybe<BooleanQueryOperatorInput>,
   date?: Maybe<DateQueryOperatorInput>,
   description?: Maybe<StringQueryOperatorInput>,
-  cover?: Maybe<StringQueryOperatorInput>,
   category?: Maybe<StringQueryOperatorInput>,
+  cover?: Maybe<FileFilterInput>,
   tags?: Maybe<StringQueryOperatorInput>,
 };
 
@@ -2069,7 +2164,6 @@ export type SiteFieldsEnum =
   'internal___owner' |
   'internal___type' |
   'siteMetadata___description' |
-  'siteMetadata___url' |
   'siteMetadata___siteUrl' |
   'siteMetadata___pathPrefix' |
   'siteMetadata___title' |
@@ -2362,19 +2456,18 @@ export type SitePageFieldsEnum =
   'pluginCreator___version' |
   'pluginCreator___pluginOptions___plugins' |
   'pluginCreator___pluginOptions___plugins___resolve' |
-  'pluginCreator___pluginOptions___plugins___name' |
   'pluginCreator___pluginOptions___plugins___id' |
+  'pluginCreator___pluginOptions___plugins___name' |
   'pluginCreator___pluginOptions___plugins___version' |
   'pluginCreator___pluginOptions___plugins___browserAPIs' |
   'pluginCreator___pluginOptions___plugins___ssrAPIs' |
   'pluginCreator___pluginOptions___plugins___pluginFilepath' |
   'pluginCreator___pluginOptions___path' |
   'pluginCreator___pluginOptions___name' |
+  'pluginCreator___pluginOptions___accessToken' |
+  'pluginCreator___pluginOptions___namedBitlys' |
   'pluginCreator___pluginOptions___maxWidth' |
   'pluginCreator___pluginOptions___showCaptions' |
-  'pluginCreator___pluginOptions___figureClassName' |
-  'pluginCreator___pluginOptions___captionClassName' |
-  'pluginCreator___pluginOptions___imageClassName' |
   'pluginCreator___pluginOptions___wrapperStyle' |
   'pluginCreator___pluginOptions___inlineCodeMarker' |
   'pluginCreator___pluginOptions___trackingId' |
@@ -2575,14 +2668,13 @@ export type SitePluginFieldsEnum =
   'version' |
   'pluginOptions___plugins' |
   'pluginOptions___plugins___resolve' |
-  'pluginOptions___plugins___name' |
   'pluginOptions___plugins___id' |
+  'pluginOptions___plugins___name' |
   'pluginOptions___plugins___version' |
+  'pluginOptions___plugins___pluginOptions___accessToken' |
+  'pluginOptions___plugins___pluginOptions___namedBitlys' |
   'pluginOptions___plugins___pluginOptions___maxWidth' |
   'pluginOptions___plugins___pluginOptions___showCaptions' |
-  'pluginOptions___plugins___pluginOptions___figureClassName' |
-  'pluginOptions___plugins___pluginOptions___captionClassName' |
-  'pluginOptions___plugins___pluginOptions___imageClassName' |
   'pluginOptions___plugins___pluginOptions___wrapperStyle' |
   'pluginOptions___plugins___pluginOptions___inlineCodeMarker' |
   'pluginOptions___plugins___browserAPIs' |
@@ -2590,11 +2682,10 @@ export type SitePluginFieldsEnum =
   'pluginOptions___plugins___pluginFilepath' |
   'pluginOptions___path' |
   'pluginOptions___name' |
+  'pluginOptions___accessToken' |
+  'pluginOptions___namedBitlys' |
   'pluginOptions___maxWidth' |
   'pluginOptions___showCaptions' |
-  'pluginOptions___figureClassName' |
-  'pluginOptions___captionClassName' |
-  'pluginOptions___imageClassName' |
   'pluginOptions___wrapperStyle' |
   'pluginOptions___inlineCodeMarker' |
   'pluginOptions___trackingId' |
@@ -2725,11 +2816,10 @@ export type SitePluginPluginOptions = {
   plugins?: Maybe<Array<Maybe<SitePluginPluginOptionsPlugins>>>,
   path?: Maybe<Scalars['String']>,
   name?: Maybe<Scalars['String']>,
+  accessToken?: Maybe<Scalars['String']>,
+  namedBitlys?: Maybe<Array<Maybe<Scalars['String']>>>,
   maxWidth?: Maybe<Scalars['Int']>,
   showCaptions?: Maybe<Scalars['Boolean']>,
-  figureClassName?: Maybe<Scalars['String']>,
-  captionClassName?: Maybe<Scalars['String']>,
-  imageClassName?: Maybe<Scalars['String']>,
   wrapperStyle?: Maybe<Scalars['String']>,
   inlineCodeMarker?: Maybe<Scalars['String']>,
   trackingId?: Maybe<Scalars['String']>,
@@ -2748,11 +2838,10 @@ export type SitePluginPluginOptionsFilterInput = {
   plugins?: Maybe<SitePluginPluginOptionsPluginsFilterListInput>,
   path?: Maybe<StringQueryOperatorInput>,
   name?: Maybe<StringQueryOperatorInput>,
+  accessToken?: Maybe<StringQueryOperatorInput>,
+  namedBitlys?: Maybe<StringQueryOperatorInput>,
   maxWidth?: Maybe<IntQueryOperatorInput>,
   showCaptions?: Maybe<BooleanQueryOperatorInput>,
-  figureClassName?: Maybe<StringQueryOperatorInput>,
-  captionClassName?: Maybe<StringQueryOperatorInput>,
-  imageClassName?: Maybe<StringQueryOperatorInput>,
   wrapperStyle?: Maybe<StringQueryOperatorInput>,
   inlineCodeMarker?: Maybe<StringQueryOperatorInput>,
   trackingId?: Maybe<StringQueryOperatorInput>,
@@ -2769,8 +2858,8 @@ export type SitePluginPluginOptionsFilterInput = {
 
 export type SitePluginPluginOptionsPlugins = {
   resolve?: Maybe<Scalars['String']>,
-  name?: Maybe<Scalars['String']>,
   id?: Maybe<Scalars['String']>,
+  name?: Maybe<Scalars['String']>,
   version?: Maybe<Scalars['String']>,
   pluginOptions?: Maybe<SitePluginPluginOptionsPluginsPluginOptions>,
   browserAPIs?: Maybe<Array<Maybe<Scalars['String']>>>,
@@ -2780,8 +2869,8 @@ export type SitePluginPluginOptionsPlugins = {
 
 export type SitePluginPluginOptionsPluginsFilterInput = {
   resolve?: Maybe<StringQueryOperatorInput>,
-  name?: Maybe<StringQueryOperatorInput>,
   id?: Maybe<StringQueryOperatorInput>,
+  name?: Maybe<StringQueryOperatorInput>,
   version?: Maybe<StringQueryOperatorInput>,
   pluginOptions?: Maybe<SitePluginPluginOptionsPluginsPluginOptionsFilterInput>,
   browserAPIs?: Maybe<StringQueryOperatorInput>,
@@ -2794,21 +2883,19 @@ export type SitePluginPluginOptionsPluginsFilterListInput = {
 };
 
 export type SitePluginPluginOptionsPluginsPluginOptions = {
+  accessToken?: Maybe<Scalars['String']>,
+  namedBitlys?: Maybe<Array<Maybe<Scalars['String']>>>,
   maxWidth?: Maybe<Scalars['Int']>,
   showCaptions?: Maybe<Scalars['Boolean']>,
-  figureClassName?: Maybe<Scalars['String']>,
-  captionClassName?: Maybe<Scalars['String']>,
-  imageClassName?: Maybe<Scalars['String']>,
   wrapperStyle?: Maybe<Scalars['String']>,
   inlineCodeMarker?: Maybe<Scalars['String']>,
 };
 
 export type SitePluginPluginOptionsPluginsPluginOptionsFilterInput = {
+  accessToken?: Maybe<StringQueryOperatorInput>,
+  namedBitlys?: Maybe<StringQueryOperatorInput>,
   maxWidth?: Maybe<IntQueryOperatorInput>,
   showCaptions?: Maybe<BooleanQueryOperatorInput>,
-  figureClassName?: Maybe<StringQueryOperatorInput>,
-  captionClassName?: Maybe<StringQueryOperatorInput>,
-  imageClassName?: Maybe<StringQueryOperatorInput>,
   wrapperStyle?: Maybe<StringQueryOperatorInput>,
   inlineCodeMarker?: Maybe<StringQueryOperatorInput>,
 };
@@ -2820,7 +2907,6 @@ export type SitePluginSortInput = {
 
 export type SiteSiteMetadata = {
   description?: Maybe<Scalars['String']>,
-  url?: Maybe<Scalars['String']>,
   siteUrl?: Maybe<Scalars['String']>,
   pathPrefix?: Maybe<Scalars['String']>,
   title?: Maybe<Scalars['String']>,
@@ -2877,7 +2963,6 @@ export type SiteSiteMetadataAuthorSocialFilterInput = {
 
 export type SiteSiteMetadataFilterInput = {
   description?: Maybe<StringQueryOperatorInput>,
-  url?: Maybe<StringQueryOperatorInput>,
   siteUrl?: Maybe<StringQueryOperatorInput>,
   pathPrefix?: Maybe<StringQueryOperatorInput>,
   title?: Maybe<StringQueryOperatorInput>,
