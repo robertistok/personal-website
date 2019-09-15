@@ -1,13 +1,14 @@
 ---
+title: "What Is Relatable in a\_Nutshell"
 template: post
-title: What Is Relatable in a Nutshell
 slug: what-is-relatable-in-a-nutshell
 draft: false
 featured: false
-date: 2019-05-09T15:00:00.000Z
+date: "2019-05-09T15:00:00.000Z"
 description: >-
-  Relatable, the company why I moved to Stockholm in 2017 and how it is changing my life. Let's jump into it.
-cover: /what-is-relatable-in-a-nutshell-cover.png
+  Relatable, the company why I moved to Stockholm in 2017 and how it is changing
+  my life. Let's jump into it.
+cover: "./what-is-relatable-in-a-nutshell-cover.png"
 category: Programming
 tags:
   - Storytime
@@ -34,7 +35,7 @@ Check out [our website](https://bit.ly/2xNCyOj), if you want to learn more about
 - We did not take in any external funding. This means, there are no investors to satisfy, no numbers to chase and we have complete control of the business decisions we take.
 - A small product team. While the company grew to almost 50 people, the product team is still relatively small with 4 people. This forces us to be smart with our time and focus on the features which will have the biggest impact on the business.
 - The company is 3 years old and we managed to open up 3 new offices during this short period. Los Angeles in 2017, London in 2018 and New York in 2019. These offices help us to compete for new sales in some of the biggest markets in the world.
-- We have **3 office dogs** and all have their own Instagram([Lenny](https://www.instagram.com/lennytheboston/?hl=en), [Ziggy](https://www.instagram.com/ziggysmalls_the_shihpoo/?hl=en), [Lydia](https://www.instagram.com/lydia_samoyed/?hl=en))
+- We have **3 office dogs** and all have their own Instagram([Lenny](https://bit.ly/2zIu0c2), [Ziggy](https://bit.ly/2zEJFZQ), [Lydia](https://bit.ly/2zEJI7Y))
 
 ![Our office dogs 😍](/office-dogs.jpeg)
 
@@ -42,7 +43,7 @@ Check out [our website](https://bit.ly/2xNCyOj), if you want to learn more about
 
 It was 2017, I just finished university and I was ready for something new. I wanted to grow as a person and as a professional, was curious to live abroad, and eager to join a great product company.
 
-After chatting with [Stefan](https://www.linkedin.com/in/stefpet/), [Martin](https://www.linkedin.com/in/martingarbarczyk/), and [Aron](https://www.linkedin.com/in/aron-levin/), the cofounders of the company, I was certain that I want to be part of this. I was fascinated by the clients Relatable had, the amount of knowledge the people I met possess and the technology running behind the scenes.
+After chatting with [Stefan](https://bit.ly/2zEJL3E), [Martin](https://bit.ly/2zGyfET), and [Aron](https://bit.ly/2zEJNZk), the cofounders of the company, I was certain that I want to be part of this. I was fascinated by the clients Relatable had, the amount of knowledge the people I met possess and the technology running behind the scenes.
 
 Being the second developer on the team, it was also a great opportunity to become a true full-stack developer, taking care of everything related to the product(and not only).
 
@@ -50,25 +51,25 @@ I decided to join Relatable and started preparing for the new adventure.
 
 ## How does it feel working here?
 
-### **1\. Startup culture**
+### **1. Startup culture**
 
 Even though the team grew from 13 to almost 50 people since I've joined, it still feels like a startup. I really like that everyone knows everyone, we can go and talk to anyone, no matter their "title" and the founders listen to our requests(should be reasonable though).
 
-### _2\. Cutting edge technologies_
+### _2. Cutting edge technologies_
 
 Working with modern technologies feels good and makes staying up to date, both as a developer and as a company, easier.
 
 Having a relatively small user base also allows us to experiment with new tools all the time. We still do our due diligence before adopting a new solution, jumping on the latest bandwagon is never a smart thing to do.
 
-### _3\. Remote friendly_
+### _3. Remote friendly_
 
 As long as I have an internet connection, I could do my job from wherever I want. At Relatable, I have the opportunity to work remotely quite often and I am extremely grateful for this.
 
-### _4\. Super agile_
+### _4. Super agile_
 
 The company is continuously changing and improving, which makes it a fun place to work as we need to change as well. While this is not for everyone, I really like flexible environments, because it is hard to ever get bored.
 
-### _5\. Great place to learn_
+### _5. Great place to learn_
 
 Being a small team needs developers who can understand the whole system and deliver complete solutions to problems.
 
@@ -76,7 +77,7 @@ Writing server-side code, developing user interfaces, deploying software, mainta
 
 I am learning something new every week ever since I've decided to join in 2017.
 
-### _6\. Understanding business_
+### _6. Understanding business_
 
 Being part of a product company gives us the possibility to learn about all parts of the business and helps us to make decisions with our product in mind.
 

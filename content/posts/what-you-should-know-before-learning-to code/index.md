@@ -1,21 +1,21 @@
 ---
+title: What you should know before learning to code
 template: post
-title: "What you should know before learning to code"
 slug: what-you-should-know-before-learning-to-code
 draft: false
 featured: true
-date: 2019-05-02T15:00:00.000Z
+date: "2019-05-02T15:00:00.000Z"
 description: >-
   Ever thought about learning to code, but you just never really knew where to
   start? You don't know if it is the right thing for you? You are not sure if it
   is actually worth all the struggle?
-cover: /what-you-should-know-before-learning-to-code.jpg
+cover: "./what-you-should-know-before-learning-to-code-cover.jpg"
 category: Programming
 tags:
   - Coding
 ---
 
-[![Photo by Daria Nepriakhina on Unsplash](/what-you-should-know-before-learning-to-code-cover.jpg)](https://unsplash.com/search/photos/person-using-macbook?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[![Photo by Daria Nepriakhina on Unsplash](/what-you-should-know-before-learning-to-code-cover.jpg)](https://bit.ly/2PPC8CD)
 
 Ever thought about learning to code, but you just never really knew where to start? You don't know if it is the right thing for you? You are not sure if it is actually worth all the struggle?
 
@@ -47,13 +47,13 @@ The demand for programmers is insane right now and you will be able to choose fr
 
 Did you ever have an idea for an amazing application, but you could just not build it due to the lack of coding skills?
 
-If you have the necessary knowledge to start a project **whenever** and **wherever** you want, you are set to do amazing things. From writing [a random cat meme generator](https://imgflip.com/memegenerator/51389299/Random-Cat) to a prototype for a new business, everything is possible.
+If you have the necessary knowledge to start a project **whenever** and **wherever** you want, you are set to do amazing things. From writing [a random cat meme generator](https://bit.ly/2zLF1co) to a prototype for a new business, everything is possible.
 
 ### Flexibility
 
 All you need to do to code is a computer and internet connection. This means that you don't need to sit in an office all day, you can do your job anywhere in the world.
 
-It's up to you what to do with all this flexibility: [travel the world](https://remoteyear.com/), spend more time with your family, skip the daily commute or all at once.
+It's up to you what to do with all this flexibility: [travel the world](https://bit.ly/2zKEBTT), spend more time with your family, skip the daily commute or all at once.
 
 ## Should you do it?
 
@@ -67,7 +67,7 @@ You should have at least an interest in technology. If you do this for the wrong
 
 ### Constant learning
 
-[Technology keeps improving every day](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f) and you should be able to keep up with it. If you want to stay relevant as a developer, you need to be on a constant lookout for new trends, improvements, and more efficient ways to solve problems.
+[Technology keeps improving every day](https://bit.ly/2zGsw27) and you should be able to keep up with it. If you want to stay relevant as a developer, you need to be on a constant lookout for new trends, improvements, and more efficient ways to solve problems.
 
 Learning does not stop after you land your first client or get employed. Ideally, you would set aside weekly a couple of hours to stay up to date. For me, this means going to tech conferences, learning from online courses and reading articles/books.
 
@@ -77,7 +77,7 @@ No matter which method do you choose, it's going to take time.
 
 If you want to be a professional, you will need to put a lot of work into the process. It is going to be easier to focus and walk the extra mile if you have a goal in mind.
 
-With enough discipline and dedication though, it can be done even if you have other commitments, like a 9--5 job or taking care of your family. Read [Beaus's story](https://medium.freecodecamp.org/how-i-got-a-second-degree-and-earned-5-developer-certifications-in-just-one-year-while-working-and-2b902ee291ab) if you want to get some inspiration.
+With enough discipline and dedication though, it can be done even if you have other commitments, like a 9--5 job or taking care of your family. Read [Beaus's story](https://bit.ly/2zEJJc2) if you want to get some inspiration.
 
 ## How to do it?
 
@@ -97,15 +97,15 @@ What if the perfect program does not exist in your area, you don't have the time
 
 Yes, you guessed it right. Going online and taking a course on your own terms might be your best option. You will be able to choose when to learn, what to learn and it does not cost that much like a school. Heck, it can even be free.
 
-There are numerous courses for every level and language available on platforms like [Freecodecamp](https://www.freecodecamp.org/), [Frontendmasters](http://frontendmasters.com), [Udemy](https://www.udemy.com/the-complete-web-development-bootcamp/), [Pluralsight](https://www.pluralsight.com/) or [Udacity](https://eu.udacity.com/).
+There are numerous courses for every level and language available on platforms like [Freecodecamp](https://bit.ly/2zEJLAG), [Frontendmasters](https://bit.ly/2zLF1ZW), [Udemy](https://bit.ly/2zJr1Ac), [Pluralsight](https://bit.ly/2zKECap) or [Udacity](https://bit.ly/317yFjI).
 
-I personally would recommend starting out on [Freecodecamp](https://www.freecodecamp.org/). It is free, you don't need any programming knowledge to start and there are tons of projects to work on along the way.
+I personally would recommend starting out on [Freecodecamp](https://bit.ly/2zEJLAG). It is free, you don't need any programming knowledge to start and there are tons of projects to work on along the way.
 
 The principle still applies here: **do your own research as well** before committing to a method.
 
 ### Personal projects
 
-No matter which way you go, [working on personal projects](https://flaviocopes.com/sample-app-ideas/) will be an extensive part of the process. As with learning in general, the magic happens when you actually start to apply what you have learned.
+No matter which way you go, [working on personal projects](https://bit.ly/310PcWJ) will be an extensive part of the process. As with learning in general, the magic happens when you actually start to apply what you have learned.
 
 Doing practical work is not only beneficial in having a deeper understanding of the skills you acquire, but it will also be an excellent starting point in building out your portfolio. Having a couple of projects developed will make finding someone who will pay for your skills easier.
 

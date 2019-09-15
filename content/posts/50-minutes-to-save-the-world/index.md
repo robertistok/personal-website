@@ -4,13 +4,15 @@ template: post
 slug: 50-minutes-to-save-the-world
 draft: false
 featured: false
-date: '2019-07-03T15:00:00.000Z'
+date: "2019-07-03T15:00:00.000Z"
 description: >-
   While watching the short documentary, I was going through a lot of different
   emotional states. Terrified, hopeful, shocked, sad and guilty were just some
   of the feelings I had.
 category: Climate Change
+cover: "./opening-schene-screenshot.png"
 ---
+
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/wthTmQHmuZ0" frameborder="0" allowfullscreen="true"> </iframe>
   <figcaption class="md-figure-caption">50 Minutes to Save the World</figcaption>
