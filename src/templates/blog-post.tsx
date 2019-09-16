@@ -33,24 +33,19 @@ const BlogPostTemplate: React.FunctionComponent<BlogPostTemplateProps> = ({
     >
       <SEO
         title={frontmatter.title}
+        description={frontmatter.description}
+        image={
+          frontmatter.cover
+            ? `${siteUrl}${frontmatter.cover.childImageSharp.fixed.src}`
+            : undefined
+        }
+        imageAlt={`Cover photo for ${frontmatter.title}`}
+        type="article"
         meta={[
-          { property: "og:title", content: frontmatter.title },
-          { property: "og:description", content: frontmatter.description },
-          {
-            property: "og:image",
-            content:
-              frontmatter.cover &&
-              `${siteUrl}${frontmatter.cover.childImageSharp.fixed.src}`,
-          },
-          {
-            property: "og:image:alt",
-            content: `Cover photo for ${frontmatter.title}`,
-          },
           {
             property: "og:url",
             content: `${siteUrl}/blog/${frontmatter.slug}`,
           },
-          { property: "og:type", content: "article" },
           { property: "article:published_time", content: frontmatter.date },
           { property: "article:section", content: frontmatter.category },
           ...(frontmatter.tags || []).map(t => ({

@@ -24,19 +24,28 @@ interface SEOProps {
   lang?: string;
   meta?: (OGMetaTag | TwitterMetaTag)[];
   title: string;
+  description?: string;
+  image?: string;
+  imageAlt?: string;
+  type?: string;
 }
 
 const SEO: React.FunctionComponent<SEOProps> = ({
   lang = "en",
   meta = [],
   title,
+  description,
+  image,
+  imageAlt,
+  type = "website",
 }): React.ReactElement => {
   const {
     title: defaultTitle = "",
-    description: metaDescription,
+    description: defaultDescription = "",
     author,
   } = useSiteMetadata();
 
+  const metaDescription = description || defaultDescription;
   return (
     <Helmet
       htmlAttributes={{
@@ -49,42 +58,30 @@ const SEO: React.FunctionComponent<SEOProps> = ({
           name: `google-site-verification`,
           content: `OZ82-xGcAi-7G55v3p4iJa-qlkwTTG1ExzUrYXxdsT0`,
         },
-        {
-          name: `description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:title`,
-          content: defaultTitle,
-        },
-        {
-          property: `og:description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:type`,
-          content: `website`,
-        },
-        {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
-          name: `twitter:creator`,
-          content: author.name,
-        },
-        {
-          name: `twitter:creator`,
-          content: author.name,
-        },
-        {
-          name: `twitter:title`,
-          content: author.social.twitter,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
+        { property: `og:title`, content: title },
+        { name: `twitter:title`, content: title },
+
+        { name: `description`, content: metaDescription },
+        { property: `og:description`, content: metaDescription },
+        { name: `twitter:description`, content: metaDescription },
+
+        { name: `twitter:card`, content: `summary` },
+        { property: `og:type`, content: type },
+
+        ...(image && [
+          { property: `og:image`, content: image },
+          { name: `twitter:image`, content: image },
+        ]),
+
+        ...(imageAlt && [
+          { property: `og:image:alt`, content: imageAlt },
+          { name: `twitter:image:alt`, content: imageAlt },
+        ]),
+
+        ...(author.social.twitter && [
+          { name: `twitter:creator`, content: author.social.twitter },
+          { name: `twitter:site`, content: author.social.twitter },
+        ]),
       ].concat(meta)}
     />
   );
