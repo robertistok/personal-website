@@ -1,26 +1,26 @@
 module.exports = {
   siteMetadata: {
-    description:
-      "Follow me on my journey, I write about my lifestyle and code.",
-    siteUrl: "https://robertistok.com",
-    pathPrefix: "/",
-    title: "Róbert Istók",
     copyright: "© All rights reserved.",
+    description:
+      "Róbert is traveling the world with his laptop and shipping products for the web, while constantly embracing new ideas. Come, and join him on this journey!",
     googleAnalyticsId: "UA-73379983-2",
+    pathPrefix: "/",
+    siteUrl: "https://robertistok.com",
+    title: "Róbert Istók",
     author: {
+      birthDate: new Date("1994-07-05"),
       firstname: "Róbert",
       lastname: "Istók",
       name: "Róbert Istók",
       photo: "/robertistok_avatar.jpeg",
-      bio: "lorem bio",
-      birthDate: new Date("1994-07-05"),
       social: {
         email: "robertistok94@gmail.com",
-        twitter: "robertistok",
-        linkedin: "robertistok",
         github: "robertistok",
-        medium: "robertistok",
         goodreads: "robertistok",
+        instagram: "robertistok",
+        linkedin: "robertistok",
+        medium: "robertistok",
+        twitter: "robertistok",
       },
     },
   },
