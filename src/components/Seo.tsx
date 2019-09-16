@@ -28,6 +28,7 @@ interface SEOProps {
   image?: string;
   imageAlt?: string;
   type?: string;
+  url?: string;
 }
 
 const SEO: React.FunctionComponent<SEOProps> = ({
@@ -38,6 +39,7 @@ const SEO: React.FunctionComponent<SEOProps> = ({
   image,
   imageAlt,
   type = "website",
+  url,
 }): React.ReactElement => {
   const {
     title: defaultTitle = "",
@@ -67,6 +69,13 @@ const SEO: React.FunctionComponent<SEOProps> = ({
 
         { name: `twitter:card`, content: `summary` },
         { property: `og:type`, content: type },
+
+        ...(url
+          ? [
+              { property: "og:url", content: url },
+              { property: "twitter:url", content: url },
+            ]
+          : []),
 
         ...(image
           ? [

@@ -41,11 +41,8 @@ const BlogPostTemplate: React.FunctionComponent<BlogPostTemplateProps> = ({
         }
         imageAlt={`Cover photo for ${frontmatter.title}`}
         type="article"
+        url={`${siteUrl}/blog/${frontmatter.slug}`}
         meta={[
-          {
-            property: "og:url",
-            content: `${siteUrl}/blog/${frontmatter.slug}`,
-          },
           { property: "article:published_time", content: frontmatter.date },
           { property: "article:section", content: frontmatter.category },
           ...(frontmatter.tags || []).map(t => ({
