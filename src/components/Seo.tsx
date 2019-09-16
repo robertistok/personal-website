@@ -68,20 +68,26 @@ const SEO: React.FunctionComponent<SEOProps> = ({
         { name: `twitter:card`, content: `summary` },
         { property: `og:type`, content: type },
 
-        ...(image && [
-          { property: `og:image`, content: image },
-          { name: `twitter:image`, content: image },
-        ]),
+        ...(image
+          ? [
+              { property: `og:image`, content: image },
+              { name: `twitter:image`, content: image },
+            ]
+          : []),
 
-        ...(imageAlt && [
-          { property: `og:image:alt`, content: imageAlt },
-          { name: `twitter:image:alt`, content: imageAlt },
-        ]),
+        ...(imageAlt
+          ? [
+              { property: `og:image:alt`, content: imageAlt },
+              { name: `twitter:image:alt`, content: imageAlt },
+            ]
+          : []),
 
-        ...(author.social.twitter && [
-          { name: `twitter:creator`, content: author.social.twitter },
-          { name: `twitter:site`, content: author.social.twitter },
-        ]),
+        ...(author.social.twitter
+          ? [
+              { name: `twitter:creator`, content: author.social.twitter },
+              { name: `twitter:site`, content: author.social.twitter },
+            ]
+          : []),
       ].concat(meta)}
     />
   );
