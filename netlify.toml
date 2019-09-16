@@ -4,13 +4,3 @@
 [build.environment]
   YARN_VERSION = "1.9.4"
   YARN_FLAGS = "--no-ignore-optional"
-[[redirects]]
-  from = "http://robertistok.netlify.com/*"
-  to = "https://www.robertistok.com/:splat"
-  status = 301
-  force = true
-[[redirects]]
-  from = "https://robertistok.netlify.com/*"
-  to = "https://www.robertistok.com/:splat"
-  status = 301
-  force = true
