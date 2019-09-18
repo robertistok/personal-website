@@ -46,7 +46,7 @@ const SEO: React.FunctionComponent<SEOProps> = ({
     query Seo {
       avatar: file(absolutePath: { regex: "/robertistok_avatar.jpeg/" }) {
         childImageSharp {
-          fixed(width: 150, height: 150) {
+          fixed(width: 1024, height: 1024) {
             ...GatsbyImageSharpFixed
           }
         }
