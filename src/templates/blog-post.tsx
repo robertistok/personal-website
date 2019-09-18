@@ -36,7 +36,7 @@ const BlogPostTemplate: React.FunctionComponent<BlogPostTemplateProps> = ({
         description={frontmatter.description}
         image={
           frontmatter.cover
-            ? `${siteUrl}${frontmatter.cover.childImageSharp.fixed.src}`
+            ? frontmatter.cover.childImageSharp.fixed.src
             : undefined
         }
         imageAlt={`Cover photo for ${frontmatter.title}`}
