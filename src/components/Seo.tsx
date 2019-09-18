@@ -1,14 +1,9 @@
-/**
- * SEO component that queries for data with
- *  Gatsby's useStaticQuery React hook
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
 import Helmet from "react-helmet";
 
 import useSiteMetadata from "../hooks/useSiteMetadata";
+import { File } from "../types/graphql-types";
 
 type OGMetaTag = {
   property: string;
@@ -45,9 +40,24 @@ const SEO: React.FunctionComponent<SEOProps> = ({
     title: defaultTitle = "",
     description: defaultDescription = "",
     author,
+    siteUrl,
   } = useSiteMetadata();
+  const { avatar }: { avatar: File } = useStaticQuery(graphql`
+    query Seo {
+      avatar: file(absolutePath: { regex: "/robertistok_avatar.jpeg/" }) {
+        childImageSharp {
+          fixed(width: 150, height: 150) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+    }
+  `);
 
   const metaDescription = description || defaultDescription;
+  const metaImageUrl = `${siteUrl}${image || avatar.childImageSharp.fixed.src}`;
+  const metaImageAlt = imageAlt || `Cover photo of ${author.name}`;
+
   return (
     <Helmet
       htmlAttributes={{
@@ -70,24 +80,20 @@ const SEO: React.FunctionComponent<SEOProps> = ({
         { name: `twitter:card`, content: `summary` },
         { property: `og:type`, content: type },
 
+        { property: `og:image`, content: metaImageUrl },
+        { name: `twitter:image`, content: metaImageUrl },
+
+        ...(Boolean(image) === Boolean(imageAlt) // don't want to show the wrong imageAlt
+          ? [
+              { property: `og:image:alt`, content: metaImageAlt },
+              { name: `twitter:image:alt`, content: metaImageAlt },
+            ]
+          : []),
+
         ...(url
           ? [
               { property: "og:url", content: url },
               { property: "twitter:url", content: url },
-            ]
-          : []),
-
-        ...(image
-          ? [
-              { property: `og:image`, content: image },
-              { name: `twitter:image`, content: image },
-            ]
-          : []),
-
-        ...(imageAlt
-          ? [
-              { property: `og:image:alt`, content: imageAlt },
-              { name: `twitter:image:alt`, content: imageAlt },
             ]
           : []),
 
