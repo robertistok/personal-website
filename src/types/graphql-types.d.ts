@@ -648,7 +648,6 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___featured' |
   'childMarkdownRemark___frontmatter___date' |
   'childMarkdownRemark___frontmatter___description' |
-  'childMarkdownRemark___frontmatter___category' |
   'childMarkdownRemark___frontmatter___cover___birthtime' |
   'childMarkdownRemark___frontmatter___cover___birthtimeMs' |
   'childMarkdownRemark___frontmatter___cover___sourceInstanceName' |
@@ -685,6 +684,7 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___cover___publicURL' |
   'childMarkdownRemark___frontmatter___cover___id' |
   'childMarkdownRemark___frontmatter___cover___children' |
+  'childMarkdownRemark___frontmatter___category' |
   'childMarkdownRemark___frontmatter___tags' |
   'childMarkdownRemark___excerpt' |
   'childMarkdownRemark___rawMarkdownBody' |
@@ -1578,7 +1578,6 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___featured' |
   'frontmatter___date' |
   'frontmatter___description' |
-  'frontmatter___category' |
   'frontmatter___cover___birthtime' |
   'frontmatter___cover___birthtimeMs' |
   'frontmatter___cover___sourceInstanceName' |
@@ -1640,6 +1639,7 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___cover___childMarkdownRemark___tableOfContents' |
   'frontmatter___cover___childImageSharp___id' |
   'frontmatter___cover___childImageSharp___children' |
+  'frontmatter___category' |
   'frontmatter___tags' |
   'excerpt' |
   'rawMarkdownBody' |
@@ -1688,8 +1688,8 @@ export type MarkdownRemarkFrontmatter = {
   featured?: Maybe<Scalars['Boolean']>,
   date?: Maybe<Scalars['Date']>,
   description?: Maybe<Scalars['String']>,
-  category?: Maybe<Scalars['String']>,
   cover?: Maybe<File>,
+  category?: Maybe<Scalars['String']>,
   tags?: Maybe<Array<Maybe<Scalars['String']>>>,
 };
 
@@ -1709,8 +1709,8 @@ export type MarkdownRemarkFrontmatterFilterInput = {
   featured?: Maybe<BooleanQueryOperatorInput>,
   date?: Maybe<DateQueryOperatorInput>,
   description?: Maybe<StringQueryOperatorInput>,
-  category?: Maybe<StringQueryOperatorInput>,
   cover?: Maybe<FileFilterInput>,
+  category?: Maybe<StringQueryOperatorInput>,
   tags?: Maybe<StringQueryOperatorInput>,
 };
 
@@ -2163,24 +2163,24 @@ export type SiteFieldsEnum =
   'internal___mediaType' |
   'internal___owner' |
   'internal___type' |
-  'siteMetadata___description' |
-  'siteMetadata___siteUrl' |
-  'siteMetadata___pathPrefix' |
-  'siteMetadata___title' |
   'siteMetadata___copyright' |
+  'siteMetadata___description' |
   'siteMetadata___googleAnalyticsId' |
+  'siteMetadata___pathPrefix' |
+  'siteMetadata___siteUrl' |
+  'siteMetadata___title' |
+  'siteMetadata___author___birthDate' |
   'siteMetadata___author___firstname' |
   'siteMetadata___author___lastname' |
   'siteMetadata___author___name' |
   'siteMetadata___author___photo' |
-  'siteMetadata___author___bio' |
-  'siteMetadata___author___birthDate' |
   'siteMetadata___author___social___email' |
-  'siteMetadata___author___social___twitter' |
-  'siteMetadata___author___social___linkedin' |
   'siteMetadata___author___social___github' |
-  'siteMetadata___author___social___medium' |
   'siteMetadata___author___social___goodreads' |
+  'siteMetadata___author___social___instagram' |
+  'siteMetadata___author___social___linkedin' |
+  'siteMetadata___author___social___medium' |
+  'siteMetadata___author___social___twitter' |
   'port' |
   'host' |
   'polyfill' |
@@ -2906,22 +2906,21 @@ export type SitePluginSortInput = {
 };
 
 export type SiteSiteMetadata = {
-  description?: Maybe<Scalars['String']>,
-  siteUrl?: Maybe<Scalars['String']>,
-  pathPrefix?: Maybe<Scalars['String']>,
-  title?: Maybe<Scalars['String']>,
   copyright?: Maybe<Scalars['String']>,
+  description?: Maybe<Scalars['String']>,
   googleAnalyticsId?: Maybe<Scalars['String']>,
+  pathPrefix?: Maybe<Scalars['String']>,
+  siteUrl?: Maybe<Scalars['String']>,
+  title?: Maybe<Scalars['String']>,
   author?: Maybe<SiteSiteMetadataAuthor>,
 };
 
 export type SiteSiteMetadataAuthor = {
+  birthDate?: Maybe<Scalars['Date']>,
   firstname?: Maybe<Scalars['String']>,
   lastname?: Maybe<Scalars['String']>,
   name?: Maybe<Scalars['String']>,
   photo?: Maybe<Scalars['String']>,
-  bio?: Maybe<Scalars['String']>,
-  birthDate?: Maybe<Scalars['Date']>,
   social?: Maybe<SiteSiteMetadataAuthorSocial>,
 };
 
@@ -2934,40 +2933,41 @@ export type SiteSiteMetadataAuthorBirthDateArgs = {
 };
 
 export type SiteSiteMetadataAuthorFilterInput = {
+  birthDate?: Maybe<DateQueryOperatorInput>,
   firstname?: Maybe<StringQueryOperatorInput>,
   lastname?: Maybe<StringQueryOperatorInput>,
   name?: Maybe<StringQueryOperatorInput>,
   photo?: Maybe<StringQueryOperatorInput>,
-  bio?: Maybe<StringQueryOperatorInput>,
-  birthDate?: Maybe<DateQueryOperatorInput>,
   social?: Maybe<SiteSiteMetadataAuthorSocialFilterInput>,
 };
 
 export type SiteSiteMetadataAuthorSocial = {
   email?: Maybe<Scalars['String']>,
-  twitter?: Maybe<Scalars['String']>,
-  linkedin?: Maybe<Scalars['String']>,
   github?: Maybe<Scalars['String']>,
-  medium?: Maybe<Scalars['String']>,
   goodreads?: Maybe<Scalars['String']>,
+  instagram?: Maybe<Scalars['String']>,
+  linkedin?: Maybe<Scalars['String']>,
+  medium?: Maybe<Scalars['String']>,
+  twitter?: Maybe<Scalars['String']>,
 };
 
 export type SiteSiteMetadataAuthorSocialFilterInput = {
   email?: Maybe<StringQueryOperatorInput>,
-  twitter?: Maybe<StringQueryOperatorInput>,
-  linkedin?: Maybe<StringQueryOperatorInput>,
   github?: Maybe<StringQueryOperatorInput>,
-  medium?: Maybe<StringQueryOperatorInput>,
   goodreads?: Maybe<StringQueryOperatorInput>,
+  instagram?: Maybe<StringQueryOperatorInput>,
+  linkedin?: Maybe<StringQueryOperatorInput>,
+  medium?: Maybe<StringQueryOperatorInput>,
+  twitter?: Maybe<StringQueryOperatorInput>,
 };
 
 export type SiteSiteMetadataFilterInput = {
-  description?: Maybe<StringQueryOperatorInput>,
-  siteUrl?: Maybe<StringQueryOperatorInput>,
-  pathPrefix?: Maybe<StringQueryOperatorInput>,
-  title?: Maybe<StringQueryOperatorInput>,
   copyright?: Maybe<StringQueryOperatorInput>,
+  description?: Maybe<StringQueryOperatorInput>,
   googleAnalyticsId?: Maybe<StringQueryOperatorInput>,
+  pathPrefix?: Maybe<StringQueryOperatorInput>,
+  siteUrl?: Maybe<StringQueryOperatorInput>,
+  title?: Maybe<StringQueryOperatorInput>,
   author?: Maybe<SiteSiteMetadataAuthorFilterInput>,
 };
 
