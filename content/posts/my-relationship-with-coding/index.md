@@ -4,19 +4,20 @@ template: post
 slug: my-relationship-with-coding
 draft: false
 featured: true
-date: '2019-04-25T15:00:00.000Z'
+date: "2019-04-25T15:00:00.000Z"
 description: >-
   I am going to tell you the story of how programming became an essential part
   of my life. Starting with sharing what gets me out of bed every morning,
   transitioning into tales of how it all started and finishing with the story of
   ending up in Sweden.
-cover: /my-relationship-with-coding-cover.jpg
+cover: "./my-relationship-with-coding-cover.jpg"
 category: Programming
 tags:
   - Coding
   - Personal Growth
   - Storytime
 ---
+
 [![Photo by Jefferson Santos on Unsplash](/my-relationship-with-coding-cover.jpg)](https://bit.ly/2PxBPMo)
 
 I am going to tell you the story of how programming became an essential part of my life. Starting with sharing what gets me out of bed every morning, transitioning into tales of how it all started and finishing with the story of ending up in Sweden.
@@ -41,7 +42,7 @@ Fortunately, the demand for developers is extremely high right now. I get to cho
 
 Relocating to a new city or working remotely from anywhere, small startups or big corporations, backend or frontend, web or mobile are just a few of the options developers have.
 
-* * *
+---
 
 With these being said, let's jump back into time and find out how the journey began. **No**, it is not going to be a story about me developing full-fledged applications at age seven 😉
 
@@ -113,8 +114,7 @@ The story continues. I don't know where it is going to bring me, but I will do m
 
 Everything happens for a reason and I would not change a single thing. The mistakes thought me valuable lessons and they are an essential part of the whole journey.
 
-> _"You can't connect the dots looking forward; you can only connect them looking backward. So you have to trust that the dots will somehow connect in your future."  
-> -_ Steve Jobs
+> _"You can't connect the dots looking forward; you can only connect them looking backward. So you have to trust that the dots will somehow connect in your future." -_ Steve Jobs
 
 What about you? What's your story with programming? What was the biggest **"aha"** moment you've had? What was the tipping point for you? Why do you like programming? Would you like to learn to programme? Let me know, I would love to hear some of your stories!
 

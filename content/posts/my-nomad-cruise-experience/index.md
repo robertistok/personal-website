@@ -4,16 +4,17 @@ template: post
 slug: my-nomad-cruise-experience
 draft: false
 featured: false
-date: '2019-07-16T15:00:00.000Z'
+date: "2019-07-16T15:00:00.000Z"
 description: >-
   I've embarked on an epic journey with 500 nomads across the atlantic. It's
   time to talk about my personal experience aboard and some of my key takeaways.
-cover: /my-nomad-cruise-experience-cover.jpg
+cover: "./my-nomad-cruise-experience-cover.jpg"
 category: Travel
 tags:
   - Personal Growth
   - Digital Nomad
 ---
+
 [![Last supper on board by Adrian](/my-nomad-cruise-experience-cover.jpg)](https://bit.ly/2PxBSI4)
 
 At the end of November 2018, along with 500 other people, I've embarked on the Nomad Cruise 7, a 12-day journey sailing through the Atlantic ocean, from Barcelona 🇪🇸 to Recife 🇧🇷.
@@ -36,7 +37,7 @@ It's been a fun, eventful, eye-opening and long journey across the Atlantic. I c
 
 I am following the digital nomad movement for almost 3 years now by watching videos, listening to podcasts, reading blogs and meeting nomads from time to time.
 
-However, I've never had the opportunity to hang out with so many individuals sharing the same interests. Meeting people living this lifestyle _in person_ was a big inspiration and a necessary confirmation that this is real.
+However, I've never had the opportunity to hang out with so many individuals sharing the same interests. Meeting people living this lifestyle *in person* was a big inspiration and a necessary confirmation that this is real.
 
 But most importantly, it showed to me that living a sustainable location independent lifestyle is possible.
 
@@ -62,7 +63,7 @@ Then everything starts over. You meet new people, tell the same story, have fun 
 
 Don't get me wrong, this is a lot of fun, but I also want to have more stable people in my life, so that I don't need to start from zero all the time.
 
-This is where the Nomad Cruise comes in the picture. By attending the conference, you will get access to a global network of travelers sharing similar passions. And thanks to the law of big numbers, the probability that you will bump into a fellow cruiser anywhere in the world has just increased _tremendously_.
+This is where the Nomad Cruise comes in the picture. By attending the conference, you will get access to a global network of travelers sharing similar passions. And thanks to the law of big numbers, the probability that you will bump into a fellow cruiser anywhere in the world has just increased *tremendously*.
 
 ### 4. Focus
 

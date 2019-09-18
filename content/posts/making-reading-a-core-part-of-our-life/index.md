@@ -4,17 +4,18 @@ template: post
 slug: making-reading-a-core-part-of-our-life
 draft: false
 featured: true
-date: '2019-08-05T15:00:00.000Z'
+date: "2019-08-05T15:00:00.000Z"
 description: >-
   I was not an avid reader at that time though. The whole process seemed way too
   complicated. Find a great book, get a copy of it and block off time to
   actually read it. Too many steps, why not skip it?
-cover: /making-reading-a-core-part-of-our-life-cover.jpeg
-category: Travel
+cover: "./making-reading-a-core-part-of-our-life-cover.jpeg"
+category: Reading
 tags:
   - Personal Growth
-  - Digital Nomad
+  - Books
 ---
+
 [![Photo by Eugenio Mazzone on Unsplash](/making-reading-a-core-part-of-our-life-cover.jpeg)](https://bit.ly/2PxBRnu)
 
 Throughout the last 3 years, I've read more than 120 books and it completely changed my life.

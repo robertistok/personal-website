@@ -4,16 +4,17 @@ template: post
 slug: my-very-first-post
 draft: false
 featured: false
-date: '2019-04-03T15:00:00.000Z'
+date: "2019-04-03T15:00:00.000Z"
 description: >-
   This is the first post I've ever published and it marks the beginning of a new
   journey.
-cover: /my-very-first-post-cover.jpg
+cover: "./my-very-first-post-cover.jpg"
 category: Personal
 tags:
   - Storytime
   - Personal Growth
 ---
+
 [![Photo by Clemens van Lay on Unsplash](/my-very-first-post-cover.jpg)](https://bit.ly/2Py2l8s)
 
 This is the first post I've ever published and it marks the beginning of a new journey.

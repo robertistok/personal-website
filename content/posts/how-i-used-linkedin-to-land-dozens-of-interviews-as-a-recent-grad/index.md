@@ -4,16 +4,17 @@ template: post
 slug: how-i-used-linkedin-to-land-dozens-of-interviews-as-a-recent-grad
 draft: false
 featured: false
-date: '2019-05-23T15:00:00.000Z'
+date: "2019-05-23T15:00:00.000Z"
 description: >-
   Build an outstanding LinkedIn profile, introduce yourself to hundreds of
   recruiters, attend interviews and sign the contract ✅
-cover: /how-i-used-linkedin-to-land-dozens-of-interviews-as-a-recent-grad-cover.jpg
+cover: "./how-i-used-linkedin-to-land-dozens-of-interviews-as-a-recent-grad-cover.jpg"
 category: Programming
 tags:
   - Networking
   - Personal Branding
 ---
+
 [![Photo by LinkedIn on Unsplash](/how-i-used-linkedin-to-land-dozens-of-interviews-as-a-recent-grad-cover.jpg)](https://bit.ly/2PxBSry)
 
 ## TL;DR:
@@ -46,20 +47,20 @@ _I saw an opportunity here_
 
 You want to make a good first impression and a big part of it will be having an **updated** and **well-crafted** _profile_.
 
--   Make sure to have a _high quality_, _professional_ **profile picture**, it helps to make your profile more personal and put a face to the data.
--   Your **headline** is what appears underneath your name. It should be memorable, include keywords related to your expertise and make clear what are you capable to do.
--   In the summary section, try to showcase your **talents**, highlight **successes with numbers**, tell your **short story** and be **authentic**. Avoid using cliche-words, like _passionate, strategic_ or _expert._ The goal here is the same, to stand out from the crowd.
--   Include your **work experience with a proper description** of your responsibilities, list your education and showcase your side projects.
--   **Try to get endorsements** on your listed skills. It looks nicer if there are people who approve your knowledge.
--   **Ask for recommendations**. While endorsements look good, the real social proof comes with the recommendations. Ask a former colleague, your teacher or some of your friends to highlight who you are and why should others care.
+- Make sure to have a _high quality_, _professional_ **profile picture**, it helps to make your profile more personal and put a face to the data.
+- Your **headline** is what appears underneath your name. It should be memorable, include keywords related to your expertise and make clear what are you capable to do.
+- In the summary section, try to showcase your **talents**, highlight **successes with numbers**, tell your **short story** and be **authentic**. Avoid using cliche-words, like _passionate, strategic_ or _expert._ The goal here is the same, to stand out from the crowd.
+- Include your **work experience with a proper description** of your responsibilities, list your education and showcase your side projects.
+- **Try to get endorsements** on your listed skills. It looks nicer if there are people who approve your knowledge.
+- **Ask for recommendations**. While endorsements look good, the real social proof comes with the recommendations. Ask a former colleague, your teacher or some of your friends to highlight who you are and why should others care.
 
 **_2. Connect with recruiters_**
 
 **Recruiters are the bridge between you and the companies**. You want to connect with them because they are the ones who will introduce you to different companies and guide you throughout the whole hiring process.
 
--   **First**, compose a good connection message. Include a brief introduction of you, why do you want to connect with the person and why should they accept you. At the time of writing, there is a 300 character limit on this message, so use your characters smart.
--   Go to the search bar, type in "**technical/sales/marketing recruiter**" and filter on your preferred cities.
--   **Finally**, start sending out the connection requests. Remember to include the connection message with your invite.
+- **First**, compose a good connection message. Include a brief introduction of you, why do you want to connect with the person and why should they accept you. At the time of writing, there is a 300 character limit on this message, so use your characters smart.
+- Go to the search bar, type in "**technical/sales/marketing recruiter**" and filter on your preferred cities.
+- **Finally**, start sending out the connection requests. Remember to include the connection message with your invite.
 
 Some people will not accept the request. Even who accepts it, it is possible that they will not able to help you. _And that's fine_. The [_law of large numbers_](https://bit.ly/2zMSssB) is on our side. The probability of you stumbling upon someone who can help you **increases with every request you send out**.
 
@@ -75,11 +76,11 @@ If everything goes well, they are going to introduce you to some of the companie
 
 This will be different for each one of you, depending on your field of expertise. But, you can use these general tips, no matter where you apply to.
 
--   **Research about the company**. Try to get a lot of information. Check their website, read their blog, find articles about them. If you want to dig deep, connect with a few employees(on LinkedIn for example) and get input from them.
--   **Ask questions**. What do they expect from you? How is the company culture? What is their story? Future plans? What about competitors? Asking a lot of questions will convince the hiring managers of your true interest in their company.
--   Leave talking about the compensation package for later. Starting with the benefits will imply that money is your sole motivator.
--   **Be on time**. Remember, the first impression is super important. Being late to the first meeting will have the opposite effect.
--   If the interview is online, make sure to be in a quiet space with **a stable internet connection**.
+- **Research about the company**. Try to get a lot of information. Check their website, read their blog, find articles about them. If you want to dig deep, connect with a few employees(on LinkedIn for example) and get input from them.
+- **Ask questions**. What do they expect from you? How is the company culture? What is their story? Future plans? What about competitors? Asking a lot of questions will convince the hiring managers of your true interest in their company.
+- Leave talking about the compensation package for later. Starting with the benefits will imply that money is your sole motivator.
+- **Be on time**. Remember, the first impression is super important. Being late to the first meeting will have the opposite effect.
+- If the interview is online, make sure to be in a quiet space with **a stable internet connection**.
 
 Try to get **multiple offers**. This will increase your negotiation power. It will also make you feel more confident, which is always a good thing.
 

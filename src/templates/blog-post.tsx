@@ -20,8 +20,8 @@ const BlogPostTemplate: React.FunctionComponent<BlogPostTemplateProps> = ({
   data,
   location,
 }): React.ReactElement => {
-  const post = data.markdownRemark;
-  const { title: siteTitle } = useSiteMetadata();
+  const { frontmatter, ...post } = data.markdownRemark;
+  const { title: siteTitle, siteUrl } = useSiteMetadata();
 
   const transitions = usePageTransitions({ location });
 
@@ -31,10 +31,29 @@ const BlogPostTemplate: React.FunctionComponent<BlogPostTemplateProps> = ({
       title={siteTitle}
       headerProps={{ showBackNav: true }}
     >
-      <SEO title={post.frontmatter.title} />
+      <SEO
+        title={frontmatter.title}
+        description={frontmatter.description}
+        image={
+          frontmatter.cover
+            ? frontmatter.cover.childImageSharp.fixed.src
+            : undefined
+        }
+        imageAlt={`Cover photo for ${frontmatter.title}`}
+        type="article"
+        url={`${siteUrl}/blog/${frontmatter.slug}`}
+        meta={[
+          { property: "article:published_time", content: frontmatter.date },
+          { property: "article:section", content: frontmatter.category },
+          ...(frontmatter.tags || []).map(t => ({
+            property: "article:tag",
+            content: t,
+          })),
+        ]}
+      />
       {transitions.map(({ props, key }) => (
         <animated.div key={key} style={props}>
-          <Post post={post} />
+          <Post post={{ frontmatter, ...post }} />
         </animated.div>
       ))}
     </Layout>
@@ -52,7 +71,16 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        cover {
+          childImageSharp {
+            fixed {
+              src
+            }
+          }
+        }
         description
+        category
+        tags
       }
       timeToRead
     }

@@ -12,7 +12,6 @@ const useSiteMetadata = (): SiteSiteMetadata => {
               firstname
               lastname
               name
-              bio
               photo
               birthDate
               social {
@@ -22,10 +21,11 @@ const useSiteMetadata = (): SiteSiteMetadata => {
                 github
                 goodreads
                 linkedin
+                instagram
               }
             }
             description
-            url
+            siteUrl
             title
             copyright
           }

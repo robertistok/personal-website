@@ -1,5 +1,5 @@
 import React from "react";
-import { useTransition, animated, config } from "react-spring";
+import { animated, config } from "react-spring";
 import { GatsbyLocation } from "local-types";
 
 import Intro from "../components/Intro";

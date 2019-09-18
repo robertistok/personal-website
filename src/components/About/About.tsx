@@ -15,9 +15,7 @@ interface AboutProps {
 const About: React.FunctionComponent<AboutProps> = ({
   author,
 }): React.ReactElement => {
-  const data: {
-    avatar: File;
-  } = useStaticQuery(graphql`
+  const { avatar }: { avatar: File } = useStaticQuery(graphql`
     query About {
       avatar: file(absolutePath: { regex: "/robertistok_avatar.jpeg/" }) {
         childImageSharp {
@@ -31,7 +29,7 @@ const About: React.FunctionComponent<AboutProps> = ({
 
   return (
     <Root>
-      <Avatar fixed={data.avatar.childImageSharp.fixed as FixedObject} />
+      <Avatar fixed={avatar.childImageSharp.fixed as FixedObject} />
 
       <Description>
         <h4>Hey there my friend!</h4>

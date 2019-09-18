@@ -1,31 +1,62 @@
-/**
- * SEO component that queries for data with
- *  Gatsby's useStaticQuery React hook
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
 import Helmet from "react-helmet";
 
 import useSiteMetadata from "../hooks/useSiteMetadata";
+import { File } from "../types/graphql-types";
+
+type OGMetaTag = {
+  property: string;
+  content: string;
+};
+
+type TwitterMetaTag = {
+  name: string;
+  content: string;
+};
 
 interface SEOProps {
   lang?: string;
-  meta?: any[];
+  meta?: (OGMetaTag | TwitterMetaTag)[];
   title: string;
+  description?: string;
+  image?: string;
+  imageAlt?: string;
+  type?: string;
+  url?: string;
 }
 
 const SEO: React.FunctionComponent<SEOProps> = ({
   lang = "en",
   meta = [],
   title,
+  description,
+  image,
+  imageAlt,
+  type = "website",
+  url,
 }): React.ReactElement => {
   const {
     title: defaultTitle = "",
-    description: metaDescription,
+    description: defaultDescription = "",
     author,
+    siteUrl,
   } = useSiteMetadata();
+  const { avatar }: { avatar: File } = useStaticQuery(graphql`
+    query Seo {
+      avatar: file(absolutePath: { regex: "/robertistok_avatar.jpeg/" }) {
+        childImageSharp {
+          fixed(width: 150, height: 150) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+    }
+  `);
+
+  const metaDescription = description || defaultDescription;
+  const metaImageUrl = `${siteUrl}${image || avatar.childImageSharp.fixed.src}`;
+  const metaImageAlt = imageAlt || `Cover photo of ${author.name}`;
 
   return (
     <Helmet
@@ -39,39 +70,39 @@ const SEO: React.FunctionComponent<SEOProps> = ({
           name: `google-site-verification`,
           content: `OZ82-xGcAi-7G55v3p4iJa-qlkwTTG1ExzUrYXxdsT0`,
         },
+        { property: `og:title`, content: title },
+        { name: `twitter:title`, content: title },
 
-        {
-          name: `description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:title`,
-          content: defaultTitle,
-        },
-        {
-          property: `og:description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:type`,
-          content: `website`,
-        },
-        {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
-          name: `twitter:creator`,
-          content: author.name,
-        },
-        {
-          name: `twitter:title`,
-          content: author.social.twitter,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
+        { name: `description`, content: metaDescription },
+        { property: `og:description`, content: metaDescription },
+        { name: `twitter:description`, content: metaDescription },
+
+        { name: `twitter:card`, content: `summary` },
+        { property: `og:type`, content: type },
+
+        { property: `og:image`, content: metaImageUrl },
+        { name: `twitter:image`, content: metaImageUrl },
+
+        ...(Boolean(image) === Boolean(imageAlt) // don't want to show the wrong imageAlt
+          ? [
+              { property: `og:image:alt`, content: metaImageAlt },
+              { name: `twitter:image:alt`, content: metaImageAlt },
+            ]
+          : []),
+
+        ...(url
+          ? [
+              { property: "og:url", content: url },
+              { property: "twitter:url", content: url },
+            ]
+          : []),
+
+        ...(author.social.twitter
+          ? [
+              { name: `twitter:creator`, content: author.social.twitter },
+              { name: `twitter:site`, content: author.social.twitter },
+            ]
+          : []),
       ].concat(meta)}
     />
   );

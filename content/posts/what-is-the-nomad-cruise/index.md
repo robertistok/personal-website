@@ -1,20 +1,22 @@
 ---
+title: "What is the Nomad\_Cruise?"
 template: post
-title: What is the Nomad Cruise?
 slug: what-is-the-nomad-cruise
 draft: false
 featured: false
-date: 2019-07-01T15:00:00.000Z
+date: "2019-07-01T15:00:00.000Z"
 description: >-
-  A floating conference, a global community of location independent professionals, an active workation, personal growth, exploring incredible places and an all-inclusive cruise ship.
-cover: /what-is-the-nomad-cruise-cover.jpeg
+  A floating conference, a global community of location independent
+  professionals, an active workation, personal growth, exploring incredible
+  places and an all-inclusive cruise ship.
+cover: "./what-is-the-nomad-cruise-cover.jpeg"
 category: Travel
 tags:
   - Personal Growth
   - Digital Nomad
 ---
 
-[![Group photo at NC7 by Tijmen Hobbel](/what-is-the-nomad-cruise-cover.jpeg)](https://www.instagram.com/brainbow_photography/)
+[![Group photo at NC7 by Tijmen Hobbel](/what-is-the-nomad-cruise-cover.jpeg)](https://bit.ly/2PxBRUw)
 
 <div class="separator"></div>
 
@@ -24,7 +26,7 @@ I've joined the Nomad Cruise 7 at the end of 2018, sailing from Barcelona to Bra
 
 In a few words, it's a floating conference, a global community of location independent professionals, an active workation, personal growth, exploring incredible places and an all-inclusive cruise ship.
 
-The whole conference was started by Johannes Voelkner in 2015. He found a cheap cruise, relocating from Spain to Brazil, posted it in a [Facebook group](https://www.facebook.com/groups/1428340887415620/), they had a blast and then Nomad Cruise was born. Since then there were 8 successful editions and it continues to grow.
+The whole conference was started by Johannes Voelkner in 2015. He found a cheap cruise, relocating from Spain to Brazil, posted it in a [Facebook group](https://bit.ly/2zJr0ME), they had a blast and then Nomad Cruise was born. Since then there were 8 successful editions and it continues to grow.
 
 The idea behind the project is to connect existing and aspiring location independent individuals with each other and form relationships, both personal and business, for life.
 
@@ -50,7 +52,7 @@ Bootcamps, public speaking, board games, investing, marketing, photography, life
 
 If the meetups would not be enough, you can even join thematic dinners happening every evening in the restaurant.
 
-While on land, the team gives us the possibility to do excursions. As you could guess by now, there are also activities organized by cruisers. This year for example 70 of us went scuba diving in [Cape Verde](https://en.wikipedia.org/wiki/Cape_Verde), thanks to [David Vu](https://www.instagram.com/daviddangvu/)'s initiation.
+While on land, the team gives us the possibility to do excursions. As you could guess by now, there are also activities organized by cruisers. This year for example 70 of us went scuba diving in [Cape Verde](https://bit.ly/2zF1vfr), thanks to [David Vu](https://bit.ly/2zEJHAW)'s initiation.
 
 ### Embracing JOMO
 
@@ -62,7 +64,7 @@ While you could have a packed schedule from 8 in the morning until late in the n
 
 Instead of trying to do everything, narrow down your interests to the essentials, the ones that will give you the most joy and value. Less is almost always more.
 
-But most importantly, enjoy the **_JOMO_ **once in a while**_._ **Go for a jog on the 8th deck, read a book near the pool, reflect on the keynotes, take a nap in your cabin or just enjoy the sunshine.
+But most importantly, enjoy the **_JOMO_ \*\*once in a while**_._ \*\*Go for a jog on the 8th deck, read a book near the pool, reflect on the keynotes, take a nap in your cabin or just enjoy the sunshine.
 
 After spending time "_offline_", disconnecting from the craziness of the cruise, you will be ready for your next chapter on board.
 

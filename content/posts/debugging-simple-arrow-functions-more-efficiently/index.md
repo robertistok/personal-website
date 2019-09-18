@@ -4,17 +4,18 @@ template: post
 slug: debugging-simple-arrow-functions-more-efficiently
 draft: false
 featured: false
-date: '2019-07-30T15:00:00.000Z'
+date: "2019-07-30T15:00:00.000Z"
 description: >-
   If we just want to log the parameters, the version of the function below is a
   quick way to do it. We no longer have to convert our single line arrow
   function into a multi-line one.
-cover: /debugging-simple-arrow-functions-more-efficiently-cover.jpeg
+cover: "./debugging-simple-arrow-functions-more-efficiently-cover.jpeg"
 category: JavaScript
 tags:
   - Debugging
   - Programming
 ---
+
 [![Photo by Markus Spiske on Unsplash](/debugging-simple-arrow-functions-more-efficiently-cover.jpeg)](https://bit.ly/2PxBrxn)
 
 <div class="separator"></div>

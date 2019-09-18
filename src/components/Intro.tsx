@@ -14,9 +14,7 @@ interface IntroProps {}
 
 const Intro: React.FunctionComponent<IntroProps> = (): React.ReactElement => {
   const { author } = useSiteMetadata();
-  const data: {
-    avatar: File;
-  } = useStaticQuery(graphql`
+  const { avatar }: { avatar: File } = useStaticQuery(graphql`
     query Intro {
       avatar: file(absolutePath: { regex: "/robertistok_avatar.jpeg/" }) {
         childImageSharp {
@@ -32,7 +30,7 @@ const Intro: React.FunctionComponent<IntroProps> = (): React.ReactElement => {
     <Root>
       <HeadingContainer>
         <StyledImage
-          fixed={data.avatar.childImageSharp.fixed as FixedObject}
+          fixed={avatar.childImageSharp.fixed as FixedObject}
           alt={author.name}
         />
         <PitchContainer>
