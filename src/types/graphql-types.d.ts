@@ -648,6 +648,7 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___featured' |
   'childMarkdownRemark___frontmatter___date' |
   'childMarkdownRemark___frontmatter___description' |
+  'childMarkdownRemark___frontmatter___category' |
   'childMarkdownRemark___frontmatter___cover___birthtime' |
   'childMarkdownRemark___frontmatter___cover___birthtimeMs' |
   'childMarkdownRemark___frontmatter___cover___sourceInstanceName' |
@@ -684,7 +685,6 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___cover___publicURL' |
   'childMarkdownRemark___frontmatter___cover___id' |
   'childMarkdownRemark___frontmatter___cover___children' |
-  'childMarkdownRemark___frontmatter___category' |
   'childMarkdownRemark___frontmatter___tags' |
   'childMarkdownRemark___excerpt' |
   'childMarkdownRemark___rawMarkdownBody' |
@@ -1578,6 +1578,7 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___featured' |
   'frontmatter___date' |
   'frontmatter___description' |
+  'frontmatter___category' |
   'frontmatter___cover___birthtime' |
   'frontmatter___cover___birthtimeMs' |
   'frontmatter___cover___sourceInstanceName' |
@@ -1639,7 +1640,6 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___cover___childMarkdownRemark___tableOfContents' |
   'frontmatter___cover___childImageSharp___id' |
   'frontmatter___cover___childImageSharp___children' |
-  'frontmatter___category' |
   'frontmatter___tags' |
   'excerpt' |
   'rawMarkdownBody' |
@@ -1688,8 +1688,8 @@ export type MarkdownRemarkFrontmatter = {
   featured?: Maybe<Scalars['Boolean']>,
   date?: Maybe<Scalars['Date']>,
   description?: Maybe<Scalars['String']>,
-  cover?: Maybe<File>,
   category?: Maybe<Scalars['String']>,
+  cover?: Maybe<File>,
   tags?: Maybe<Array<Maybe<Scalars['String']>>>,
 };
 
@@ -1709,8 +1709,8 @@ export type MarkdownRemarkFrontmatterFilterInput = {
   featured?: Maybe<BooleanQueryOperatorInput>,
   date?: Maybe<DateQueryOperatorInput>,
   description?: Maybe<StringQueryOperatorInput>,
-  cover?: Maybe<FileFilterInput>,
   category?: Maybe<StringQueryOperatorInput>,
+  cover?: Maybe<FileFilterInput>,
   tags?: Maybe<StringQueryOperatorInput>,
 };
 
