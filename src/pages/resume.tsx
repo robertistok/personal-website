@@ -3,9 +3,10 @@ import { useStaticQuery, graphql } from "gatsby";
 import styled from "styled-components";
 
 import SEO from "../components/Seo";
+import { File } from "../types/graphql-types";
 
 const ResumePage = () => {
-  const { file: resume } = useStaticQuery(graphql`
+  const { file: resume }: { file: File } = useStaticQuery(graphql`
     {
       file(name: { eq: "Robert_Istok_2019_resume" }) {
         publicURL
