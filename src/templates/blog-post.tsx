@@ -78,6 +78,7 @@ export const pageQuery = graphql`
             }
           }
         }
+        slug
         description
         category
         tags
