@@ -1,13 +1,14 @@
 ---
-title: "Goodbye, Relatable and See You Soon Sweden"
+title: "Goodbye, Relatable and See You Soon\_Sweden"
 template: post
 slug: goodbye-relatable-and-see-you-soon-sweden
-draft: true
-featured: false
-date: "2019-09-27T11:00:00.000Z"
+draft: false
+featured: true
+date: '2019-09-27T11:00:00.000Z'
 description: >-
-  It's been a fantastic 2 years living in Sweden & working at Relatable, however, it's time to say goodbye and move on to something different.
-cover: "./goodbye-relatable-and-see-you-soon-sweden-cover.jpg"
+  It's been a fantastic 2 years living in Sweden & working at Relatable,
+  however, it's time to say goodbye and move on to something different.
+cover: ./goodbye-relatable-and-see-you-soon-sweden-cover.jpg
 category: Lifestyle
 tags:
   - Expat
@@ -15,7 +16,6 @@ tags:
   - Digital Nomad
   - Personal Growth
 ---
-
 ![The people who made my stay in Sweden unforgettable](/goodbye-relatable-and-see-you-soon-sweden-cover.jpg)
 
 It's been a fantastic 2 years working at Relatable, however, it's time to say goodbye to all the amazing people I met here and move on to something new.
@@ -68,6 +68,6 @@ Would love to tell you, but I don't know the answer yet. I have a rough plan in 
 
 One thing for sure, I am going to take the rest of the year off to recharge, catch up with family and friends, travel, spend time working on my side projects and find my next professional venture.
 
-Speaking of work, I am open to anything as long as I can do it from anywhere and it is fairly flexible. Please reach out to me if you know something which would suit me.
+Speaking of work, I am open to anything as long as I can do it from anywhere and it is fairly flexible. [please reach out to me](https://bit.ly/2lB6Tg8) if you know something which would suit me.
 
 Thanks for reading! 🙏
