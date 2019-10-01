@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 import Image, { FixedObject } from "gatsby-image";
-import { useStaticQuery, graphql } from "gatsby";
 
-import { File, SiteSiteMetadataAuthor } from "../../types/graphql-types";
+import { SiteSiteMetadataAuthor } from "../../types/graphql-types";
 import { rhythm } from "../../utils/typography";
 import { yearsSince } from "../../utils/timeSince";
 import { device } from "../../styles/constants";
+import { useAvatar } from "../../hooks";
 
 interface AboutProps {
   author: SiteSiteMetadataAuthor;
@@ -15,17 +15,7 @@ interface AboutProps {
 const About: React.FunctionComponent<AboutProps> = ({
   author,
 }): React.ReactElement => {
-  const { avatar }: { avatar: File } = useStaticQuery(graphql`
-    query About {
-      avatar: file(absolutePath: { regex: "/robertistok_avatar.jpeg/" }) {
-        childImageSharp {
-          fixed(width: 200, height: 200) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-    }
-  `);
+  const avatar = useAvatar({ width: 200, height: 200 });
 
   return (
     <Root>

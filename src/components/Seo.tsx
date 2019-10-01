@@ -1,9 +1,7 @@
 import React from "react";
-import { useStaticQuery, graphql } from "gatsby";
 import Helmet from "react-helmet";
 
-import useSiteMetadata from "../hooks/useSiteMetadata";
-import { File } from "../types/graphql-types";
+import { useSiteMetadata, useAvatar } from "../hooks";
 
 type OGMetaTag = {
   property: string;
@@ -42,17 +40,7 @@ const SEO: React.FunctionComponent<SEOProps> = ({
     author,
     siteUrl,
   } = useSiteMetadata();
-  const { avatar }: { avatar: File } = useStaticQuery(graphql`
-    query Seo {
-      avatar: file(absolutePath: { regex: "/robertistok_avatar.jpeg/" }) {
-        childImageSharp {
-          fixed(width: 1024, height: 1024) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-    }
-  `);
+  const avatar = useAvatar({ width: 1024, height: 1024 });
 
   const metaDescription = description || defaultDescription;
   const metaImageUrl = `${siteUrl}${image || avatar.childImageSharp.fixed.src}`;

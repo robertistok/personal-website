@@ -1,30 +1,18 @@
 import React from "react";
-import { useStaticQuery, graphql } from "gatsby";
 import Image, { FixedObject } from "gatsby-image";
 import styled from "styled-components";
 
 import Social from "./Social";
 
 import { rhythm, scale } from "../utils/typography";
-import useSiteMetadata from "../hooks/useSiteMetadata";
+import { useSiteMetadata, useAvatar } from "../hooks";
 import { device } from "../styles/constants";
-import { File } from "../types/graphql-types";
 
 interface IntroProps {}
 
 const Intro: React.FunctionComponent<IntroProps> = (): React.ReactElement => {
   const { author } = useSiteMetadata();
-  const { avatar }: { avatar: File } = useStaticQuery(graphql`
-    query Intro {
-      avatar: file(absolutePath: { regex: "/robertistok_avatar.jpeg/" }) {
-        childImageSharp {
-          fixed(width: 150, height: 150) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-    }
-  `);
+  const avatar = useAvatar({ width: 150, height: 150 });
 
   return (
     <Root>
