@@ -33,7 +33,7 @@ const BlogPostTemplate: React.FunctionComponent<BlogPostTemplateProps> = ({
     >
       <SEO
         title={frontmatter.title}
-        description={frontmatter.description}
+        description={`${post.timeToRead} min read · ${frontmatter.description}`}
         image={
           frontmatter.cover
             ? frontmatter.cover.childImageSharp.fixed.src
