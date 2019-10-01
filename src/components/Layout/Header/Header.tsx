@@ -5,7 +5,7 @@ import { FaArrowLeft } from "react-icons/fa";
 import { GatsbyLocation } from "local-types";
 
 import { rhythm, scale } from "../../../utils/typography";
-import useSiteMetadata from "../../../hooks/useSiteMetadata";
+import { useSiteMetadata } from "../../../hooks";
 import { device } from "../../../styles/constants";
 
 export interface HeaderProps {
@@ -18,6 +18,7 @@ const Header: React.FunctionComponent<HeaderProps> = ({
   location,
 }): React.ReactElement => {
   const { author } = useSiteMetadata();
+
   return (
     <Root id="header-root">
       <StyledHeader>

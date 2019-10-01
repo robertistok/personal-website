@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../components/Layout";
 import SEO from "../components/Seo";
-import useSiteMetadata from "../hooks/useSiteMetadata";
+import { useSiteMetadata } from "../hooks";
 
 interface NotFoundPageProps {
   location: any;

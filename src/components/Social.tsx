@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 import styled from "styled-components";
 
-import useSiteMetadata from "../hooks/useSiteMetadata";
+import { useSiteMetadata } from "../hooks";
 import { rhythm, scale } from "../utils/typography.js";
 
 const LINKEDIN = "https://www.linkedin.com/in";
