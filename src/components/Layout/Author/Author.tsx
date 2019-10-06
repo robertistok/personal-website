@@ -22,7 +22,13 @@ const Author = () => {
         }
         alt={author.name}
       />
-      <h5>Personal blog about coding, remote work, habits and much more</h5>
+      <h5>
+        Personal blog by{" "}
+        <a href={`https://www.linkedin.com/in/${author.social.linkedin}`}>
+          {author.name}
+        </a>{" "}
+        about coding, traveling, habit building and much more.
+      </h5>
     </Root>
   );
 };
@@ -36,6 +42,7 @@ const Root = styled.section`
 
   h5 {
     margin: 0;
+    line-height: 1.5;
   }
 `;
 

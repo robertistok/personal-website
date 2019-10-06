@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
+import Author from "../Layout/Author";
+
 import { rhythm, scale } from "../../utils/typography";
 import { MarkdownRemark } from "../../types/graphql-types";
 
@@ -18,6 +20,8 @@ const Post: React.FunctionComponent<PostProps> = ({
         {post.frontmatter.date} · {post.timeToRead} min read
       </Info>
       <Content dangerouslySetInnerHTML={{ __html: post.html }} />
+      <div className="separator" />
+      <Author />
     </Root>
   );
 };
@@ -26,6 +30,21 @@ const Root = styled.section`
   margin: auto;
   max-width: ${rhythm(28)};
   ${scale(0.1)}
+
+  .separator {
+    margin: 20px 0px;
+    border: none;
+    text-align: center;
+    font-size: ${rhythm(1)};
+    font-weight: 300;
+
+    &:before {
+      line-height: 1.4;
+      text-indent: 0.6em;
+      letter-spacing: 0.6em;
+      content: "···";
+    }
+  }
 `;
 
 const Title = styled.h1`
@@ -41,21 +60,6 @@ const Info = styled.p`
 `;
 
 const Content = styled.article`
-  .separator {
-    margin: 20px 0px;
-    border: none;
-    text-align: center;
-    font-size: ${rhythm(1)};
-    font-weight: 300;
-
-    &:before {
-      line-height: 1.4;
-      text-indent: 0.6em;
-      letter-spacing: 0.6em;
-      content: "···";
-    }
-  }
-
   .md-figure-caption,
   .gatsby-resp-image-figcaption {
     text-align: center;
