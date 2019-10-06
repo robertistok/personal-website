@@ -29,6 +29,7 @@ const Header: React.FunctionComponent<HeaderProps> = ({
                 ? "Back"
                 : "Home"
             }
+            rel="back"
             to={
               showBackNav && location.state && location.state.prevPath
                 ? location.state.prevPath
@@ -44,7 +45,9 @@ const Header: React.FunctionComponent<HeaderProps> = ({
           </Link>
         </Title>
         <StyledNav>
-          <StyledLink to="/about">about</StyledLink>
+          <StyledLink rel="author" to="/about">
+            about
+          </StyledLink>
           <StyledLink to="/blog">blog</StyledLink>
         </StyledNav>
       </StyledHeader>
