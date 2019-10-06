@@ -40,7 +40,7 @@ const Info = styled.p`
   margin-bottom: ${rhythm(1)};
 `;
 
-const Content = styled.div`
+const Content = styled.article`
   .separator {
     margin: 20px 0px;
     border: none;

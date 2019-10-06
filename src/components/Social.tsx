@@ -26,11 +26,14 @@ const Social: React.FunctionComponent<SocialProps> = ({
   className,
 }): React.ReactElement => {
   const {
-    author: { social },
+    author: { social, name },
   } = useSiteMetadata();
 
   return (
-    <Root className={className}>
+    <Root
+      aria-label={`Socials networks ${name} is present on`}
+      className={className}
+    >
       <OutsideLink href={`${LINKEDIN}/${social.linkedin}`} title="LinkedIn">
         <FaLinkedin />
       </OutsideLink>
@@ -56,7 +59,7 @@ const Social: React.FunctionComponent<SocialProps> = ({
   );
 };
 
-const Root = styled.div`
+const Root = styled.nav`
   display: grid;
   grid-template-columns: repeat(6, ${rhythm(1.25)});
   grid-gap: 10px;
