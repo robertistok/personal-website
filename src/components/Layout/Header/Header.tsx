@@ -24,6 +24,11 @@ const Header: React.FunctionComponent<HeaderProps> = ({
       <StyledHeader>
         <Title>
           <Link
+            aria-label={
+              showBackNav && location.state && location.state.prevPath
+                ? "Back"
+                : "Home"
+            }
             to={
               showBackNav && location.state && location.state.prevPath
                 ? location.state.prevPath

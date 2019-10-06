@@ -25,7 +25,11 @@ const PostCard: React.FunctionComponent<PostCardProps> = ({
   return (
     <Root>
       <Title>
-        <Link to={"/blog" + slug} state={{ prevPath: location.pathname }}>
+        <Link
+          aria-label={`Continue reading: ${title}`}
+          to={"/blog" + slug}
+          state={{ prevPath: location.pathname }}
+        >
           {title}
         </Link>
       </Title>
