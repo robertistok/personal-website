@@ -2,11 +2,11 @@ import React from "react";
 import Image, { FixedObject } from "gatsby-image";
 import styled from "styled-components";
 
-import Social from "./Social";
+import Social from "../../Social";
 
-import { rhythm, scale } from "../utils/typography";
-import { useSiteMetadata, useAvatar } from "../hooks";
-import { device } from "../styles/constants";
+import { rhythm, scale } from "../../../utils/typography";
+import { useSiteMetadata, useAvatar } from "../../../hooks";
+import { device } from "../../../styles/constants";
 
 interface IntroProps {}
 

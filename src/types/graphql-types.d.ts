@@ -2247,14 +2247,12 @@ export type SitePageConnectionGroupArgs = {
 };
 
 export type SitePageContext = {
-  avatar?: Maybe<Scalars['String']>,
   slug?: Maybe<Scalars['String']>,
   previous?: Maybe<SitePageContextPrevious>,
   next?: Maybe<SitePageContextNext>,
 };
 
 export type SitePageContextFilterInput = {
-  avatar?: Maybe<StringQueryOperatorInput>,
   slug?: Maybe<StringQueryOperatorInput>,
   previous?: Maybe<SitePageContextPreviousFilterInput>,
   next?: Maybe<SitePageContextNextFilterInput>,
@@ -2410,7 +2408,6 @@ export type SitePageFieldsEnum =
   'component' |
   'componentChunkName' |
   'isCreatedByStatefulCreatePages' |
-  'context___avatar' |
   'context___slug' |
   'context___previous___fields___slug' |
   'context___previous___frontmatter___title' |
