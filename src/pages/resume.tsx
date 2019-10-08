@@ -3,6 +3,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import styled from "styled-components";
 
 import SEO from "../components/Seo";
+import { useSiteMetadata } from "../hooks";
 import { File } from "../types/graphql-types";
 
 const ResumePage = () => {
@@ -13,6 +14,8 @@ const ResumePage = () => {
       }
     }
   `);
+
+  const { author } = useSiteMetadata();
   const resumeUrl = useRef(null);
   useEffect(() => resume && resumeUrl.current && resumeUrl.current.click(), [
     resume,
@@ -21,7 +24,10 @@ const ResumePage = () => {
 
   return (
     <>
-      <SEO title="Curriculum Vitae" />
+      <SEO
+        title="Curriculum Vitae"
+        description={`Check out ${author.name}'s resume and feel free to drop him a message 🙏`}
+      />
       <DownloadURL
         href={resume.publicURL}
         type="application/pdf"
