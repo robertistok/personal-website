@@ -6,9 +6,7 @@ draft: false
 featured: true
 date: "2019-05-02T15:00:00.000Z"
 description: >-
-  Ever thought about learning to code, but you just never really knew where to
-  start? You don't know if it is the right thing for you? You are not sure if it
-  is actually worth all the struggle?
+  Did you think about learning to code, but had no idea where to start? Not sure if it is the right thing for you? Is it worth all the hustle? I am here for you.
 cover: "./what-you-should-know-before-learning-to-code-cover.jpg"
 category: Programming
 tags:

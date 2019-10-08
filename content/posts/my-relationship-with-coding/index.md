@@ -6,10 +6,7 @@ draft: false
 featured: true
 date: "2019-04-25T15:00:00.000Z"
 description: >-
-  I am going to tell you the story of how programming became an essential part
-  of my life. Starting with sharing what gets me out of bed every morning,
-  transitioning into tales of how it all started and finishing with the story of
-  ending up in Sweden.
+  The story of how programming became an essential part of my life, what gets me out of bed every morning and how I ended up in Sweden at an exceptional startup
 cover: "./my-relationship-with-coding-cover.jpg"
 category: Programming
 tags:

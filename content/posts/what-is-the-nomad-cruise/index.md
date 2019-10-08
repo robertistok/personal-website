@@ -6,9 +6,7 @@ draft: false
 featured: false
 date: "2019-07-01T15:00:00.000Z"
 description: >-
-  A floating conference, a global community of location independent
-  professionals, an active workation, personal growth, exploring incredible
-  places and an all-inclusive cruise ship.
+  A floating conference, a global community of location-independent humans, an active workation, exploring incredible places and an all-inclusive cruise ship.
 cover: "./what-is-the-nomad-cruise-cover.jpeg"
 category: Travel
 tags:

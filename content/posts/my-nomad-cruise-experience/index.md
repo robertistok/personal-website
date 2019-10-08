@@ -6,8 +6,7 @@ draft: false
 featured: false
 date: "2019-07-16T15:00:00.000Z"
 description: >-
-  I've embarked on an epic journey with 500 nomads across the atlantic. It's
-  time to talk about my personal experience aboard and some of my key takeaways.
+  My personal experience and the learnings of my journey across the Atlantic with 500+ digital nomads. A life-changing experience and so many wonderful people.
 cover: "./my-nomad-cruise-experience-cover.jpg"
 category: Travel
 tags:
