@@ -6,9 +6,7 @@ draft: false
 featured: false
 date: "2019-07-03T15:00:00.000Z"
 description: >-
-  While watching the short documentary, I was going through a lot of different
-  emotional states. Terrified, hopeful, shocked, sad and guilty were just some
-  of the feelings I had.
+  Terrified, hopeful, shocked, sad and guilty. These were just a few of the emotions I had while watching this documentary.
 category: Climate Change
 cover: "./opening-schene-screenshot.png"
 ---

@@ -6,10 +6,7 @@ draft: false
 featured: false
 date: "2019-06-09T15:00:00.000Z"
 description: >-
-  From the beginning of 2019, every month I've been experimenting with picking
-  up different habits. Some of the easier ones are listening to 10 minutes of
-  Spanish, walking 10000 steps a day, making a note of the day ahead before
-  going to sleep, reflecting on my week, personal vlogs and meditating.
+  Starting from the beginning of June, I commit to code at least one hour besides work every day for 30 days. I do want to work more on my side projects!
 cover: "./announcing-30-days-of-code-cover.jpg"
 category: Programming
 tags:

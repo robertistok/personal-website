@@ -6,9 +6,7 @@ draft: false
 featured: false
 date: "2019-07-30T15:00:00.000Z"
 description: >-
-  If we just want to log the parameters, the version of the function below is a
-  quick way to do it. We no longer have to convert our single line arrow
-  function into a multi-line one.
+  Never convert an arrow function again to use curly braces if you only want to use console.log for debugging with this simple technique.
 cover: "./debugging-simple-arrow-functions-more-efficiently-cover.jpeg"
 category: JavaScript
 tags:

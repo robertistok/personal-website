@@ -6,9 +6,7 @@ draft: false
 featured: false
 date: "2019-07-09T15:00:00.000Z"
 description: >-
-  If you missed my previous post, at the beginning of June I've committed to
-  coding at least for an hour after work every day for 30 days. Here are the
-  results
+  Follow up on my previous post where I committed to code for at least one hour besides work. Here are the learnings and the continuation of this experiment.
 cover: "./insights-learnings-and-the-next-steps-of-30daysofcode-cover.png"
 category: Programming
 tags:

@@ -6,9 +6,7 @@ draft: false
 featured: true
 date: "2019-08-05T15:00:00.000Z"
 description: >-
-  I was not an avid reader at that time though. The whole process seemed way too
-  complicated. Find a great book, get a copy of it and block off time to
-  actually read it. Too many steps, why not skip it?
+  Techniques I've used to acquire the habit of reading and went from reading 0 to finishing 50+ books a year. In a rush? Get an e-reader and bring it everywhere.
 cover: "./making-reading-a-core-part-of-our-life-cover.jpeg"
 category: Reading
 tags:

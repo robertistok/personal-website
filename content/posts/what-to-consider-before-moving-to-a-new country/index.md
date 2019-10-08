@@ -6,10 +6,7 @@ draft: false
 featured: false
 date: "2019-04-15T15:02:17.547Z"
 description: >-
-  As someone who temporarily left behind his country and ended up moving to the
-  beautiful city Stockholm, Sweden, I would like to share with you the things
-  I've considered before making the big leap and how I've tried to make the
-  process smoother.
+  I left home and moved to the beautiful city of  Stockholm in 2017. Here are the things I've considered before jumping into it and how I made it smoother.
 cover: "./what-to-consider-before-moving-to-a-new-country-cover.jpg"
 category: Personal Growth
 tags:

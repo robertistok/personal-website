@@ -6,8 +6,7 @@ draft: false
 featured: false
 date: "2019-09-25T11:00:00.000Z"
 description: >-
-  Insights and learning from the 100DaysOfCode challenge I was doing over the
-  summer of 2019.
+  Follow up on my previous posts about 30DaysOfCode and the learnings from completing 100DaysOfCode, which I was doing over the summer of 2019.
 cover: ./wrapping-up-100daysofcode-cover.jpeg
 category: Personal Growth
 tags:
