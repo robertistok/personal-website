@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Image, { FixedObject } from "gatsby-image";
+import { Link } from "gatsby";
 
 import { rhythm } from "../../../utils/typography";
 import { device } from "../../../styles/constants";
@@ -27,7 +28,10 @@ const Author = () => {
         <a href={`https://www.linkedin.com/in/${author.social.linkedin}`}>
           {author.name}
         </a>{" "}
-        about coding, traveling, habit building and much more.
+        about coding, traveling, habit building, and much more (Psst... I am{" "}
+        <em>
+          <Link to="/resume">open to opportunities</Link>.)
+        </em>
       </h5>
     </Root>
   );
