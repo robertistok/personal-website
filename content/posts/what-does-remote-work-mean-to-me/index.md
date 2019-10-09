@@ -1,13 +1,12 @@
 ---
-title: "What Do I Mean By Remote\_Work"
+title: "What Does Remote Work Mean to Me"
 template: post
-slug: what-do-i-mean-by-remote-work
+slug: what-does-remote-work-mean-to-me
 draft: false
 featured: true
 date: "2019-10-09T16:30:00.000Z"
 description: >-
-  Remote work is here to stay. The world is transforming into digital and more
-  people will be able to do their job without being bound to a physical office.
+  Remote work is here to stay. The world is transforming into digital and even more people will be able to do their job without being bound to a physical office.
 cover: "./what-do-i-mean-by-remote-work-cover.jpeg"
 category: Remote Work
 tags:
