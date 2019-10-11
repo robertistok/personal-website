@@ -8,6 +8,8 @@ import { device } from "../../../../styles/constants";
 import { rhythm } from "../../../../utils/typography";
 import { MarkdownRemarkEdge } from "../../../../types/graphql-types";
 
+const MIN_NUMBER_OF_POSTS = 3;
+
 interface ShowcasedPostsContainerProps {
   location: GatsbyLocation;
   title: string;
@@ -17,6 +19,10 @@ interface ShowcasedPostsContainerProps {
 const ShowcasedPostsContainer: React.FunctionComponent<
   ShowcasedPostsContainerProps
 > = ({ location, title, posts }): React.ReactElement => {
+  if (posts.length < MIN_NUMBER_OF_POSTS) {
+    return null;
+  }
+
   return (
     <Root>
       <Title aria-label={`${title} posts section`}>{title}</Title>
@@ -67,7 +73,7 @@ const PostsContainer = styled.div`
 
   @media ${device.tablet} {
     grid-template-rows: minmax(100px, 100%);
-    grid-template-columns: repeat(3, 31%);
+    grid-template-columns: repeat(${MIN_NUMBER_OF_POSTS}, 31%);
     grid-gap: 3.5%;
   }
 `;
