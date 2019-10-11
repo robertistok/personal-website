@@ -10,7 +10,7 @@ import {
 import styled from "styled-components";
 
 import { useSiteMetadata } from "../hooks";
-import { rhythm, scale } from "../utils/typography.js";
+import { rhythm } from "../utils/typography";
 
 const LINKEDIN = "https://www.linkedin.com/in";
 const GITHUB = "https://github.com";
