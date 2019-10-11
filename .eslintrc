@@ -1,8 +1,5 @@
 {
   "parser": "@typescript-eslint/parser",
-  "ecmaFeatures": {
-    "jsx": true
-  },
   "extends": [
     "airbnb-base",
     "plugin:@typescript-eslint/recommended",
@@ -62,6 +59,9 @@
       "node": {
         "extensions": [".js", ".jsx", ".ts", ".tsx"]
       }
+    },
+    "react": {
+      "version": "detect"
     }
   }
 }
