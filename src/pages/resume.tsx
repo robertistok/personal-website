@@ -6,7 +6,7 @@ import { File } from "graphql-types";
 import SEO from "../components/Seo";
 import { useSiteMetadata } from "../hooks";
 
-const ResumePage = () => {
+const ResumePage: React.FunctionComponent = (): React.ReactElement => {
   const { file: resume }: { file: File } = useStaticQuery(graphql`
     {
       file(name: { eq: "Robert_Istok_2019_resume" }) {
