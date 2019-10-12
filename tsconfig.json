@@ -3,7 +3,12 @@
     "jsx": "react",
     "esModuleInterop": true,
     "module": "esnext",
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "paths": {
+      "local-types": ["src/types/local.d.ts"],
+      "graphql-types": ["src/types/graphql.ts"]
+    }
   },
   "include": ["**/*.ts", "**/*.tsx"]
 }

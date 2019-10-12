@@ -1,6 +1,6 @@
 import React from "react";
-import { GatsbyLocation } from "local-types";
 import { animated } from "react-spring";
+import { GatsbyLocation } from "local-types";
 
 import Layout from "../components/Layout";
 import Blog from "../components/Blog";

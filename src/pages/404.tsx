@@ -1,11 +1,12 @@
 import React from "react";
+import { GatsbyLocation } from "local-types";
 
 import Layout from "../components/Layout";
 import SEO from "../components/Seo";
 import { useSiteMetadata } from "../hooks";
 
 interface NotFoundPageProps {
-  location: any;
+  location: GatsbyLocation;
 }
 
 const NotFoundPage: React.FunctionComponent<NotFoundPageProps> = ({
