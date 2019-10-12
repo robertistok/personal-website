@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Robert Istok <robertistok94@gmail.com>",
   "dependencies": {
+    "@typescript-eslint/parser": "^2.3.3",
     "babel-plugin-styled-components": "^1.10.6",
     "dotenv": "^8.1.0",
     "gatsby": "^2.13.39",
@@ -52,9 +53,10 @@
     "@types/react-helmet": "^5.0.8",
     "@types/styled-components": "^4.1.18",
     "@typescript-eslint/eslint-plugin": "^1.13.0",
-    "@typescript-eslint/parser": "^1.13.0",
     "eslint-config-airbnb-base": "^13.2.0",
     "eslint-config-prettier": "^6.0.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
+    "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^22.17.0",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.3",
@@ -78,6 +80,7 @@
     "clean": "rimraf .cache public",
     "develop": "npm run clean && gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
