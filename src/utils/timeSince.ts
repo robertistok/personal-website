@@ -1,4 +1,6 @@
-const yearsSince = (timestamp: Date | string): number => {
+/* eslint import/prefer-default-export: 0 */
+
+export const yearsSince = (timestamp: Date | string): number => {
   let localTimestamp = timestamp;
   if (typeof localTimestamp === "string") {
     localTimestamp = new Date(localTimestamp);
@@ -10,5 +12,3 @@ const yearsSince = (timestamp: Date | string): number => {
 
   return year;
 };
-
-export default { yearsSince };
