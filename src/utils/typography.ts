@@ -1,7 +1,7 @@
 import Typography from "typography";
 import doelger from "typography-theme-doelger";
 
-doelger.overrideThemeStyles = (): any => ({
+doelger.overrideThemeStyles = () => ({
   a: {
     backgroundImage: "none",
   },

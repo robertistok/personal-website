@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
+import { MarkdownRemark } from "graphql-types";
 
 import Author from "../Layout/Author";
 
 import { rhythm, scale } from "../../utils/typography";
-import { MarkdownRemark } from "../../types/graphql-types";
 
 interface PostProps {
   post: MarkdownRemark;
@@ -12,19 +12,17 @@ interface PostProps {
 
 const Post: React.FunctionComponent<PostProps> = ({
   post,
-}): React.ReactElement => {
-  return (
-    <Root>
-      <Title>{post.frontmatter.title}</Title>
-      <Info>
-        {post.frontmatter.date} · {post.timeToRead} min read
-      </Info>
-      <Content dangerouslySetInnerHTML={{ __html: post.html }} />
-      <div className="separator" />
-      <Author />
-    </Root>
-  );
-};
+}): React.ReactElement => (
+  <Root>
+    <Title>{post.frontmatter.title}</Title>
+    <Info>
+      {post.frontmatter.date} · {post.timeToRead} min read
+    </Info>
+    <Content dangerouslySetInnerHTML={{ __html: post.html }} />
+    <div className="separator" />
+    <Author />
+  </Root>
+);
 
 const Root = styled.section`
   margin: auto;

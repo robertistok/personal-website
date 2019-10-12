@@ -21,29 +21,27 @@ const PostCard: React.FunctionComponent<PostCardProps> = ({
   date,
   timeToRead,
   location,
-}): React.ReactElement => {
-  return (
-    <Root>
-      <Title>
-        <Link
-          aria-label={`Continue reading: ${title}`}
-          to={"/blog" + slug}
-          state={{ prevPath: location.pathname }}
-        >
-          {title}
-        </Link>
-      </Title>
-      <ContentInfo>
-        {date} · {timeToRead} min read
-      </ContentInfo>
-      <Content
-        dangerouslySetInnerHTML={{
-          __html: description,
-        }}
-      />
-    </Root>
-  );
-};
+}): React.ReactElement => (
+  <Root>
+    <Title>
+      <Link
+        aria-label={`Continue reading: ${title}`}
+        to={`/blog${slug}`}
+        state={{ prevPath: location.pathname }}
+      >
+        {title}
+      </Link>
+    </Title>
+    <ContentInfo>
+      {date} · {timeToRead} min read
+    </ContentInfo>
+    <Content
+      dangerouslySetInnerHTML={{
+        __html: description,
+      }}
+    />
+  </Root>
+);
 
 const Root = styled.section`
   margin-bottom: ${rhythm(1)};

@@ -4,15 +4,13 @@ import { rhythm, scale } from "../../../utils/typography";
 
 import Social from "../../Social";
 
-const Footer: React.FunctionComponent = (): React.ReactElement => {
-  return (
+const Footer: React.FunctionComponent = (): React.ReactElement => (
     <Root>
       <CTA>Reach out to me on your favorite social :)</CTA>
       <Social className="footer_social" />
       <CopyRight>© 2019 robertistok</CopyRight>
     </Root>
   );
-};
 
 const Root = styled.footer`
   display: flex;

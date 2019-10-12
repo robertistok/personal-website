@@ -1,7 +1,6 @@
 import React from "react";
-import styled from "styled-components";
-import { GatsbyLocation } from "local-types";
 import { animated } from "react-spring";
+import { GatsbyLocation } from "local-types";
 
 import About from "../components/About";
 import Layout from "../components/Layout";
@@ -30,7 +29,5 @@ const AboutPage: React.FunctionComponent<AboutPageProps> = ({
     </Layout>
   );
 };
-
-const Root = styled.section``;
 
 export default AboutPage;

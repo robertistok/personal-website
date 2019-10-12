@@ -7,22 +7,22 @@ import { rhythm } from "../../../utils/typography";
 import { device } from "../../../styles/constants";
 import { useSiteMetadata, useAvatar } from "../../../hooks";
 
-const Author = () => {
+const Author = (): React.ReactElement => {
   const { author } = useSiteMetadata();
   const avatar = useAvatar({ width: 50, height: 50 });
 
+  const avatarFixedImage: FixedObject = {
+    ...avatar.childImageSharp.fixed,
+    // need to set src and srcSet explicitly, otherwise there is a type conflict
+    src: avatar.childImageSharp.fixed.src,
+    srcSet: avatar.childImageSharp.fixed.srcSet,
+    width: 50,
+    height: 50,
+  };
+
   return (
     <Root>
-      <StyledImage
-        fixed={
-          {
-            ...avatar.childImageSharp.fixed,
-            width: 50,
-            height: 50,
-          } as FixedObject
-        }
-        alt={author.name}
-      />
+      <StyledImage fixed={avatarFixedImage} alt={author.name} />
       <h5>
         Personal blog by{" "}
         <a href={`https://www.linkedin.com/in/${author.social.linkedin}`}>

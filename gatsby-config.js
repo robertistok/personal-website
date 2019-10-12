@@ -59,10 +59,9 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: "UA-145413804-1",
+        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
       },
     },
-    "gatsby-plugin-feed",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
@@ -91,7 +90,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-generate-typings",
       options: {
-        dest: "./src/types/graphql-types.d.ts",
+        dest: "./src/types/graphql.ts",
       },
     },
   ],

@@ -10,13 +10,11 @@ interface HomeProps {
 
 const Home: React.FunctionComponent<HomeProps> = ({
   location,
-}): React.ReactElement => {
-  return (
-    <>
-      <Intro />
-      <ShowcasedPosts location={location} />
-    </>
-  );
-};
+}): React.ReactElement => (
+  <>
+    <Intro />
+    <ShowcasedPosts location={location} />
+  </>
+);
 
 export default Home;

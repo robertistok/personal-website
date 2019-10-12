@@ -25,30 +25,28 @@ const ShowcasedPostCard: React.FunctionComponent<ShowcasedPostCardProps> = ({
   date,
   timeToRead,
   location,
-}): React.ReactElement => {
-  return (
-    <Root>
-      <Link
-        aria-label={`Continue reading: ${title}`}
-        to={"/blog" + slug}
-        state={{ prevPath: location.pathname }}
-      >
-        <Title>{title}</Title>
-        <Cover fixed={cover} />
-      </Link>
+}): React.ReactElement => (
+  <Root>
+    <Link
+      aria-label={`Continue reading: ${title}`}
+      to={`/blog${slug}`}
+      state={{ prevPath: location.pathname }}
+    >
+      <Title>{title}</Title>
+      <Cover fixed={cover} />
+    </Link>
 
-      <ContentInfo>
-        {date} · {timeToRead} min read
-      </ContentInfo>
+    <ContentInfo>
+      {date} · {timeToRead} min read
+    </ContentInfo>
 
-      <Content
-        dangerouslySetInnerHTML={{
-          __html: description.slice(0, 160),
-        }}
-      />
-    </Root>
-  );
-};
+    <Content
+      dangerouslySetInnerHTML={{
+        __html: description.slice(0, 160),
+      }}
+    />
+  </Root>
+);
 
 const Root = styled.section`
   margin-bottom: ${rhythm(0.5)};

@@ -1,13 +1,13 @@
 import { useTransition, SpringConfig } from "react-spring";
 import { GatsbyLocation } from "local-types";
 
-interface usePageTransitionProps {
+interface UsePageTransitionProps {
   translateX?: number;
   config?: SpringConfig;
   location?: GatsbyLocation;
 }
 
-const usePageTransitions = (props: usePageTransitionProps = {}) => {
+const usePageTransitions = (props: UsePageTransitionProps = {}) => {
   const { translateX = "100", config, location } = props;
 
   const transitions = useTransition(location, location => location.pathname, {

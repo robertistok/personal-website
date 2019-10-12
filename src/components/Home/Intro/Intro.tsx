@@ -8,9 +8,7 @@ import { rhythm, scale } from "../../../utils/typography";
 import { useSiteMetadata, useAvatar } from "../../../hooks";
 import { device } from "../../../styles/constants";
 
-interface IntroProps {}
-
-const Intro: React.FunctionComponent<IntroProps> = (): React.ReactElement => {
+const Intro: React.FunctionComponent<{}> = (): React.ReactElement => {
   const { author } = useSiteMetadata();
   const avatar = useAvatar({ width: 150, height: 150 });
 
@@ -22,11 +20,11 @@ const Intro: React.FunctionComponent<IntroProps> = (): React.ReactElement => {
           alt={author.name}
         />
         <PitchContainer>
-          <Greeting>Hi, I'm Robert 👋</Greeting>
+          <Greeting>Hi, I&apos;m Robert 👋</Greeting>
           <SubTitle>Javascript Engineer</SubTitle>
           <Description>
-            I'm a developer and a dreamer, passionated about freeing up energy
-            through code and healthy habits.
+            I&apos;m a developer and a dreamer, passionated about freeing up
+            energy through code and healthy habits.
           </Description>
         </PitchContainer>
       </HeadingContainer>
