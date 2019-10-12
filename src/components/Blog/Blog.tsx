@@ -2,12 +2,11 @@ import React from "react";
 import styled from "styled-components";
 import { graphql, useStaticQuery } from "gatsby";
 import { GatsbyLocation } from "local-types";
+import { MarkdownRemarkConnection } from "graphql-types";
 
 import PostCard from "./PostCard";
 import Author from "../Layout/Author";
 import { rhythm } from "../../utils/typography";
-import { useAvatar } from "../../hooks";
-import { MarkdownRemarkConnection, File } from "../../types/graphql-types";
 
 interface BlogProps {
   location: GatsbyLocation;
@@ -47,20 +46,22 @@ const Blog: React.FunctionComponent<BlogProps> = ({
   return (
     <Root>
       <Author />
-      {posts.map(({ node }) => {
-        const title = node.frontmatter.title || node.fields.slug;
-        return (
-          <PostCard
-            key={node.fields.slug}
-            title={title}
-            slug={node.fields.slug}
-            description={node.frontmatter.description || node.excerpt}
-            date={node.frontmatter.date}
-            timeToRead={node.timeToRead}
-            location={location}
-          />
-        );
-      })}
+      {posts.map(
+        ({ node }): React.ReactElement => {
+          const title = node.frontmatter.title || node.fields.slug;
+          return (
+            <PostCard
+              key={node.fields.slug}
+              title={title}
+              slug={node.fields.slug}
+              description={node.frontmatter.description || node.excerpt}
+              date={node.frontmatter.date}
+              timeToRead={node.timeToRead}
+              location={location}
+            />
+          );
+        }
+      )}
     </Root>
   );
 };

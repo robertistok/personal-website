@@ -1,13 +1,12 @@
 import { useStaticQuery, graphql } from "gatsby";
+import { Query, File } from "graphql-types";
 
-import { Query, File } from "../types/graphql-types";
-
-interface useAvatarProps {
+interface UseAvatarProps {
   width?: number;
   height?: number;
 }
 
-const useAvatar = (props: useAvatarProps): File => {
+const useAvatar = (props: UseAvatarProps): File => {
   const { width = 50, height = 50 } = props;
 
   const data: Query = useStaticQuery(

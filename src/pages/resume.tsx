@@ -1,10 +1,10 @@
 import React, { useRef, useEffect } from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import styled from "styled-components";
+import { File } from "graphql-types";
 
 import SEO from "../components/Seo";
 import { useSiteMetadata } from "../hooks";
-import { File } from "../types/graphql-types";
 
 const ResumePage = () => {
   const { file: resume }: { file: File } = useStaticQuery(graphql`

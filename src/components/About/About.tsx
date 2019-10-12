@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Image, { FixedObject } from "gatsby-image";
 
-import { SiteSiteMetadataAuthor } from "../../types/graphql-types";
+import { SiteSiteMetadataAuthor } from "graphql-types";
 import { rhythm } from "../../utils/typography";
 import { yearsSince } from "../../utils/timeSince";
 import { device } from "../../styles/constants";

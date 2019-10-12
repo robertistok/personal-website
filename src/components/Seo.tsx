@@ -3,15 +3,15 @@ import Helmet from "react-helmet";
 
 import { useSiteMetadata, useAvatar } from "../hooks";
 
-type OGMetaTag = {
+interface OGMetaTag {
   property: string;
   content: string;
-};
+}
 
-type TwitterMetaTag = {
+interface TwitterMetaTag {
   name: string;
   content: string;
-};
+}
 
 interface SEOProps {
   lang?: string;
@@ -55,26 +55,26 @@ const SEO: React.FunctionComponent<SEOProps> = ({
       titleTemplate={`${title} | %s`}
       meta={[
         {
-          name: `google-site-verification`,
-          content: `OZ82-xGcAi-7G55v3p4iJa-qlkwTTG1ExzUrYXxdsT0`,
+          name: "google-site-verification",
+          content: "OZ82-xGcAi-7G55v3p4iJa-qlkwTTG1ExzUrYXxdsT0",
         },
-        { property: `og:title`, content: title },
-        { name: `twitter:title`, content: title },
+        { property: "og:title", content: title },
+        { name: "twitter:title", content: title },
 
-        { name: `description`, content: metaDescription },
-        { property: `og:description`, content: metaDescription },
-        { name: `twitter:description`, content: metaDescription },
+        { name: "description", content: metaDescription },
+        { property: "og:description", content: metaDescription },
+        { name: "twitter:description", content: metaDescription },
 
-        { name: `twitter:card`, content: `summary` },
-        { property: `og:type`, content: type },
+        { name: "twitter:card", content: "summary" },
+        { property: "og:type", content: type },
 
-        { property: `og:image`, content: metaImageUrl },
-        { name: `twitter:image`, content: metaImageUrl },
+        { property: "og:image", content: metaImageUrl },
+        { name: "twitter:image", content: metaImageUrl },
 
         ...(Boolean(image) === Boolean(imageAlt) // don't want to show the wrong imageAlt
           ? [
-              { property: `og:image:alt`, content: metaImageAlt },
-              { name: `twitter:image:alt`, content: metaImageAlt },
+              { property: "og:image:alt", content: metaImageAlt },
+              { name: "twitter:image:alt", content: metaImageAlt },
             ]
           : []),
 
@@ -87,8 +87,8 @@ const SEO: React.FunctionComponent<SEOProps> = ({
 
         ...(author.social.twitter
           ? [
-              { name: `twitter:creator`, content: author.social.twitter },
-              { name: `twitter:site`, content: author.social.twitter },
+              { name: "twitter:creator", content: author.social.twitter },
+              { name: "twitter:site", content: author.social.twitter },
             ]
           : []),
       ].concat(meta)}

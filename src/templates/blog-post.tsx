@@ -2,12 +2,12 @@ import React from "react";
 import { graphql } from "gatsby";
 import { animated } from "react-spring";
 import { GatsbyLocation } from "local-types";
+import { MarkdownRemark } from "graphql-types";
 
 import Layout from "../components/Layout";
 import SEO from "../components/Seo";
 import Post from "../components/Post";
 import { useSiteMetadata, usePageTransitions } from "../hooks";
-import { MarkdownRemark } from "../types/graphql-types";
 
 interface BlogPostTemplateProps {
   location: GatsbyLocation;

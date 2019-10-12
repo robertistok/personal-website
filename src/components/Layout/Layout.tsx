@@ -1,5 +1,5 @@
-import React, { useRef, useEffect } from "react";
-import { default as styled, ThemeProvider } from "styled-components";
+import React, { useEffect } from "react";
+import styled, { ThemeProvider } from "styled-components";
 import { GatsbyLocation } from "local-types";
 
 import Header, { HeaderProps } from "./Header";
@@ -20,7 +20,7 @@ const Layout: React.FunctionComponent<LayoutProps> = ({
   headerProps,
   location,
 }): React.ReactElement => {
-  const resizeHeaderOnScroll = () => {
+  const resizeHeaderOnScroll = (): void => {
     const distanceY = window.pageYOffset || document.documentElement.scrollTop;
     const shrinkOn = 75;
 
@@ -37,6 +37,7 @@ const Layout: React.FunctionComponent<LayoutProps> = ({
 
   useEffect(() => {
     window.addEventListener("scroll", resizeHeaderOnScroll);
+
     return () => window.removeEventListener("scroll", resizeHeaderOnScroll);
   });
 

@@ -1,10 +1,9 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import { GatsbyLocation } from "local-types";
+import { Query } from "graphql-types";
 
 import ShowcasedPostsContainer from "./ShowcasedPostsContainer";
-
-import { Query } from "../../../types/graphql-types";
 
 interface HomeProps {
   location: GatsbyLocation;
@@ -34,10 +33,7 @@ const Home: React.FunctionComponent<HomeProps> = ({
   const featuredPosts = allMarkdownRemark.edges
     .filter(p => p.node.frontmatter.featured)
     .filter(
-      p =>
-        !Boolean(
-          latestPosts.find(lp => lp.node.fields.slug === p.node.fields.slug)
-        )
+      p => !latestPosts.find(lp => lp.node.fields.slug === p.node.fields.slug)
     )
     .slice(0, 3);
 
