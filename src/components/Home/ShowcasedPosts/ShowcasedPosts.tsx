@@ -29,11 +29,12 @@ const Home: React.FunctionComponent<HomeProps> = ({
     `
   );
 
-  const latestPosts = allMarkdownRemark.edges.slice(0, 3);
   const featuredPosts = allMarkdownRemark.edges
     .filter(p => p.node.frontmatter.featured)
+    .slice(0, 3);
+  const latestPosts = allMarkdownRemark.edges
     .filter(
-      p => !latestPosts.find(lp => lp.node.fields.slug === p.node.fields.slug)
+      p => !featuredPosts.find(lp => lp.node.fields.slug === p.node.fields.slug)
     )
     .slice(0, 3);
 
