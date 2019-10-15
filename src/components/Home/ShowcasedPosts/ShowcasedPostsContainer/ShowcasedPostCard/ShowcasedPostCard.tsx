@@ -50,6 +50,12 @@ const ShowcasedPostCard: React.FunctionComponent<ShowcasedPostCardProps> = ({
 
 const Root = styled.section`
   margin-bottom: ${rhythm(0.5)};
+  transition: transform 0.5s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
   a {
     box-shadow: none;
   }
