@@ -42,7 +42,7 @@ const Root = styled.a<{ hoverColor?: string }>`
 
     &:hover {
       cursor: pointer;
-      transform: scale(1.4);
+      transform: scale(1.3);
       color: ${({ hoverColor }) => hoverColor || "initial"};
     }
   }
