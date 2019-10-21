@@ -20,7 +20,7 @@ type UseSocialState = [
   SocialState,
   {
     setHoveredElement: (payload: SetHoveredElementPayload) => void;
-    resetHoveredElement: (payload) => void;
+    resetHoveredElement: () => void;
   }
 ];
 
