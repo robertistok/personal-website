@@ -53,7 +53,7 @@ const Root = styled.section`
   transition: transform 0.5s ease;
 
   &:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
   }
 
   a {
