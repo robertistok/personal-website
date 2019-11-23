@@ -73,9 +73,7 @@ const Root = styled.div`
   transition: height 0.5s;
 
   &.smaller {
-    /* padding: ${rhythm(1 / 4)} ${rhythm(3 / 4)}; */
     height: ${rhythm(2)};
-    /* ${scale(-0.3)}; */
   }
 `;
 
