@@ -42,13 +42,13 @@ const Home: React.FunctionComponent<HomeProps> = ({
     <>
       <ShowcasedPostsContainer
         location={location}
-        posts={featuredPosts}
-        title="Featured ✨"
+        posts={latestPosts}
+        title="Latest ⌛️"
       />
       <ShowcasedPostsContainer
         location={location}
-        posts={latestPosts}
-        title="Latest ⌛️"
+        posts={featuredPosts}
+        title="Featured ✨"
       />
     </>
   );
