@@ -13,6 +13,7 @@ module.exports = {
       lastname: "Istók",
       name: "Róbert Istók",
       photo: "/robertistok_avatar.jpeg",
+      resume: "robert_istok_resume.pdf",
       social: {
         email: "robertistok94@gmail.com",
         github: "robertistok",

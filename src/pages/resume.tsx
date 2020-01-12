@@ -9,7 +9,7 @@ import { useSiteMetadata } from "../hooks";
 const ResumePage: React.FunctionComponent = (): React.ReactElement => {
   const { file: resume }: { file: File } = useStaticQuery(graphql`
     {
-      file(name: { eq: "Robert_Istok_2019_resume" }) {
+      file(name: { eq: "robert_istok_resume" }) {
         publicURL
       }
     }

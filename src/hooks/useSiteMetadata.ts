@@ -12,6 +12,7 @@ const useSiteMetadata = (): SiteSiteMetadata => {
               lastname
               name
               photo
+              resume
               birthDate
               social {
                 email
