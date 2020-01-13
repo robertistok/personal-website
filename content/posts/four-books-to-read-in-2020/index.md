@@ -53,7 +53,7 @@ Economists like to fantasize about humans being rational and considering all alt
 
 Adults make around [35000 remotely conscious decisions](https://bit.ly/2SGgbFF) every day, and it would be impossible for all of them to be rational. We are often impulsive and make decisions based on emotions. Econs would cooperate only if they get the most value by doing so. You get the point.
 
-The [opportunity cost theory](http://Opportunity%20Costs%20Theory) was my favorite part of the book. If, for example, the question is "is it worth fixing my bike and saving 10 euros?", we should also take into account the opportunities we miss out by doing so. The time spent commuting to the shop and doing the repair could be spent on something more meaningful(working on a side hustle, connecting with a friend, or reading a book).
+The [opportunity cost theory](https://bit.ly/2R9GWQB) was my favorite part of the book. If, for example, the question is "is it worth fixing my bike and saving 10 euros?", we should also take into account the opportunities we miss out by doing so. The time spent commuting to the shop and doing the repair could be spent on something more meaningful(working on a side hustle, connecting with a friend, or reading a book).
 
 **_The bottom line?_**As with everything, being aware of our behavior is the first step towards progress. Whenever I have to make a decision, I try to ask myself if "_is this what an econ would do?_". This practice helps me to zoom out and see the bigger picture.
 
