@@ -24,10 +24,10 @@ const About: React.FunctionComponent<AboutProps> = ({
       <Description>
         <h4>Hey there my friend!</h4>
         <p>
-          My name is {author.name} and I am {yearsSince(author.birthDate)} years
-          old. I have a passion for products having constructive effects on our
-          lifes and I love to be involved in the development of purposeful
-          applications.
+          My name is {author.name}, and I am {yearsSince(author.birthDate)}{" "}
+          years old. I have a passion for products having constructive effects
+          on our lives, and I love to be involved in the development of
+          purposeful applications.
         </p>
 
         <p>
@@ -40,12 +40,12 @@ const About: React.FunctionComponent<AboutProps> = ({
           When not building stuff, I love to explore, read fascinating books,
           learn languages, write about my experiences in life, have amazing
           dinners and meet interesting people. I am also obsessed with building
-          positive habits, I believe they are the keys to unlock our full
+          positive habits. I believe they are the keys to unlock our full
           potential.
         </p>
 
         <p>
-          Do you want to find out more about me? Shoot me an email at{" "}
+          Do you want to find out more about me? Please shoot me an email at{" "}
           <strong>{author.social.email}</strong> or reach out to me on social
           media, listed below.
         </p>
