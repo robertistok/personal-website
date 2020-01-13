@@ -20,7 +20,7 @@ const Intro: React.FunctionComponent<{}> = (): React.ReactElement => {
           alt={author.name}
         />
         <PitchContainer>
-          <Greeting>Hi, I&apos;m Robert 👋</Greeting>
+          <Greeting>Hi, I&apos;m {author.firstname} 👋</Greeting>
           <SubTitle>Javascript Engineer</SubTitle>
           <Description>
             I&apos;m a developer and a dreamer, passionated about freeing up

@@ -8,12 +8,16 @@ const useSiteMetadata = (): SiteSiteMetadata => {
         site {
           siteMetadata {
             author {
+              birthDate
               firstname
               lastname
               name
-              photo
+              assets {
+                icon
+                photo
+              }
               resume
-              birthDate
+              username
               social {
                 email
                 medium

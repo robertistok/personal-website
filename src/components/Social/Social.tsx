@@ -15,7 +15,7 @@ const Social: React.FunctionComponent<SocialProps> = ({
   className,
 }): React.ReactElement => {
   const {
-    author: { social, name },
+    author: { social, name, firstname },
   } = useSiteMetadata();
 
   return (
@@ -31,7 +31,9 @@ const Social: React.FunctionComponent<SocialProps> = ({
         <SocialLink type="goodreads" userId={social.goodreads} />
         <SocialLink
           type="email"
-          rootProps={{ href: `mailto:${social.email}?subject=Hey Robert%21` }}
+          rootProps={{
+            href: `mailto:${social.email}?subject=Hey ${firstname}%21`,
+          }}
         />
       </Root>
     </SocialStateProvider>

@@ -7,6 +7,7 @@ import SEO from "../components/Seo";
 import { useSiteMetadata } from "../hooks";
 
 const ResumePage: React.FunctionComponent = (): React.ReactElement => {
+  // change the resume file  to yours
   const { file: resume }: { file: File } = useStaticQuery(graphql`
     {
       file(name: { eq: "robert_istok_resume" }) {

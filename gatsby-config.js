@@ -65,13 +65,13 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name: "Robert's website",
-        short_name: "robertistok",
+        name: `${siteConfig.siteMetadata.author.name}'s website`,
+        short_name: `${siteConfig.siteMetadata.author.username}`,
         start_url: "/",
         background_color: "#fafafa",
         theme_color: "#ff483b",
         display: "minimal-ui",
-        icon: "content/assets/robertistok_avatar_rounded.png",
+        icon: `content/assets/${siteConfig.siteMetadata.author.assets.icon}`,
       },
     },
     "gatsby-plugin-offline",

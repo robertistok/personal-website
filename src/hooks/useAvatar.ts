@@ -9,6 +9,7 @@ interface UseAvatarProps {
 const useAvatar = (props: UseAvatarProps): File => {
   const { width = 50, height = 50 } = props;
 
+  // change the avatar to yours
   const data: Query = useStaticQuery(
     graphql`
       query Avatar {

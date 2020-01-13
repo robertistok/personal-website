@@ -12,8 +12,12 @@ module.exports = {
       firstname: "Róbert",
       lastname: "Istók",
       name: "Róbert Istók",
-      photo: "/robertistok_avatar.jpeg",
+      assets: {
+        icon: "robertistok_avatar_rounded.png",
+        photo: "/robertistok_avatar.jpeg",
+      },
       resume: "robert_istok_resume.pdf",
+      username: "robertistok",
       social: {
         email: "robertistok94@gmail.com",
         github: "robertistok",
