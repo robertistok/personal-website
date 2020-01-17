@@ -86,7 +86,7 @@ const StyledHeader = styled.header`
   align-items: center;
 `;
 
-const Title = styled.h2`
+const Title = styled.h1`
   margin: 0;
   ${scale(0.25)};
 
@@ -107,6 +107,7 @@ const StyledNav = styled.nav``;
 
 const StyledLink = styled(Link)`
   margin-right: ${rhythm(1 / 2)};
+  ${scale(0.25)};
 `;
 
 export default Header;
