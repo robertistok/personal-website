@@ -6,7 +6,7 @@ module.exports = {
     googleAnalyticsId: "UA-73379983-2",
     pathPrefix: "/",
     siteUrl: "https://robertistok.com",
-    title: "Róbert Istók",
+    title: "robertistok",
     author: {
       birthDate: new Date("1994-07-05"),
       firstname: "Róbert",

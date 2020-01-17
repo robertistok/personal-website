@@ -20,7 +20,7 @@ const AboutPage: React.FunctionComponent<AboutPageProps> = ({
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="About" />
+      <SEO description="Loves to build products, read books, explore the world, and engage in mindblowing conversations" title="About" />
       {transitions.map(({ props, key }) => (
         <animated.div key={key} style={props}>
           <About author={author} />
