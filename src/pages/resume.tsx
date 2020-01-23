@@ -1,9 +1,9 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import styled from "styled-components";
 import { File } from "graphql-types";
 
 import SEO from "../components/Seo";
+import { Redirect } from "../components/common";
 import { useSiteMetadata } from "../hooks";
 
 const ResumePage: React.FunctionComponent = (): React.ReactElement => {
@@ -17,11 +17,6 @@ const ResumePage: React.FunctionComponent = (): React.ReactElement => {
   `);
 
   const { author } = useSiteMetadata();
-  const resumeUrl = useRef(null);
-  useEffect(() => resume && resumeUrl.current && resumeUrl.current.click(), [
-    resume,
-    resumeUrl,
-  ]);
 
   return (
     <>
@@ -29,17 +24,9 @@ const ResumePage: React.FunctionComponent = (): React.ReactElement => {
         title="Curriculum Vitae"
         description={`Check out ${author.name}'s resume and feel free to drop him a message 🙏`}
       />
-      <DownloadURL
-        href={resume.publicURL}
-        type="application/pdf"
-        ref={resumeUrl}
-      />
+      <Redirect to={resume.publicURL} type="application/pdf" />
     </>
   );
 };
-
-const DownloadURL = styled.a`
-  display: none;
-`;
 
 export default ResumePage;
