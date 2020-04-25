@@ -2177,6 +2177,7 @@ export type SiteFieldsEnum =
   'siteMetadata___author___assets___photo' |
   'siteMetadata___author___resume' |
   'siteMetadata___author___username' |
+  'siteMetadata___author___nowPageUpdatedAt' |
   'siteMetadata___author___social___email' |
   'siteMetadata___author___social___github' |
   'siteMetadata___author___social___goodreads' |
@@ -2471,17 +2472,8 @@ export type SitePageFieldsEnum =
   'pluginCreator___pluginOptions___namedBitlys' |
   'pluginCreator___pluginOptions___maxWidth' |
   'pluginCreator___pluginOptions___showCaptions' |
-  'pluginCreator___pluginOptions___pathPrefix' |
   'pluginCreator___pluginOptions___wrapperStyle' |
-  'pluginCreator___pluginOptions___backgroundColor' |
-  'pluginCreator___pluginOptions___linkImagesToOriginal' |
-  'pluginCreator___pluginOptions___markdownCaptions' |
-  'pluginCreator___pluginOptions___withWebp' |
-  'pluginCreator___pluginOptions___tracedSVG' |
-  'pluginCreator___pluginOptions___loading' |
-  'pluginCreator___pluginOptions___disableBgImageOnAlpha' |
   'pluginCreator___pluginOptions___inlineCodeMarker' |
-  'pluginCreator___pluginOptions___ignoreFileExtensions' |
   'pluginCreator___pluginOptions___trackingId' |
   'pluginCreator___pluginOptions___short_name' |
   'pluginCreator___pluginOptions___start_url' |
@@ -2687,17 +2679,8 @@ export type SitePluginFieldsEnum =
   'pluginOptions___plugins___pluginOptions___namedBitlys' |
   'pluginOptions___plugins___pluginOptions___maxWidth' |
   'pluginOptions___plugins___pluginOptions___showCaptions' |
-  'pluginOptions___plugins___pluginOptions___pathPrefix' |
   'pluginOptions___plugins___pluginOptions___wrapperStyle' |
-  'pluginOptions___plugins___pluginOptions___backgroundColor' |
-  'pluginOptions___plugins___pluginOptions___linkImagesToOriginal' |
-  'pluginOptions___plugins___pluginOptions___markdownCaptions' |
-  'pluginOptions___plugins___pluginOptions___withWebp' |
-  'pluginOptions___plugins___pluginOptions___tracedSVG' |
-  'pluginOptions___plugins___pluginOptions___loading' |
-  'pluginOptions___plugins___pluginOptions___disableBgImageOnAlpha' |
   'pluginOptions___plugins___pluginOptions___inlineCodeMarker' |
-  'pluginOptions___plugins___pluginOptions___ignoreFileExtensions' |
   'pluginOptions___plugins___browserAPIs' |
   'pluginOptions___plugins___ssrAPIs' |
   'pluginOptions___plugins___pluginFilepath' |
@@ -2707,17 +2690,8 @@ export type SitePluginFieldsEnum =
   'pluginOptions___namedBitlys' |
   'pluginOptions___maxWidth' |
   'pluginOptions___showCaptions' |
-  'pluginOptions___pathPrefix' |
   'pluginOptions___wrapperStyle' |
-  'pluginOptions___backgroundColor' |
-  'pluginOptions___linkImagesToOriginal' |
-  'pluginOptions___markdownCaptions' |
-  'pluginOptions___withWebp' |
-  'pluginOptions___tracedSVG' |
-  'pluginOptions___loading' |
-  'pluginOptions___disableBgImageOnAlpha' |
   'pluginOptions___inlineCodeMarker' |
-  'pluginOptions___ignoreFileExtensions' |
   'pluginOptions___trackingId' |
   'pluginOptions___short_name' |
   'pluginOptions___start_url' |
@@ -2850,17 +2824,8 @@ export type SitePluginPluginOptions = {
   namedBitlys?: Maybe<Array<Maybe<Scalars['String']>>>,
   maxWidth?: Maybe<Scalars['Int']>,
   showCaptions?: Maybe<Scalars['Boolean']>,
-  pathPrefix?: Maybe<Scalars['String']>,
   wrapperStyle?: Maybe<Scalars['String']>,
-  backgroundColor?: Maybe<Scalars['String']>,
-  linkImagesToOriginal?: Maybe<Scalars['Boolean']>,
-  markdownCaptions?: Maybe<Scalars['Boolean']>,
-  withWebp?: Maybe<Scalars['Boolean']>,
-  tracedSVG?: Maybe<Scalars['Boolean']>,
-  loading?: Maybe<Scalars['String']>,
-  disableBgImageOnAlpha?: Maybe<Scalars['Boolean']>,
   inlineCodeMarker?: Maybe<Scalars['String']>,
-  ignoreFileExtensions?: Maybe<Array<Maybe<Scalars['String']>>>,
   trackingId?: Maybe<Scalars['String']>,
   short_name?: Maybe<Scalars['String']>,
   start_url?: Maybe<Scalars['String']>,
@@ -2881,17 +2846,8 @@ export type SitePluginPluginOptionsFilterInput = {
   namedBitlys?: Maybe<StringQueryOperatorInput>,
   maxWidth?: Maybe<IntQueryOperatorInput>,
   showCaptions?: Maybe<BooleanQueryOperatorInput>,
-  pathPrefix?: Maybe<StringQueryOperatorInput>,
   wrapperStyle?: Maybe<StringQueryOperatorInput>,
-  backgroundColor?: Maybe<StringQueryOperatorInput>,
-  linkImagesToOriginal?: Maybe<BooleanQueryOperatorInput>,
-  markdownCaptions?: Maybe<BooleanQueryOperatorInput>,
-  withWebp?: Maybe<BooleanQueryOperatorInput>,
-  tracedSVG?: Maybe<BooleanQueryOperatorInput>,
-  loading?: Maybe<StringQueryOperatorInput>,
-  disableBgImageOnAlpha?: Maybe<BooleanQueryOperatorInput>,
   inlineCodeMarker?: Maybe<StringQueryOperatorInput>,
-  ignoreFileExtensions?: Maybe<StringQueryOperatorInput>,
   trackingId?: Maybe<StringQueryOperatorInput>,
   short_name?: Maybe<StringQueryOperatorInput>,
   start_url?: Maybe<StringQueryOperatorInput>,
@@ -2935,17 +2891,8 @@ export type SitePluginPluginOptionsPluginsPluginOptions = {
   namedBitlys?: Maybe<Array<Maybe<Scalars['String']>>>,
   maxWidth?: Maybe<Scalars['Int']>,
   showCaptions?: Maybe<Scalars['Boolean']>,
-  pathPrefix?: Maybe<Scalars['String']>,
   wrapperStyle?: Maybe<Scalars['String']>,
-  backgroundColor?: Maybe<Scalars['String']>,
-  linkImagesToOriginal?: Maybe<Scalars['Boolean']>,
-  markdownCaptions?: Maybe<Scalars['Boolean']>,
-  withWebp?: Maybe<Scalars['Boolean']>,
-  tracedSVG?: Maybe<Scalars['Boolean']>,
-  loading?: Maybe<Scalars['String']>,
-  disableBgImageOnAlpha?: Maybe<Scalars['Boolean']>,
   inlineCodeMarker?: Maybe<Scalars['String']>,
-  ignoreFileExtensions?: Maybe<Array<Maybe<Scalars['String']>>>,
 };
 
 export type SitePluginPluginOptionsPluginsPluginOptionsFilterInput = {
@@ -2953,17 +2900,8 @@ export type SitePluginPluginOptionsPluginsPluginOptionsFilterInput = {
   namedBitlys?: Maybe<StringQueryOperatorInput>,
   maxWidth?: Maybe<IntQueryOperatorInput>,
   showCaptions?: Maybe<BooleanQueryOperatorInput>,
-  pathPrefix?: Maybe<StringQueryOperatorInput>,
   wrapperStyle?: Maybe<StringQueryOperatorInput>,
-  backgroundColor?: Maybe<StringQueryOperatorInput>,
-  linkImagesToOriginal?: Maybe<BooleanQueryOperatorInput>,
-  markdownCaptions?: Maybe<BooleanQueryOperatorInput>,
-  withWebp?: Maybe<BooleanQueryOperatorInput>,
-  tracedSVG?: Maybe<BooleanQueryOperatorInput>,
-  loading?: Maybe<StringQueryOperatorInput>,
-  disableBgImageOnAlpha?: Maybe<BooleanQueryOperatorInput>,
   inlineCodeMarker?: Maybe<StringQueryOperatorInput>,
-  ignoreFileExtensions?: Maybe<StringQueryOperatorInput>,
 };
 
 export type SitePluginSortInput = {
@@ -2989,11 +2927,20 @@ export type SiteSiteMetadataAuthor = {
   assets?: Maybe<SiteSiteMetadataAuthorAssets>,
   resume?: Maybe<Scalars['String']>,
   username?: Maybe<Scalars['String']>,
+  nowPageUpdatedAt?: Maybe<Scalars['Date']>,
   social?: Maybe<SiteSiteMetadataAuthorSocial>,
 };
 
 
 export type SiteSiteMetadataAuthorBirthDateArgs = {
+  formatString?: Maybe<Scalars['String']>,
+  fromNow?: Maybe<Scalars['Boolean']>,
+  difference?: Maybe<Scalars['String']>,
+  locale?: Maybe<Scalars['String']>
+};
+
+
+export type SiteSiteMetadataAuthorNowPageUpdatedAtArgs = {
   formatString?: Maybe<Scalars['String']>,
   fromNow?: Maybe<Scalars['Boolean']>,
   difference?: Maybe<Scalars['String']>,
@@ -3018,6 +2965,7 @@ export type SiteSiteMetadataAuthorFilterInput = {
   assets?: Maybe<SiteSiteMetadataAuthorAssetsFilterInput>,
   resume?: Maybe<StringQueryOperatorInput>,
   username?: Maybe<StringQueryOperatorInput>,
+  nowPageUpdatedAt?: Maybe<DateQueryOperatorInput>,
   social?: Maybe<SiteSiteMetadataAuthorSocialFilterInput>,
 };
 
@@ -3090,6 +3038,11 @@ export type SiteMetaDataQueryVariables = {};
 
 
 export type SiteMetaDataQuery = { site: Maybe<{ siteMetadata: Maybe<(Pick<SiteSiteMetadata, 'description' | 'siteUrl' | 'title' | 'copyright'> & { author: Maybe<(Pick<SiteSiteMetadataAuthor, 'birthDate' | 'firstname' | 'lastname' | 'name' | 'resume' | 'username'> & { assets: Maybe<Pick<SiteSiteMetadataAuthorAssets, 'icon' | 'photo'>>, social: Maybe<Pick<SiteSiteMetadataAuthorSocial, 'email' | 'medium' | 'twitter' | 'github' | 'goodreads' | 'linkedin' | 'instagram'>> })> })> }> };
+
+export type LatestPostQueryVariables = {};
+
+
+export type LatestPostQuery = { allMarkdownRemark: { edges: Array<{ node: { frontmatter: Maybe<Pick<MarkdownRemarkFrontmatter, 'slug'>> } }> } };
 
 export type Unnamed_2_QueryVariables = {};
 

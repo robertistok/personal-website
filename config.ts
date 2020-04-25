@@ -18,6 +18,7 @@ module.exports = {
       },
       resume: "robert_istok_resume.pdf",
       username: "robertistok",
+      nowPageUpdatedAt: "2020-04-25",
       social: {
         email: "robertistok94@gmail.com",
         github: "robertistok",

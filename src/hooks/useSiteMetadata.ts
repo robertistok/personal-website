@@ -12,6 +12,7 @@ const useSiteMetadata = (): SiteSiteMetadata => {
               firstname
               lastname
               name
+              nowPageUpdatedAt
               assets {
                 icon
                 photo
