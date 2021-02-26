@@ -5,6 +5,7 @@ import {
   FaGithub,
   FaMedium,
   FaGoodreadsG,
+  FaInstagram,
 } from "react-icons/fa";
 import { IconType } from "react-icons/lib/cjs";
 
@@ -21,6 +22,12 @@ const SOCIALS: { [key: string]: PredefinedLinkValue } = {
     hoverColor: "#2867B2",
     Icon: FaLinkedin,
     title: "LinkedIn",
+  },
+  instagram: {
+    baseUrl: "https://www.instagram.com",
+    hoverColor: "#ac34b2",
+    Icon: FaInstagram,
+    title: "Instagram",
   },
   github: {
     baseUrl: "https://github.com",

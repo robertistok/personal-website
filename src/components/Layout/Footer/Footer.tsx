@@ -35,7 +35,7 @@ const Root = styled.footer`
   .footer_social {
     align-self: center;
     grid-gap: 5px;
-    grid-template-columns: repeat(6, ${rhythm(1)});
+    grid-template-columns: repeat(7, ${rhythm(1)});
 
     svg {
       width: ${rhythm(1)};

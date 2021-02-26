@@ -26,6 +26,7 @@ const Social: React.FunctionComponent<SocialProps> = ({
       >
         <SocialLink type="linkedin" userId={social.linkedin} />
         <SocialLink type="github" userId={social.github} />
+        <SocialLink type="instagram" userId={social.instagram} />
         <SocialLink type="medium" userId={`@${social.medium}`} />
         <SocialLink type="twitter" userId={social.twitter} />
         <SocialLink type="goodreads" userId={social.goodreads} />
@@ -42,7 +43,7 @@ const Social: React.FunctionComponent<SocialProps> = ({
 
 const Root = styled.nav`
   display: grid;
-  grid-template-columns: repeat(6, ${rhythm(1.25)});
+  grid-template-columns: repeat(7, ${rhythm(1.25)});
   grid-gap: 10px;
 `;
 
