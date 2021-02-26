@@ -3,8 +3,8 @@ title: "Goodbye, Relatable and See You Soon\_Sweden"
 template: post
 slug: goodbye-relatable-and-see-you-soon-sweden
 draft: false
-featured: true
-date: '2019-09-27T11:00:00.000Z'
+featured: false
+date: "2019-09-27T11:00:00.000Z"
 description: >-
   It's been a fantastic 2 years living in Sweden & working at Relatable,
   however, it's time to say goodbye and move on to something different.
@@ -16,6 +16,7 @@ tags:
   - Digital Nomad
   - Personal Growth
 ---
+
 ![The people who made my stay in Sweden unforgettable](/goodbye-relatable-and-see-you-soon-sweden-cover.jpg)
 
 It's been a fantastic 2 years working at Relatable, however, it's time to say goodbye to all the amazing people I met here and move on to something new.
