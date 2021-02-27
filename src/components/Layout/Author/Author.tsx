@@ -28,7 +28,11 @@ const Author = (): React.ReactElement => {
         <a href={`https://www.linkedin.com/in/${author.social.linkedin}`}>
           {author.name}
         </a>{" "}
-        about coding, traveling, habit building, and much more.
+        about coding, traveling, habit building, and much more.{" "}
+        <a href={author.newsletterUrl} target="_blank" rel="noreferrer">
+          Subscribe
+        </a>{" "}
+        to my newsletter and never miss any of my writings.
         {/* (Psst... I am{" "}
         <em>
           <Link to="/resume">open to opportunities</Link>.)

@@ -45,10 +45,13 @@ const Header: React.FunctionComponent<HeaderProps> = ({
           </Link>
         </Title>
         <StyledNav>
-          <StyledLink rel="author" to="/about">
+          <Link rel="author" to="/about">
             about
-          </StyledLink>
-          <StyledLink to="/blog">blog</StyledLink>
+          </Link>
+          <Link to="/blog">blog</Link>
+          <a href={author.newsletterUrl} target="_blank" rel="noreferrer">
+            newsletter
+          </a>
         </StyledNav>
       </StyledHeader>
     </Root>
@@ -103,11 +106,11 @@ const Title = styled.h1`
   }
 `;
 
-const StyledNav = styled.nav``;
-
-const StyledLink = styled(Link)`
-  margin-right: ${rhythm(1 / 2)};
-  ${scale(0.25)};
+const StyledNav = styled.nav`
+  a {
+    margin-right: ${rhythm(1 / 2)};
+    ${scale(0.25)};
+  }
 `;
 
 export default Header;

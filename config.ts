@@ -16,6 +16,7 @@ module.exports = {
         icon: "robertistok_avatar_rounded.png",
         photo: "/robertistok_avatar.jpeg",
       },
+      newsletterUrl: "https://robertistok.substack.com/subscribe",
       resume: "robert_istok_resume.pdf",
       username: "robertistok",
       social: {
