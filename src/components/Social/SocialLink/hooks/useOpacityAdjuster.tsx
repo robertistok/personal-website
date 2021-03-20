@@ -11,7 +11,7 @@ const useOpacityAdjuster = ({ referenceEl }: UseOpacityAdjuster) => {
   const [{ hoveredElement }] = useSocialStateValue();
 
   useEffect(() => {
-    let timeout: number;
+    let timeout: NodeJS.Timeout;
 
     if (hoveredElement) {
       if (hoveredElement !== referenceEl) {

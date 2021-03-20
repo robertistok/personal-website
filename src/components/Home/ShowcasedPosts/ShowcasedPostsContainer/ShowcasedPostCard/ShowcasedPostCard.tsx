@@ -25,7 +25,7 @@ const ShowcasedPostCard: React.FunctionComponent<ShowcasedPostCardProps> = ({
   date,
   timeToRead,
   location,
-}): React.ReactElement => (
+}) => (
   <Root>
     <Link
       aria-label={`Continue reading: ${title}`}
@@ -89,7 +89,7 @@ const Content = styled.p`
   }
 `;
 
-const Cover = styled(Image)`
+const Cover = styled(Image)<{ fixed: FixedObject }>`
   width: 100% !important;
   height: 150px !important;
 

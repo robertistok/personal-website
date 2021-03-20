@@ -87,11 +87,11 @@ module.exports = {
 
     // Typescript
     "gatsby-plugin-typescript",
-    {
-      resolve: "gatsby-plugin-generate-typings",
-      options: {
-        dest: "./src/types/graphql.ts",
-      },
-    },
+    // {
+    //   resolve: "gatsby-plugin-generate-typings",
+    //   options: {
+    //     dest: "./src/types/graphql.ts",
+    //   },
+    // },
   ],
 };

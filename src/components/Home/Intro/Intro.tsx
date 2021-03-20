@@ -8,7 +8,7 @@ import { rhythm, scale } from "../../../utils/typography";
 import { useSiteMetadata, useAvatar } from "../../../hooks";
 import { device } from "../../../styles/constants";
 
-const Intro: React.FunctionComponent<{}> = (): React.ReactElement => {
+const Intro: React.FunctionComponent = () => {
   const { author } = useSiteMetadata();
   const avatar = useAvatar({ width: 150, height: 150 });
 
@@ -112,7 +112,7 @@ const Description = styled.p`
   }
 `;
 
-const StyledImage = styled(Image)`
+const StyledImage = styled(Image)<{ fixed: FixedObject }>`
   margin-bottom: 0;
   justify-self: center;
   min-width: 150px;

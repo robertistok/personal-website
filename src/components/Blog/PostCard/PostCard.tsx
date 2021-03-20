@@ -21,7 +21,7 @@ const PostCard: React.FunctionComponent<PostCardProps> = ({
   date,
   timeToRead,
   location,
-}): React.ReactElement => (
+}) => (
   <Root>
     <Title>
       <Link

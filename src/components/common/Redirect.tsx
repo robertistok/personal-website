@@ -8,7 +8,7 @@ interface RedirectLinkProps {
 const RedirectLink: React.FunctionComponent<RedirectLinkProps> = ({
   to,
   type,
-}): React.ReactElement => {
+}) => {
   const urlRef = useRef(null);
   useEffect(() => urlRef && urlRef.current && urlRef.current.click(), [urlRef]);
 

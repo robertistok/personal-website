@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import Image, { FixedObject } from "gatsby-image";
-import { Link } from "gatsby";
 
 import { rhythm } from "../../../utils/typography";
 import { device } from "../../../styles/constants";
@@ -55,7 +54,7 @@ const Root = styled.section`
   }
 `;
 
-const StyledImage = styled(Image)`
+const StyledImage = styled(Image)<{fixed: FixedObject }>`
   margin-bottom: 0;
   justify-self: center;
   width: 50px;

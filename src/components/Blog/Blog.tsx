@@ -12,9 +12,7 @@ interface BlogProps {
   location: GatsbyLocation;
 }
 
-const Blog: React.FunctionComponent<BlogProps> = ({
-  location,
-}): React.ReactElement => {
+const Blog: React.FunctionComponent<BlogProps> = ({ location }) => {
   const data: {
     allMarkdownRemark: MarkdownRemarkConnection;
   } = useStaticQuery(graphql`

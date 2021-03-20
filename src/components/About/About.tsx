@@ -12,14 +12,12 @@ interface AboutProps {
   author: SiteSiteMetadataAuthor;
 }
 
-const About: React.FunctionComponent<AboutProps> = ({
-  author,
-}): React.ReactElement => {
+const About: React.FunctionComponent<AboutProps> = ({ author }) => {
   const avatar = useAvatar({ width: 200, height: 200 });
 
   return (
     <Root>
-      <Avatar fixed={avatar.childImageSharp.fixed as FixedObject} />
+      <Avatar fixed={avatar.childImageSharp.fixed} />
 
       <Description>
         <h4>Hey there my friend!</h4>
@@ -64,7 +62,7 @@ const Root = styled.div`
   }
 `;
 
-const Avatar = styled(Image)`
+const Avatar = styled(Image)<{ fixed: FixedObject }>`
   align-self: center;
 
   border-radius: 50%;

@@ -9,9 +9,7 @@ interface HomeProps {
   location: GatsbyLocation;
 }
 
-const Home: React.FunctionComponent<HomeProps> = ({
-  location,
-}): React.ReactElement => {
+const Home: React.FunctionComponent<HomeProps> = ({ location }) => {
   const { allMarkdownRemark }: Query = useStaticQuery(
     graphql`
       query LatestPosts {
