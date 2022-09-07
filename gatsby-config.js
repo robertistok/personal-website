@@ -24,13 +24,6 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: "gatsby-remark-bitly-links",
-            options: {
-              accessToken: process.env.BITLY_ACCESS_TOKEN,
-              namedBitlys: ["mzl.la"],
-            },
-          },
-          {
             resolve: "gatsby-remark-images",
             options: {
               maxWidth: 820,
