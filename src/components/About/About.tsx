@@ -20,32 +20,40 @@ const About: React.FunctionComponent<AboutProps> = ({ author }) => {
       <Avatar fixed={avatar.childImageSharp.fixed} />
 
       <Description>
-        <h4>Hey there my friend!</h4>
+        <h4>Hey there friend,</h4>
         <p>
-          My name is {author.name}, and I am {yearsSince(author.birthDate)}{" "}
-          years old. I have a passion for products having constructive effects
-          on our lives, and I love to be involved in the development of
-          purposeful applications.
+          My name is {author.name} and I am a {yearsSince(author.birthDate)}
+          -year-old location-independent software engineer specializing in web
+          development. Here's a bit about what I do and what makes me tick.
         </p>
 
         <p>
-          I contribute to the product life cycle with my comprehensive skills in
-          web development, my growing knowledge of behavioral sciences and human
-          psychology, and my neverending hunger for growth.
+          With over 6 years in the web development industry, my passion lies in
+          crafting products that make a tangible difference for the end user. My
+          skill set extends beyond programming languages; it's a blend of
+          technical prowess and essential soft skills like communication,
+          empathy, and flexibility.
         </p>
 
         <p>
-          When not building stuff, I love to explore, read fascinating books,
-          learn languages, write about my experiences in life, have amazing
-          dinners and meet interesting people. I am also obsessed with building
-          positive habits. I believe they are the keys to unlock our full
-          potential.
+          Apart from work, I'm often out exploring the beauty of nature.
+          Mountains are more than just a weekend getaway for me; they're where I
+          feel truly alive. It's important for me to focus on my physical,
+          mental, and spiritual health—doing so helps me be my best self, both
+          personally and professionally.
         </p>
 
         <p>
-          Do you want to find out more about me? Please shoot me an email at{" "}
-          <strong>{author.social.email}</strong> or reach out to me on social
-          media, listed below.
+          I’m an avid reader, and a people person. I draw immense energy and
+          fulfillment from surrounding myself with like-minded, kind and
+          compassionate people. With the right people around, life isn't just
+          lived, it's enriched.
+        </p>
+
+        <p>
+          Interested to know more? Feel free to email me at{" "}
+          <strong>{author.social.email}</strong> or connect with me on social
+          media. I'm always up for a chat!
         </p>
       </Description>
     </Root>
